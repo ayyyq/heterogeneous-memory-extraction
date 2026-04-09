@@ -24,7 +24,6 @@ pip install scikit-image
 
 python -c "import nltk; nltk.download('punkt_tab'); nltk.download('punkt')"
 
-# FlashOAgents dependencies (required by evolution_memevolve PromptAnalyzer)
 python -m pip install openai huggingface_hub pillow pyyaml jinja2 rich json-repair
 
 # Optional but recommended for imports in remote shells:
