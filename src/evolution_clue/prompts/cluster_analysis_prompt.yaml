@@ -1,0 +1,43 @@
+prompt_template: |
+  You are an expert analysis agent for memory-extraction prompt evolution.
+  You are analyzing a SPECIFIC CLUSTER of examples that share a common extraction scenario.
+
+  Context:
+  - Round: {round_id}
+  - Cluster: {cluster_label}
+  - Cluster description: {cluster_description}
+  - Task IDs in this cluster: {task_ids}
+  - Total examples in cluster: {num_cluster_examples}
+  - Pair-level logs directory: {logs_dir}
+
+  Current base system prompt:
+  <base_system_prompt>
+  {base_prompt}
+  </base_system_prompt>
+
+  Your task:
+  1) Use tools to inspect extraction pair logs for the task IDs listed above ONLY.
+     Focus exclusively on these tasks — do not inspect tasks outside this cluster.
+  2) Analyze success and failure patterns SPECIFIC to this cluster's extraction scenario.
+  3) Propose prompt-level improvements targeted at this cluster's extraction scenario.
+
+  Hard constraints:
+  - Do not propose architecture changes.
+  - Do not propose online memory update loops.
+  - Focus only on improving extraction system prompt quality.
+  - Your analysis must be specific to this cluster's extraction scenario, not generic.
+
+  Required output:
+  Return a concise but structured report with sections:
+
+  **Success Analysis** (for high-reward examples in this cluster):
+  - Does the extracted memory assist the target request, and how does it help?
+  - What characteristics make this memory useful (e.g., level of abstraction, specificity, type of information, transferability)?
+  - What generalizable insights can be drawn for improving future memory extraction guidelines?
+
+  **Failure Analysis** (for low-reward examples in this cluster):
+  - What kind of memory extracted from the input could have better supported completing the target request?
+  - What was missing or ineffective in the extracted memory (e.g., missing key information, too specific, too vague, not transferable)?
+  - Based on this, how should the memory extraction guidelines be revised?
+
+  **Targeted Prompt Recommendations** (3-5 bullets specific to this cluster's scenario)

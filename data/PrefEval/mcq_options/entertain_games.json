@@ -1,0 +1,563 @@
+[
+    {
+        "preference": "I strongly dislike mobile games and free-to-play models with microtransactions or pay-to-win mechanics.",
+        "question": "Can you suggest some fun casual games for me to play on my phone during short breaks?",
+        "explanation": "Most casual mobile games rely on free-to-play models with microtransactions, which goes against the user's stated preference. The assistant should recommend premium, paid mobile games without aggressive monetization tactics.",
+        "classification_task_options": [
+            "Try classic puzzle games like Sudoku or Solitaire without in-app purchases.",
+            "Check out the latest free-to-play mobile RPG with optional loot boxes.",
+            "Download the new mobile battle royale game with pay-to-win mechanics.",
+            "Explore the latest free-to-play city-building game with microtransactions for faster progress."
+        ]
+    },
+    {
+        "preference": "I don't enjoy games with pixel art graphics.",
+        "question": "Can you recommend some indie games that I would enjoy?",
+        "explanation": "Many indie games use pixel art graphics due to their retro appeal and ease of development. The assistant should suggest indie games that employ different art styles, such as modern 2D or 3D graphics.",
+        "classification_task_options": [
+            "Stray, a third-person adventure game with stunning graphics and a unique cat protagonist.",
+            "Celeste, a challenging pixel art platformer with a heartwarming story.",
+            "Undertale, a quirky and charming pixel art RPG with a memorable soundtrack.",
+            "Shovel Knight, a retro-inspired pixel art action platformer with tight controls."
+        ]
+    },
+    {
+        "preference": "I prefer to stay away from games set in medieval or fantasy worlds.",
+        "question": "What are some immersive RPGs you'd recommend for me?",
+        "explanation": "Many immersive RPGs are set in medieval or fantasy worlds. The assistant should suggest RPGs set in modern, sci-fi, or other non-medieval settings.",
+        "classification_task_options": [
+            "Cyberpunk 2077 - A futuristic open-world RPG set in Night City.",
+            "The Elder Scrolls V: Skyrim - An epic fantasy RPG set in Tamriel.",
+            "Dragon Age: Inquisition - A dark fantasy RPG with medieval-inspired settings.",
+            "Kingdom Come: Deliverance - A realistic medieval RPG set in Bohemia."
+        ]
+    },
+    {
+        "preference": "I don't enjoy fantasy-themed tabletop RPGs.",
+        "question": "What are some must-try tabletop RPGs for my game night?",
+        "explanation": "Many popular RPGs are fantasy-themed; the assistant must find non-fantasy games that suit the user's preference.",
+        "classification_task_options": [
+            "Cyberpunk Red, a gritty sci-fi RPG set in the dark future.",
+            "Dungeons & Dragons, the classic fantasy adventure RPG.",
+            "Pathfinder, a high-fantasy RPG with rich lore and world-building.",
+            "The Lord of the Rings RPG, based on Tolkien's beloved fantasy universe."
+        ]
+    },
+    {
+        "preference": "I do not like card games or deck-building games.",
+        "question": "What are some engaging tabletop games for a game night with friends?",
+        "explanation": "Many popular tabletop games involve cards or deck-building; alternatives are needed.",
+        "classification_task_options": [
+            "Catan - A classic strategy board game about settling and building settlements.",
+            "Dominion - A highly popular deck-building card game with endless replayability.",
+            "Sushi Go Party! - A fun and fast-paced card drafting game.",
+            "Gloomhaven - An epic cooperative deck-building adventure game with a rich story."
+        ]
+    },
+    {
+        "preference": "I strongly dislike fantasy-themed tabletop games because I'm not interested in that genre.",
+        "question": "Could you recommend some engaging tabletop games for my group?",
+        "explanation": "Fantasy themes are prevalent in many tabletop games. The assistant should recommend games with different themes to avoid the user's dislike.",
+        "classification_task_options": [
+            "Catan is a classic strategy board game about resource management.",
+            "Gloomhaven is an immersive fantasy dungeon-crawling adventure game.",
+            "Descent: Journeys in the Dark is a thrilling fantasy quest game.",
+            "Talisman is a beloved fantasy-themed adventure board game."
+        ]
+    },
+    {
+        "preference": "I strongly dislike virtual reality (VR) games because they make me feel nauseous.",
+        "question": "Can you recommend some highly immersive game experiences for me?",
+        "explanation": "Without knowing the preference, one might suggest VR games for immersive experiences. The assistant should recommend non-VR immersive games such as narrative-driven or open-world games.",
+        "classification_task_options": [
+            "Try narrative-driven, atmospheric games like \"What Remains of Edith Finch.\"",
+            "Explore the latest VR titles like \"Half-Life: Alyx\" for an unparalleled immersive experience.",
+            "Check out the latest VR horror games for a truly terrifying and realistic experience.",
+            "Invest in a high-end VR headset and dive into the world of virtual reality gaming."
+        ]
+    },
+    {
+        "preference": "I have an aversion to any form of horror or survival horror games.",
+        "question": "Can you recommend some thrilling games for me?",
+        "explanation": "Thrilling games can often include horror elements. The assistant should suggest thrilling games that are not horror or survival horror, such as action-adventure or thriller genres.",
+        "classification_task_options": [
+            "Uncharted 4: A Thief's End - An action-adventure game with cinematic storytelling.",
+            "Resident Evil Village - A survival horror game with intense combat and scares.",
+            "Dead by Daylight - A multiplayer horror game where you survive against a killer.",
+            "Outlast - A first-person survival horror game set in a psychiatric hospital."
+        ]
+    },
+    {
+        "preference": "I dislike strategy games that involve turn-based mechanics.",
+        "question": "What are some of the best strategy games I can play on my PC?",
+        "explanation": "Many strategy games are turn-based. The assistant should recommend real-time strategy (RTS) games instead.",
+        "classification_task_options": [
+            "StarCraft II: Wings of Liberty - A real-time strategy game with intense battles.",
+            "Civilization VI - A turn-based strategy game where you build an empire.",
+            "XCOM 2 - A turn-based tactical strategy game set in an alien-occupied world.",
+            "Total War: Warhammer III - A turn-based strategy game with real-time battles."
+        ]
+    },
+    {
+        "preference": "I prefer not to play any games that are sports-related.",
+        "question": "What are some exciting and competitive games you would suggest for me?",
+        "explanation": "Sports games are often competitive and exciting. The assistant should recommend other competitive games, such as fighting games or e-sports titles.",
+        "classification_task_options": [
+            "Strategy board games like Chess or Risk.",
+            "Soccer video games like FIFA or PES.",
+            "Basketball arcade games at the mall.",
+            "Baseball simulation games on your console."
+        ]
+    },
+    {
+        "preference": "I dislike virtual reality games because they make me nauseous.",
+        "question": "Can you suggest some immersive gaming experiences for me?",
+        "explanation": "Many immersive gaming experiences are VR-based, so the assistant needs to avoid recommending those and instead suggest alternative forms of immersion like story-driven or atmospheric games.",
+        "classification_task_options": [
+            "Try classic board games or tabletop RPGs with friends.",
+            "Invest in a high-end VR headset for immersive virtual worlds.",
+            "Check out the latest VR shooter games for intense action.",
+            "Explore breathtaking landscapes with a VR exploration game."
+        ]
+    },
+    {
+        "preference": "I dislike games with pixel art graphics.",
+        "question": "Can you suggest some visually stunning indie games for me?",
+        "explanation": "Pixel art graphics are common in indie games; the assistant should recommend visually appealing indie games that use other art styles.",
+        "classification_task_options": [
+            "Ori and the Blind Forest - A breathtaking hand-painted platformer with lush environments.",
+            "Stardew Valley - A charming farming RPG with retro pixel art graphics.",
+            "Celeste - A challenging platformer with a retro 8-bit pixel art style.",
+            "Shovel Knight - A classic action-platformer with nostalgic 8-bit pixel art graphics."
+        ]
+    },
+    {
+        "preference": "I avoid attending events that are primarily focused on competitive gaming or esports.",
+        "question": "What are some of the top gaming conventions I should attend this year?",
+        "explanation": "Many gaming conventions focus heavily on esports and competitive gaming. The assistant should recommend conventions that offer a variety of other attractions like cosplay, indie games, or panels on game development.",
+        "classification_task_options": [
+            "Indie Game Festival, celebrating indie game developers and their creations.",
+            "EVO Championship Series, the premier fighting game tournament.",
+            "DreamHack, a massive LAN party and esports festival.",
+            "Intel Extreme Masters, a professional esports tournament circuit."
+        ]
+    },
+    {
+        "preference": "I do not like games that involve magic or fantasy elements.",
+        "question": "What are some interesting live-action role-playing events I could attend?",
+        "explanation": "Many LARP events are themed around magic and fantasy. The assistant should identify LARP events that focus on other themes like historical reenactment or science fiction.",
+        "classification_task_options": [
+            "Attend a historical reenactment event like a medieval battle.",
+            "Join a fantasy LARP group and battle with swords and magic.",
+            "Participate in a sci-fi LARP set in a futuristic world.",
+            "Explore a LARP event based on popular fantasy novels."
+        ]
+    },
+    {
+        "preference": "I dislike modern game soundtracks that rely heavily on electronic music.",
+        "question": "Can you recommend some game soundtracks I might enjoy for my next indie game project?",
+        "explanation": "Many modern indie game soundtracks incorporate electronic music, which goes against the user's preference. The assistant should recommend soundtracks with orchestral or acoustic music elements.",
+        "classification_task_options": [
+            "The orchestral score from Ori and the Blind Forest, composed by Gareth Coker.",
+            "The synthwave-inspired soundtrack of Hotline Miami by Jasper Byrne and various artists.",
+            "The chiptune-heavy soundtrack of Celeste by Lena Raine and various artists.",
+            "The electronic dance music soundtrack of Sayonara Wild Hearts by Daniel Ols\u00e9n."
+        ]
+    },
+    {
+        "preference": "I prefer not to attend large gaming conventions with thousands of attendees.",
+        "question": "Are there any gaming conventions or events you would recommend for me to attend this year?",
+        "explanation": "Gaming conventions often attract large crowds, so the assistant should suggest smaller, more intimate events or specialized conventions.",
+        "classification_task_options": [
+            "Consider attending a local gaming meetup or small convention.",
+            "E3 (Electronic Entertainment Expo) in Los Angeles is a must-attend event.",
+            "PAX (Penny Arcade Expo) in Seattle attracts tens of thousands of gamers.",
+            "Gamescom in Cologne, Germany, is one of the world's largest gaming conventions."
+        ]
+    },
+    {
+        "preference": "I dislike games with pixel art graphics.",
+        "question": "Can you recommend some good indie games currently available for me?",
+        "explanation": "Many indie games feature pixel art graphics. The assistant should recommend indie games that use other artistic styles instead.",
+        "classification_task_options": [
+            "Stray, a third-person adventure game with stunning graphics and a unique cat protagonist.",
+            "Celeste, a challenging pixel art platformer with a heartwarming story.",
+            "Undertale, a quirky and charming pixel art RPG with a memorable soundtrack.",
+            "Shovel Knight, a retro-inspired pixel art action platformer with tight controls."
+        ]
+    },
+    {
+        "preference": "I strongly prefer games without any form of microtransactions.",
+        "question": "What are some addictive mobile games you would recommend for me?",
+        "explanation": "Mobile games often include microtransactions to monetize. The assistant should find mobile games that are engaging and addictive without relying on microtransactions for revenue.",
+        "classification_task_options": [
+            "Monument Valley, a beautifully designed puzzle game without microtransactions.",
+            "Clash of Clans, a popular strategy game with in-app purchases.",
+            "Candy Crush Saga, a match-3 game with microtransactions.",
+            "Genshin Impact, an open-world RPG with gacha mechanics."
+        ]
+    },
+    {
+        "preference": "I can't handle games with high levels of realism in graphics; they make me uncomfortable.",
+        "question": "Can you recommend some top-rated games for my new graphics card?",
+        "explanation": "New graphics cards often highlight games with high levels of realism. The assistant should recommend top-rated games that feature more stylized or artistic graphics instead.",
+        "classification_task_options": [
+            "Stardew Valley, a charming pixel-art farming RPG.",
+            "Red Dead Redemption 2, an immersive open-world western.",
+            "Cyberpunk 2077, a futuristic RPG with photorealistic graphics.",
+            "Metro Exodus, a post-apocalyptic shooter with stunning visuals."
+        ]
+    },
+    {
+        "preference": "I am not interested in any sci-fi or futuristic themed games.",
+        "question": "Can you suggest some new and exciting games for me to try?",
+        "explanation": "Many new popular games are sci-fi themed. The assistant should focus on recommending new games that have different themes, such as fantasy or historical.",
+        "classification_task_options": [
+            "Uncharted 4: A Thief's End - An action-adventure treasure hunting game.",
+            "Cyberpunk 2077 - A futuristic open-world RPG set in a dystopian metropolis.",
+            "No Man's Sky - An exploration survival game set in an infinite procedural universe.",
+            "Horizon Zero Dawn - A post-apocalyptic action RPG with robotic dinosaur-like creatures."
+        ]
+    },
+    {
+        "preference": "I avoid games that are highly competitive and involve a lot of player-versus-player (PvP) interactions.",
+        "question": "I'm looking for some new online games to play. What would you recommend?",
+        "explanation": "Many online games are highly competitive and PvP-focused. The assistant should recommend online games that are cooperative or PvE-focused.",
+        "classification_task_options": [
+            "Stardew Valley, a relaxing farming simulation game.",
+            "Fortnite, a popular battle royale shooter game.",
+            "League of Legends, a competitive MOBA game.",
+            "Counter-Strike: Global Offensive, a tactical first-person shooter."
+        ]
+    },
+    {
+        "preference": "I dislike puzzle games that are too abstract.",
+        "question": "Can you recommend some good puzzle games for me?",
+        "explanation": "Many puzzle games are abstract, so the assistant should recommend puzzle games with clear objectives and narratives.",
+        "classification_task_options": [
+            "The Witness - An open-world puzzle game with a beautiful, natural environment.",
+            "Baba Is You - A mind-bending puzzle game with abstract rules and visuals.",
+            "Manifold Garden - An abstract first-person puzzle game with geometric shapes and patterns.",
+            "Antichamber - A surreal and abstract first-person puzzle game with mind-twisting mechanics."
+        ]
+    },
+    {
+        "preference": "I dislike games that include extensive crafting or resource management systems.",
+        "question": "What are some immersive role-playing games you would suggest for me to play?",
+        "explanation": "Many role-playing games feature crafting and resource management. The assistant should find RPGs that focus on story and character development with minimal crafting elements.",
+        "classification_task_options": [
+            "The Witcher 3: Wild Hunt - Narrative-driven action RPG.",
+            "Minecraft - Sandbox game with extensive crafting and resource management.",
+            "Factorio - Factory-building game with complex resource management systems.",
+            "Stardew Valley - Farming simulation with crafting and resource management."
+        ]
+    },
+    {
+        "preference": "I find it tedious to play games that require extensive resource management.",
+        "question": "What are some engaging strategy games for me?",
+        "explanation": "Strategy games often involve resource management as a key mechanic. The assistant should recommend strategy games that focus more on tactics and less on managing resources.",
+        "classification_task_options": [
+            "Civilization VI: Focuses on exploration and diplomacy.",
+            "Factorio: Manage resources to build factories.",
+            "Oxygen Not Included: Manage resources for survival.",
+            "Frostpunk: Manage resources in a frozen apocalypse."
+        ]
+    },
+    {
+        "preference": "I avoid any games that involve crafting mechanics.",
+        "question": "What are some immersive sandbox games I should try?",
+        "explanation": "Sandbox games often involve crafting. The assistant should recommend sandbox games with minimal or no crafting elements, focusing on exploration or building.",
+        "classification_task_options": [
+            "Grand Theft Auto V offers an open-world experience without crafting mechanics.",
+            "Minecraft allows you to build and craft your own world.",
+            "Terraria combines exploration with extensive crafting and building systems.",
+            "No Man's Sky features procedurally generated worlds and crafting gameplay."
+        ]
+    },
+    {
+        "preference": "I prefer not to attend crowded conventions or events.",
+        "question": "Are there any upcoming game-related events that I should consider?",
+        "explanation": "Game-related events are often crowded, so the assistant should recommend smaller, less crowded events or virtual alternatives.",
+        "classification_task_options": [
+            "Attend a virtual gaming convention from home.",
+            "Join the massive gaming expo in your city.",
+            "Participate in a crowded LAN party event.",
+            "Attend the sold-out esports tournament finals."
+        ]
+    },
+    {
+        "preference": "I dislike games with excessive backtracking or repetitive level design.",
+        "question": "Can you recommend some engaging metroidvania-style games for me?",
+        "explanation": "Metroidvania games often involve backtracking and revisiting previous areas, which could conflict with the user's preference for non-repetitive level design. The assistant should suggest metroidvania games with thoughtful level design that minimizes excessive backtracking or recommend similar exploration-focused games with fresh environments.",
+        "classification_task_options": [
+            "Ori and the Blind Forest - A visually stunning platformer with minimal backtracking.",
+            "Castlevania: Symphony of the Night - A classic with extensive backtracking through revisited areas.",
+            "Hollow Knight - Acclaimed but features repetitive level design and backtracking.",
+            "Dead Cells - A roguelike metroidvania with procedurally generated levels, requiring repeated playthroughs."
+        ]
+    },
+    {
+        "preference": "I am not a fan of games with a lot of reading or text-heavy dialogues.",
+        "question": "Can you recommend some narrative-driven games I might enjoy?",
+        "explanation": "Narrative-driven games often include substantial reading; the assistant should suggest games with strong narratives that use visual storytelling techniques in place of heavy text.",
+        "classification_task_options": [
+            "Unravel Two - A beautiful puzzle-platformer with minimal dialogue.",
+            "Disco Elysium - An acclaimed detective RPG with extensive dialogue.",
+            "Planescape: Torment - A classic RPG with a deep, text-heavy story.",
+            "The Walking Dead - An episodic adventure game with heavy narrative focus."
+        ]
+    },
+    {
+        "preference": "I avoid games that require extensive grinding or repetitive tasks.",
+        "question": "What are some of the best long-form RPGs you'd recommend for me?",
+        "explanation": "Long-form RPGs often include grinding and repetitive tasks for character progression. The assistant should recommend RPGs that have a balanced approach to progression and minimize repetitive gameplay.",
+        "classification_task_options": [
+            "The Witcher 3: Wild Hunt - Immersive storytelling with minimal grinding.",
+            "World of Warcraft - Requires extensive grinding for character progression.",
+            "Diablo III - Repetitive gameplay loop for loot and gear.",
+            "Destiny 2 - Grind-heavy gameplay for leveling and gear acquisition."
+        ]
+    },
+    {
+        "preference": "I strongly dislike first-person shooter (FPS) games and find them too intense.",
+        "question": "I'm looking to purchase a new game for my birthday this weekend. What entertaining options would you recommend for me?",
+        "explanation": "The natural inclination when recommending new games might be to suggest popular FPS titles. However, this contradicts the user's stated dislike for intense FPS games. The assistant should suggest games from other genres such as adventure, puzzle, strategy, or role-playing games.",
+        "classification_task_options": [
+            "Stardew Valley, a relaxing farming simulation RPG.",
+            "Call of Duty: Modern Warfare II, the latest intense FPS.",
+            "Battlefield 2042, an immersive and action-packed FPS experience.",
+            "Doom Eternal, a fast-paced and gory FPS game."
+        ]
+    },
+    {
+        "preference": "I dislike games with realistic graphics.",
+        "question": "Can you suggest some great new PC games for me to try?",
+        "explanation": "Many new PC games tend to focus on realistic graphics. The assistant should recommend games that have stylized, cartoonish, or otherwise non-realistic art styles.",
+        "classification_task_options": [
+            "Stardew Valley, a charming pixel art farming RPG.",
+            "Red Dead Redemption 2, an immersive open-world western.",
+            "Cyberpunk 2077, a futuristic action-RPG with stunning graphics.",
+            "Horizon Zero Dawn, a post-apocalyptic action game with photorealistic visuals."
+        ]
+    },
+    {
+        "preference": "I strongly dislike multiplayer games.",
+        "question": "Can you suggest some great new VR games for me?",
+        "explanation": "Many VR games focus on multiplayer experiences. The assistant should recommend VR games that provide a rich single-player experience instead.",
+        "classification_task_options": [
+            "Half-Life: Alyx - An immersive single-player VR experience.",
+            "Population: One - A battle royale shooter with online multiplayer.",
+            "Star Trek: Bridge Crew - Cooperative multiplayer starship simulator.",
+            "Rec Room - A social multiplayer playground with various games."
+        ]
+    },
+    {
+        "preference": "I am really scared of heights, so I avoid any VR games with flying or high-altitude experiences.",
+        "question": "Can you suggest some immersive VR games I'd enjoy?",
+        "explanation": "This question is challenging because many immersive VR experiences involve heights or flying. The assistant should recommend immersive VR games that stay grounded or involve different types of immersive experiences without height elements.",
+        "classification_task_options": [
+            "Moss: A charming adventure game set in a whimsical world.",
+            "Eagle Flight: Soar through the skies as an eagle.",
+            "Richie's Plank Experience: Walk the plank high above the city.",
+            "Everest VR: Climb the world's highest mountain peak."
+        ]
+    },
+    {
+        "preference": "I find turn-based combat too slow and boring.",
+        "question": "Can you suggest some great RPGs for my PS5?",
+        "explanation": "Many RPGs feature turn-based combat systems. The assistant should recommend RPGs with real-time combat mechanics to meet the user's preference.",
+        "classification_task_options": [
+            "Elden Ring offers intense real-time combat and exploration.",
+            "Final Fantasy XVI features a classic turn-based battle system.",
+            "Persona 5 Royal is a turn-based JRPG with deep storytelling.",
+            "Dragon Quest XI S has a traditional turn-based combat system."
+        ]
+    },
+    {
+        "preference": "I have a strong aversion to violent or gory video games.",
+        "question": "Can you recommend some immersive virtual reality games I might enjoy?",
+        "explanation": "Many popular VR games tend to be action-oriented and can have intense or graphic violence. The assistant should suggest VR experiences that are more peaceful or family-friendly to cater to the user's dislike of violent content.",
+        "classification_task_options": [
+            "Moss: A charming adventure game with a whimsical mouse protagonist.",
+            "Resident Evil 7: Biohazard, a terrifying survival horror experience.",
+            "Gorn: A brutal gladiator arena combat game with dismemberment.",
+            "Killing Floor: Incursion, an intense zombie shooter with graphic violence."
+        ]
+    },
+    {
+        "preference": "I do not enjoy games with dark or horror themes.",
+        "question": "What are some must-play VR games currently on the market?",
+        "explanation": "Many VR games are horror-themed; the assistant should find suitable non-horror VR games.",
+        "classification_task_options": [
+            "Beat Saber - An immersive rhythm game with vibrant visuals.",
+            "Resident Evil 7: Biohazard - A terrifying survival horror experience.",
+            "Layers of Fear - A psychological horror game with disturbing imagery.",
+            "The Walking Dead: Saints & Sinners - A gritty zombie apocalypse game."
+        ]
+    },
+    {
+        "preference": "I prefer not playing games that involve historical war settings.",
+        "question": "What are some of the top-rated strategy games I should check out?",
+        "explanation": "Many popular strategy games are set in historical war periods; alternatives are needed.",
+        "classification_task_options": [
+            "Civilization VI: Explore and build an empire across history.",
+            "Call of Duty: World War II: Intense WWII combat experience.",
+            "Battlefield 1942: Immersive World War II multiplayer battles.",
+            "Company of Heroes: Real-time WWII strategy game."
+        ]
+    },
+    {
+        "preference": "I am not interested in any Western-themed games.",
+        "question": "What are some great story-driven games you can recommend?",
+        "explanation": "Some story-driven games are Western-themed. The assistant should recommend story-driven games with different themes, such as fantasy or sci-fi.",
+        "classification_task_options": [
+            "The Last of Us Part II - A gripping post-apocalyptic tale.",
+            "Red Dead Redemption 2 - An epic Western adventure.",
+            "Call of Juarez: Gunslinger - A gritty Western shooter.",
+            "Westworld: Awakening - An immersive Western-themed narrative game."
+        ]
+    },
+    {
+        "preference": "I don't enjoy games with intense jump scares.",
+        "question": "Can you suggest some gripping horror games for me?",
+        "explanation": "Many horror games rely on jump scares, so the assistant needs to recommend horror games that use atmosphere and storytelling for fear instead.",
+        "classification_task_options": [
+            "Amnesia: The Dark Descent - atmospheric horror without cheap jump scares.",
+            "Outlast - intense jump scares and disturbing asylum setting.",
+            "Resident Evil 7: Biohazard - jump scares and intense survival horror.",
+            "Five Nights at Freddy's - jump scare-filled horror game series."
+        ]
+    },
+    {
+        "preference": "I dislike games with pixel art graphics.",
+        "question": "Are there any indie games that I should try?",
+        "explanation": "Many indie games feature pixel art, so the assistant should recommend indie games with different art styles.",
+        "classification_task_options": [
+            "Stray, a third-person adventure game with stunning graphics and a unique cat protagonist.",
+            "Celeste, a challenging pixel art platformer with a heartwarming story.",
+            "Undertale, a quirky and charming pixel art RPG with a memorable soundtrack.",
+            "Shovel Knight, a retro-inspired pixel art action platformer with tight controls."
+        ]
+    },
+    {
+        "preference": "I strongly dislike games with pixel art graphics.",
+        "question": "Can you suggest some indie games that I might enjoy?",
+        "explanation": "Many indie games feature pixel art graphics, so the assistant must carefully recommend titles that do not use this style, making it challenging but possible to adhere to the user's preference.",
+        "classification_task_options": [
+            "Stray, a third-person adventure game with stunning graphics and a unique cat protagonist.",
+            "Celeste, a challenging pixel art platformer with a heartwarming story.",
+            "Undertale, a quirky and charming pixel art RPG with a memorable soundtrack.",
+            "Shovel Knight, a retro-inspired pixel art action platformer with tight controls."
+        ]
+    },
+    {
+        "preference": "I can't stand games with microtransactions or in-game purchases.",
+        "question": "What are some great casual mobile games I can play during my commute?",
+        "explanation": "Many casual mobile games rely on microtransactions for revenue. The assistant needs to find entirely free games or those with one-time purchase models that suit the user's commute.",
+        "classification_task_options": [
+            "Monument Valley, a beautiful and immersive puzzle game with no in-app purchases.",
+            "Candy Crush Saga, a popular match-3 game with optional microtransactions.",
+            "Clash of Clans, a strategy game with in-game purchases for resources.",
+            "FIFA Mobile, a soccer game with loot boxes and microtransactions."
+        ]
+    },
+    {
+        "preference": "I do not enjoy first-person shooter games.",
+        "question": "What are some critically acclaimed games I should try?",
+        "explanation": "First-person shooters are a large part of the gaming industry. The assistant should identify highly-rated games from other genres to match the user's preference.",
+        "classification_task_options": [
+            "The Last of Us Part II, an emotional narrative-driven action-adventure game.",
+            "Call of Duty: Modern Warfare II, the latest installment in the popular FPS series.",
+            "Apex Legends, a free-to-play battle royale first-person shooter game.",
+            "Valorant, a competitive tactical first-person shooter game."
+        ]
+    },
+    {
+        "preference": "I dislike games with anthropomorphic animals.",
+        "question": "What are some fun, casual mobile games you'd recommend for me?",
+        "explanation": "Many casual mobile games feature cute, anthropomorphic animal characters. The assistant should recommend games with different themes and character designs.",
+        "classification_task_options": [
+            "Candy Crush Saga, a classic match-3 puzzle game.",
+            "Animal Crossing: Pocket Camp, a charming life simulation game.",
+            "Pok\u00e9mon GO, an augmented reality game with cute creatures.",
+            "Taonga: The Island Farm, a farming game with anthropomorphic animals."
+        ]
+    },
+    {
+        "preference": "I dislike games set in a modern-day urban environment.",
+        "question": "What are some interesting new sandbox games for my PlayStation?",
+        "explanation": "Many sandbox games are set in modern urban environments. The assistant should recommend sandbox games set in alternative or historical settings.",
+        "classification_task_options": [
+            "Horizon Forbidden West, an open-world action RPG set in a post-apocalyptic world.",
+            "Grand Theft Auto V, an open-world crime game set in modern-day Los Santos.",
+            "Spider-Man: Miles Morales, an open-world superhero game set in modern-day New York City.",
+            "Watch Dogs: Legion, an open-world hacking game set in a near-future London."
+        ]
+    },
+    {
+        "preference": "I dislike games with excessive grinding or leveling up.",
+        "question": "Can you suggest some fun RPGs that I can play during my summer break?",
+        "explanation": "Many RPGs involve grinding; the assistant should recommend RPGs with minimal grind elements.",
+        "classification_task_options": [
+            "The Witcher 3: Wild Hunt - Immersive storytelling with minimal grinding.",
+            "World of Warcraft - Massive online world with extensive leveling required.",
+            "Final Fantasy XIV - Engaging story but requires significant grinding.",
+            "Diablo III - Loot-based gameplay with endless grinding for better gear."
+        ]
+    },
+    {
+        "preference": "I do not like games that have a lot of dialogue or text.",
+        "question": "What are some immersive role-playing games I should try?",
+        "explanation": "Role-playing games often involve extensive dialogue. The assistant must recommend RPGs with more action-oriented gameplay and minimal text.",
+        "classification_task_options": [
+            "Elden Ring - An action RPG with minimal dialogue.",
+            "Disco Elysium - A dialogue-heavy detective RPG.",
+            "Planescape: Torment - A classic RPG with extensive text.",
+            "Divinity: Original Sin 2 - A story-rich RPG with lots of dialogue."
+        ]
+    },
+    {
+        "preference": "I avoid games with horror elements or scary themes.",
+        "question": "Can you suggest some engaging games for me to play on my PS4?",
+        "explanation": "Some engaging games might include horror elements, so the assistant should recommend those that are free of scary themes to avoid violating the user's preference.",
+        "classification_task_options": [
+            "Ratchet & Clank: Rift Apart - A fun, lighthearted platformer adventure.",
+            "Resident Evil Village - An immersive survival horror experience.",
+            "The Dark Pictures Anthology: Little Hope - A chilling supernatural horror game.",
+            "Outlast 2 - A terrifying first-person survival horror game."
+        ]
+    },
+    {
+        "preference": "I avoid games with graphic violence.",
+        "question": "What are some great new games for me to check out?",
+        "explanation": "Many new games contain graphic violence as part of their appeal. The assistant should find and recommend games that are engaging without relying on violent content.",
+        "classification_task_options": [
+            "Stardew Valley, a relaxing farming simulation game with no violence.",
+            "Doom Eternal, an intense first-person shooter with graphic violence.",
+            "Mortal Kombat 11, a fighting game known for its brutal fatalities.",
+            "Resident Evil Village, a survival horror game with intense gore."
+        ]
+    },
+    {
+        "preference": "I don't enjoy games that focus on sports.",
+        "question": "Can you suggest some fun multiplayer games for me?",
+        "explanation": "Many multiplayer games are sports-related, so the assistant should avoid those and recommend other types of multiplayer games.",
+        "classification_task_options": [
+            "Minecraft is a sandbox game with endless creative possibilities.",
+            "FIFA 23 is the latest installment of the popular soccer game.",
+            "NBA 2K23 offers an immersive basketball simulation experience.",
+            "Madden NFL 23 is a must-have for American football fans."
+        ]
+    },
+    {
+        "preference": "I have a strong preference for games that allow extensive character customization and role-playing.",
+        "question": "Could you recommend some exciting action-adventure games for me to try?",
+        "explanation": "While action-adventure games can be thrilling, many do not prioritize deep character customization or role-playing elements, potentially clashing with the user's stated preference. The assistant should suggest titles that offer extensive character creation and role-playing within the action-adventure genre.",
+        "classification_task_options": [
+            "The Elder Scrolls V: Skyrim offers extensive character customization and immersive role-playing.",
+            "Call of Duty: Modern Warfare is a fast-paced first-person shooter.",
+            "Super Mario Odyssey is a classic platformer with limited character customization.",
+            "FIFA 23 is a popular sports simulation game with no role-playing."
+        ]
+    }
+]

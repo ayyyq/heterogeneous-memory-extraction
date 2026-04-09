@@ -1,0 +1,21 @@
+prompt_template: |
+  You are analyzing a memory extraction example to produce an extraction-targeted summary.
+
+  Your summary should focus on the EXTRACTION SCENARIO — NOT on the surface-level topic or dataset.
+
+  Given the following extraction result, write a concise 2-3 sentence summary that describes:
+  1. What type of information needs to be extracted (e.g., factual knowledge, procedural steps, user preferences, causal reasoning, spatial/temporal relations, emotional context, etc.)
+  2. What makes this extraction challenging (e.g., long context, implicit information, multi-turn reasoning, noise/irrelevant content, ambiguous boundaries, need for abstraction vs verbatim capture, etc.)
+
+  source_conversation (first 4096 chars):
+  {source_preview}
+
+  extracted_memory:
+  {extracted_memory}
+
+  target_conversation (first 4096 chars):
+  {target_preview}
+
+  target_reward: {target_reward}
+
+  Write ONLY the extraction-targeted summary. No extra formatting, no bullet points — just 2-3 flowing sentences.

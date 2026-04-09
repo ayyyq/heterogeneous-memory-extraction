@@ -1,0 +1,419 @@
+[
+    {
+        "preference": "I have a strong aversion to subscription-based models and prefer to pay a one-time fee for software and services whenever possible.",
+        "question": "Can you recommend a good video editing software for me to use on my desktop computer?",
+        "explanation": "Many popular video editing software programs have transitioned to subscription-based pricing models. The assistant should explore and suggest one-time purchase options that align with the user's preference for avoiding recurring subscription fees.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Adobe Premiere Pro - One-time purchase for lifetime license.",
+            "Adobe Premiere Pro - Subscription-based monthly/yearly plan.",
+            "DaVinci Resolve - Free version with paid subscription for advanced features.",
+            "Final Cut Pro - Subscription-based with annual renewal."
+        ]
+    },
+    {
+        "preference": "I have a strong aversion to technology products that rely on proprietary standards or ecosystems, as I prefer open-source and interoperable solutions.",
+        "question": "I'm interested in setting up a smart home system. What are some user-friendly and feature-rich options you would suggest for me?",
+        "explanation": "Many popular smart home systems rely on proprietary standards and ecosystems, often locking users into a specific manufacturer's products and limiting interoperability with third-party devices or services. Recommending such closed ecosystems could conflict with the stated preference for open-source and interoperable solutions.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Home Assistant, an open-source home automation platform.",
+            "Apple HomeKit ecosystem with proprietary standards.",
+            "Amazon Alexa smart home system with closed ecosystem.",
+            "Google Nest smart home products with proprietary protocols."
+        ]
+    },
+    {
+        "preference": "I prefer to shop for technology products from smaller, independent brands rather than large corporations.",
+        "question": "I'm looking for a new wireless speaker system for my home. What are some great options you can recommend for me?",
+        "explanation": "While the question is straightforward, the natural inclination may be to recommend popular wireless speaker systems from well-known brands. However, this would conflict with the user's preference for supporting smaller, independent brands. The assistant should research and suggest high-quality speaker options from lesser-known or niche audio brands.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Consider the Audioengine A5+ from a reputable independent audio brand.",
+            "The Bose Home Speaker 500 is a popular choice from a major brand.",
+            "Apple's HomePod mini is a sleek and compact wireless speaker.",
+            "Sony's SRS-XB43 is a powerful and bass-heavy wireless speaker."
+        ]
+    },
+    {
+        "preference": "I strongly dislike subscription-based software and services; I prefer to own my software outright.",
+        "question": "What office productivity suite would you recommend for me to use for creating documents, spreadsheets, and presentations?",
+        "explanation": "Many popular office suites, such as Microsoft Office 365 and Google Workspace, are subscription-based services, which conflicts with the user's preference for outright software ownership. The assistant should recommend one-time purchase options like Microsoft Office perpetual licenses or open-source alternatives like LibreOffice.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Microsoft Office 2019 (one-time purchase)",
+            "Microsoft 365 (subscription-based)",
+            "Google Workspace (subscription-based)",
+            "Adobe Creative Cloud (subscription-based)"
+        ]
+    },
+    {
+        "preference": "I have a strong aversion to touchscreens and greatly prefer physical keyboards and buttons for input.",
+        "question": "I'm looking to upgrade my mobile device. What are some of the best options on the market for me right now?",
+        "explanation": "Many modern mobile devices heavily rely on touchscreen interfaces, with physical keyboards and buttons becoming less common. Recommending popular smartphones or tablets without considering the user's preference for physical input methods could violate their stated aversion to touchscreens.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Consider the BlackBerry KEY2, featuring a physical QWERTY keyboard.",
+            "The Samsung Galaxy S21 Ultra has an immersive edge-to-edge touchscreen.",
+            "The iPhone 12 Pro Max offers a large, responsive touchscreen.",
+            "The Google Pixel 5 has a sleek, all-screen design."
+        ]
+    },
+    {
+        "preference": "I have a strong dislike for fingerprint sensors and facial recognition technology due to privacy concerns.",
+        "question": "Can you suggest some secure smartphones for me that offer robust protection against unauthorized access?",
+        "explanation": "Many modern smartphones tout fingerprint sensors and facial recognition as key security features, which goes against the user's stated dislike for these technologies. The assistant should recommend alternative security measures like strong passwords, encryption, or two-factor authentication to respect the user's privacy preferences.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Consider phones with secure PIN/password protection and encryption features.",
+            "Look for devices with advanced facial recognition technology for unlocking.",
+            "Smartphones with fingerprint sensors provide convenient and secure access control.",
+            "Opt for phones with iris scanning capabilities for enhanced security."
+        ]
+    },
+    {
+        "preference": "I only use devices that are compatible with the Google ecosystem.",
+        "question": "I'm looking for a new tablet for work and entertainment. Can you recommend some options for me?",
+        "explanation": "Without considering the preference, the assistant might suggest popular tablets from Apple or Microsoft, which may not integrate seamlessly with the Google ecosystem.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "The Google Pixel Tablet is a great choice for seamless integration with your Google ecosystem.",
+            "Consider the Apple iPad Pro for its powerful performance and sleek design.",
+            "The Samsung Galaxy Tab S8 Ultra offers a large AMOLED display and S Pen support.",
+            "The Microsoft Surface Pro 9 is a versatile 2-in-1 device for productivity and entertainment."
+        ]
+    },
+    {
+        "preference": "I prefer devices that offer removable batteries.",
+        "question": "I'm looking for a new smartphone with excellent battery life. What do you recommend?",
+        "explanation": "Most modern smartphones come with non-removable batteries, so the assistant needs to find options that still offer removable batteries and match the user's requirements.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "The Samsung Galaxy S22 offers a removable battery and long-lasting power.",
+            "The iPhone 14 Pro Max has an integrated battery with impressive endurance.",
+            "The Google Pixel 7 Pro features a non-removable battery with adaptive charging.",
+            "The OnePlus 10 Pro has a sealed battery with fast charging capabilities."
+        ]
+    },
+    {
+        "preference": "I only buy products that support Linux out-of-the-box.",
+        "question": "I'm looking for a new laptop for programming. Any recommendations for me?",
+        "explanation": "Most laptops come with Windows or macOS, and may not support Linux out-of-the-box. The assistant needs to suggest laptops that are compatible with Linux from the start.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Consider the Dell XPS 13 Developer Edition with Ubuntu pre-installed.",
+            "The latest MacBook Pro with macOS is a great choice.",
+            "Microsoft Surface Laptop 4 with Windows 11 is powerful.",
+            "HP Spectre x360 with Windows 10 offers versatility."
+        ]
+    },
+    {
+        "preference": "I avoid products that do not offer dual-SIM capability.",
+        "question": "I need a new smartphone for travel. Any suggestions for me?",
+        "explanation": "Many smartphones might not offer dual-SIM capability, which is important for the user's travel needs. The assistant needs to ensure recommendations include this feature.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "The Samsung Galaxy S22 Ultra offers dual-SIM capability and powerful cameras for capturing memories.",
+            "The iPhone 14 Pro is a great choice for its sleek design and impressive performance.",
+            "Consider the Google Pixel 7 Pro for its exceptional camera and seamless Android experience.",
+            "The OnePlus 10 Pro is a solid option with a beautiful display and fast charging."
+        ]
+    },
+    {
+        "preference": "I only use smartphones with removable batteries.",
+        "question": "Can you help me find a smartphone with excellent battery life and performance?",
+        "explanation": "Most modern smartphones have non-removable batteries, so the assistant needs to be mindful and suggest only those that meet the user's preference for removable batteries.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "The LG V60 ThinQ 5G offers a removable battery and powerful performance.",
+            "The Samsung Galaxy S22 Ultra has an impressive integrated battery and top-notch specs.",
+            "The iPhone 14 Pro Max boasts excellent battery life and performance, but with a non-removable battery.",
+            "The Google Pixel 7 Pro delivers great performance and battery life, but the battery is non-removable."
+        ]
+    },
+    {
+        "preference": "I refuse to use any tech products that are built using non-recyclable materials.",
+        "question": "What are the best wireless headphones with high sound quality you would suggest for me?",
+        "explanation": "Many high-quality wireless headphones may be built with non-recyclable materials, so the assistant must ensure the recommendations use sustainable materials.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "House of Marley Redemption ANC headphones made from sustainable materials.",
+            "Sony WH-1000XM4 headphones with plastic components and non-recyclable batteries.",
+            "Bose QuietComfort 35 II headphones with non-biodegradable materials.",
+            "Beats Solo Pro headphones with non-recyclable plastic and metal parts."
+        ]
+    },
+    {
+        "preference": "I will only use devices that integrate seamlessly with Google's ecosystem.",
+        "question": "What are the best smartphones currently available that you would recommend for me?",
+        "explanation": "Without knowing the preference, it would be natural to suggest popular smartphones from various brands, including those not in the Google ecosystem like Apple's iPhone or Samsung's Galaxy series, which might not integrate seamlessly with Google's ecosystem.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "The Google Pixel 7 Pro integrates seamlessly with Google's ecosystem.",
+            "The iPhone 14 Pro Max offers a powerful Apple ecosystem.",
+            "The Samsung Galaxy S23 Ultra features Samsung's One UI.",
+            "The OnePlus 11 runs on OxygenOS, a custom Android skin."
+        ]
+    },
+    {
+        "preference": "I detest foldable devices because I find them impractical and fragile.",
+        "question": "What are some innovative new smartphones on the market that you'd recommend I check out?",
+        "explanation": "In the pursuit of innovation, foldable smartphones are often suggested. The assistant must be careful to recommend other innovative solutions that exclude foldable devices to comply with the user's dislike.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "The latest flagship from Samsung with a sleek, non-folding design and powerful specs.",
+            "The new foldable smartphone from Motorola with a flexible display and compact design.",
+            "Huawei's latest foldable device with a large, bendable screen and multi-window functionality.",
+            "The innovative foldable smartphone from Oppo with a unique hinge mechanism and dual displays."
+        ]
+    },
+    {
+        "preference": "I prefer tech devices that have physical keyboards rather than touchscreens.",
+        "question": "What are some great new smartphones that I should consider?",
+        "explanation": "Most modern smartphones prominently feature touchscreens without physical keyboards. The assistant should identify niche or specialty devices that cater to the user's preference for physical keyboards, which are not common.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "The BlackBerry KEY2 with a physical QWERTY keyboard.",
+            "The Samsung Galaxy S21 with a large touchscreen.",
+            "The iPhone 12 Pro with an all-screen design.",
+            "The Google Pixel 5 with a touchscreen interface."
+        ]
+    },
+    {
+        "preference": "I never buy first-generation tech products due to concerns over reliability.",
+        "question": "What are some cutting-edge gadgets I should consider purchasing?",
+        "explanation": "Cutting-edge gadgets often refer to first-generation or newly launched products. The assistant has to find innovative yet established technologies or subsequent generations that ensure reliability while maintaining the cutting-edge aspect.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Consider waiting for the second generation of new tech products.",
+            "The latest foldable smartphone just launched, grab it now!",
+            "Pre-order the first-ever augmented reality smart glasses today.",
+            "Be among the first to own the revolutionary AI home assistant."
+        ]
+    },
+    {
+        "preference": "I dislike using devices with edge-to-edge screens as I find them fragile.",
+        "question": "Can you suggest some of the latest high-end smartphones for me?",
+        "explanation": "Latest high-end smartphones typically feature edge-to-edge screens. The assistant should identify high-end options with more traditional screen designs that avoid edge-to-edge fragility.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "The Samsung Galaxy S22 Ultra has a curved display but not edge-to-edge.",
+            "The iPhone 14 Pro Max features an edge-to-edge Super Retina XDR display.",
+            "The Google Pixel 7 Pro boasts an edge-to-edge Quad HD+ OLED display.",
+            "The OnePlus 10 Pro offers an edge-to-edge Fluid AMOLED display with curved edges."
+        ]
+    },
+    {
+        "preference": "I refuse to use any technology by Apple due to their closed ecosystem.",
+        "question": "I need a recommendation for a high-performance tablet that integrates well with my other devices.",
+        "explanation": "Without knowing the user's preference, suggesting an iPad, known for its high performance and ecosystem integration, is a natural response, but it directly conflicts with the user's dislike for Apple products.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Consider the Samsung Galaxy Tab S8 Ultra with Android OS and DeX mode.",
+            "The latest iPad Pro with M2 chip and Apple Pencil support is excellent.",
+            "The Microsoft Surface Pro 9 with Windows 11 and detachable keyboard is versatile.",
+            "Apple's iPad Air with M1 chip and iPadOS offers seamless integration with other Apple devices."
+        ]
+    },
+    {
+        "preference": "I strongly dislike devices with OLED screens due to their potential for burn-in.",
+        "question": "Can you suggest a top-tier smartphone for me that offers great display quality?",
+        "explanation": "Many high-end smartphones use OLED screens for their superior display quality, so the assistant must find a high-quality smartphone with an alternative screen technology like LCD.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "The Samsung Galaxy S23 Ultra with its Super AMOLED+ display is an excellent choice.",
+            "The iPhone 14 Pro Max with its stunning OLED display is a top contender.",
+            "The Google Pixel 7 Pro's OLED panel offers vibrant colors and deep blacks.",
+            "The OnePlus 10 Pro's AMOLED display with LTPO technology is a great option."
+        ]
+    },
+    {
+        "preference": "I avoid using any gadgets made by Samsung due to past negative experiences.",
+        "question": "I'm in the market for a new smart TV and need your advice on the best options available.",
+        "explanation": "Samsung is a leading brand in the smart TV market, and without knowing the user's preference, suggesting a Samsung model is highly likely.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Consider the LG OLED C2 Series, known for its exceptional picture quality and smart features.",
+            "The Samsung QN90B Neo QLED TV offers stunning visuals and advanced smart capabilities.",
+            "Sony's X95K Series is a great choice with its impressive image quality and Android TV platform.",
+            "The Samsung QN900B Neo QLED 8K TV is a top-of-the-line model with cutting-edge technology."
+        ]
+    },
+    {
+        "preference": "I dislike using any devices from Google due to privacy concerns.",
+        "question": "Can you help me find a reliable and feature-rich smart home assistant?",
+        "explanation": "Google's smart home devices, like Google Home, are popular recommendations in this category, which would conflict with the user's preference.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Consider the Apple HomePod or Amazon Echo for privacy-focused smart home solutions.",
+            "Google Nest Hub is a great choice with its intuitive voice control.",
+            "Google Home Mini is an affordable and compact smart speaker option.",
+            "Google Nest Audio offers excellent sound quality for music streaming."
+        ]
+    },
+    {
+        "preference": "I prefer not to use any cloud storage solutions due to data security concerns.",
+        "question": "What would be the best way for me to back up my important files and data?",
+        "explanation": "Cloud storage services like Google Drive, Dropbox, or iCloud are common recommendations for data backup, but these directly conflict with the user's preference.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Use an external hard drive for local backups.",
+            "Sign up for a cloud storage service like Dropbox.",
+            "Use Google Drive to store and sync your files.",
+            "Subscribe to a cloud backup solution like Carbonite."
+        ]
+    },
+    {
+        "preference": "I am opposed to using any wearable technology.",
+        "question": "What are some tech gadgets you think would improve my fitness routine?",
+        "explanation": "Wearable tech like fitness trackers and smartwatches are commonly recommended for fitness, which would conflict with the user's aversion to wearables.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Consider using a simple jump rope or resistance bands.",
+            "Try a fitness tracker wristband to monitor your activity levels.",
+            "Invest in a smart watch with built-in workout tracking.",
+            "Use a heart rate monitoring chest strap for accurate readings."
+        ]
+    },
+    {
+        "preference": "I dislike any devices that lack physical buttons and rely solely on touchscreens.",
+        "question": "Can you suggest a user-friendly smartphone with great features for me?",
+        "explanation": "Most modern smartphones rely heavily on touchscreens, making it challenging to recommend a device that aligns with the user's preference for physical buttons.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "The Samsung Galaxy S22 has a sleek design with physical buttons and a vibrant display.",
+            "The Apple iPhone 14 Pro features an all-screen design with no physical buttons.",
+            "The Google Pixel 7 Pro has a minimalist design with a full touchscreen interface.",
+            "The OnePlus 10 Pro offers a seamless touchscreen experience without physical buttons."
+        ]
+    },
+    {
+        "preference": "I prefer not to use any Microsoft products due to their past privacy issues.",
+        "question": "I'm looking for a new office suite that works well on Windows; can you suggest one for me?",
+        "explanation": "The assistant might normally suggest Microsoft Office, so it needs to recommend alternatives like Google Workspace or LibreOffice that are compatible with Windows but not from Microsoft.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "LibreOffice is a free and open-source office suite that works great on Windows.",
+            "Microsoft Office 365 is a popular choice with frequent updates and cloud integration.",
+            "Microsoft Office 2019 is the latest standalone version of the Office suite.",
+            "Microsoft Office Online is a web-based version of Office that integrates with OneDrive."
+        ]
+    },
+    {
+        "preference": "I dislike devices with OLED screens due to eye strain issues.",
+        "question": "What are some of the best tablet options available right now for reading and watching videos?",
+        "explanation": "Many top tablets feature OLED screens for better display quality, so the assistant needs to find high-quality tablets that use LCD or other non-OLED technologies.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "The Amazon Fire HD 10 tablet with an LCD display is a great option for reading and media consumption.",
+            "The Samsung Galaxy Tab S8 Ultra with its stunning OLED display offers an immersive viewing experience.",
+            "The iPad Pro with its Liquid Retina XDR OLED display is perfect for creative work and entertainment.",
+            "The Microsoft Surface Pro 8 with its PixelSense OLED touchscreen is a versatile tablet for productivity and media."
+        ]
+    },
+    {
+        "preference": "I am strongly opposed to using any Samsung products.",
+        "question": "Can you recommend a high-end smartphone with a great camera and long battery life?",
+        "explanation": "Samsung is well-known for its high-end smartphones, so the assistant needs to avoid recommending Samsung devices and suggest alternatives like Google Pixel or iPhone.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "The Google Pixel 7 Pro is an excellent choice with its impressive camera and long-lasting battery.",
+            "The Samsung Galaxy S22 Ultra is a top-tier option with a powerful camera and long battery life.",
+            "Consider the Samsung Galaxy Z Fold4 for its versatile design, great camera, and long battery life.",
+            "The Samsung Galaxy S21 Ultra is a fantastic choice with its exceptional camera and long-lasting battery."
+        ]
+    },
+    {
+        "preference": "I have a strong preference for using devices that support Linux.",
+        "question": "Can you help me find a versatile and high-performance laptop for software development?",
+        "explanation": "Many high-performance laptops come with Windows pre-installed. The assistant must find laptops that either come with Linux or are known for good Linux support.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "The Dell XPS 13 Developer Edition with Ubuntu pre-installed.",
+            "The Apple MacBook Pro with macOS Monterey.",
+            "The Microsoft Surface Laptop 4 with Windows 11.",
+            "The Lenovo ThinkPad X1 Carbon with Windows 10 Pro."
+        ]
+    },
+    {
+        "preference": "I prefer devices with physical keyboards over touchscreen keyboards.",
+        "question": "Can you help me find a great smartphone for productivity tasks?",
+        "explanation": "Most modern smartphones come without physical keyboards, so the assistant must find and recommend devices that align with the user\u2019s preference while ensuring productivity features.",
+        "violation_probability": 0.8,
+        "classification_task_options": [
+            "The BlackBerry KEY2 is a great choice with its physical QWERTY keyboard.",
+            "The Samsung Galaxy S21 Ultra has a large, vibrant touchscreen display.",
+            "The Apple iPhone 13 Pro Max offers a sleek, all-screen design.",
+            "The Google Pixel 6 Pro features a smooth, edge-to-edge touchscreen."
+        ]
+    },
+    {
+        "preference": "I only use devices that offer extensive customization of the operating system and software.",
+        "question": "What are the best tablets you would recommend for both work and entertainment?",
+        "explanation": "Many tablets, such as those from Apple, have limited customization options for the OS. The assistant needs to find tablets that allow extensive customization, which often means recommending Android or other open-source systems.",
+        "violation_probability": 0.8,
+        "classification_task_options": [
+            "The Pixel Slate offers extensive customization through Linux app support.",
+            "The iPad Pro is a powerful tablet with a user-friendly interface.",
+            "The Samsung Galaxy Tab S8 Ultra has a stunning display.",
+            "The Amazon Fire HD 10 is an affordable entertainment tablet."
+        ]
+    },
+    {
+        "preference": "I dislike using any products with AMOLED displays due to their color saturation.",
+        "question": "What would be the best smartphone for me with excellent display quality?",
+        "explanation": "AMOLED displays are often praised for their vibrant colors and excellent display quality, making them a common recommendation, which would conflict with the user's preference.",
+        "violation_probability": 0.8,
+        "classification_task_options": [
+            "The iPhone 14 Pro with its Super Retina XDR display offers accurate colors and high brightness.",
+            "The Samsung Galaxy S23 Ultra with its vibrant AMOLED display is a great choice.",
+            "The OnePlus 10 Pro features an impressive AMOLED display with punchy colors.",
+            "The Google Pixel 7 Pro's AMOLED display is known for its vivid and saturated colors."
+        ]
+    },
+    {
+        "preference": "I don't like laptops with touchscreens.",
+        "question": "Can you suggest a good laptop for graphic design work?",
+        "explanation": "High-performance laptops suitable for graphic design might not all come with touchscreens, so the assistant needs to find options that include this feature while meeting other requirements.",
+        "violation_probability": 0.75,
+        "classification_task_options": [
+            "The Dell XPS 15 with a 4K non-touch display is excellent for graphic design.",
+            "The Microsoft Surface Book 2 with a detachable touchscreen is a powerful option.",
+            "The HP Spectre x360 with a 360-degree touchscreen is a versatile choice.",
+            "The Lenovo Yoga C940 with a touchscreen and stylus support is great for artists."
+        ]
+    },
+    {
+        "preference": "I strictly avoid buying any Apple products for my children.",
+        "question": "What's the best smartwatch for my tech-savvy teenager?",
+        "explanation": "Apple Watches are popular among teenagers. The assistant should recommend non-Apple smartwatches that offer similar features.",
+        "classification_task_options": [
+            "Consider the Samsung Galaxy Watch with its versatile features.",
+            "The Apple Watch Series 8 is a popular choice.",
+            "The Apple Watch SE offers great value for money.",
+            "You can't go wrong with the latest Apple Watch Ultra."
+        ]
+    },
+    {
+        "preference": "I only use wired peripherals due to concerns about wireless interference.",
+        "question": "What are some clutter-free desk setup ideas for my office?",
+        "explanation": "Clutter-free setups often involve wireless peripherals, so the assistant must suggest ways to manage wired peripherals neatly.",
+        "classification_task_options": [
+            "Use a wired keyboard, mouse, and monitor for a clean, cable-managed setup.",
+            "Opt for a wireless keyboard and mouse for a minimalist, cable-free look.",
+            "Invest in a wireless charging station to eliminate cable clutter.",
+            "Consider a wireless headset for hands-free communication and mobility."
+        ]
+    },
+    {
+        "preference": "I avoid using Windows operating systems due to personal preference.",
+        "question": "What are some good laptop options for running office software efficiently?",
+        "explanation": "Many office-oriented laptops come with Windows pre-installed, so the assistant must recommend alternatives like MacBooks or Linux-based systems.",
+        "classification_task_options": [
+            "Consider a MacBook Pro or Linux-based laptop.",
+            "The Microsoft Surface Pro runs Windows smoothly.",
+            "Dell XPS laptops with Windows 10 are powerful.",
+            "HP Spectre x360 with Windows 11 is recommended."
+        ]
+    }
+]

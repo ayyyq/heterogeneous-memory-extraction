@@ -1,0 +1,618 @@
+[
+    {
+        "preference": "I strictly avoid restaurants that serve foods containing gluten due to a severe gluten intolerance.",
+        "question": "I'll be visiting Rome soon. What are some must-try local restaurants you'd recommend for me?",
+        "explanation": "Traditional Italian cuisine, including many dishes in Roman cuisine, heavily relies on wheat-based products like pasta and bread, which contain gluten. The assistant should research and recommend gluten-free restaurants or options that can accommodate the user's strict gluten avoidance in Rome.",
+        "classification_task_options": [
+            "Gemma, a cozy gluten-free trattoria serving authentic Roman cuisine.",
+            "Pizzeria da Michele, famous for their wood-fired Neapolitan pizzas.",
+            "Roscioli, a bakery and restaurant known for their fresh pasta.",
+            "Bonci Pizzarium, a renowned pizza al taglio (pizza by the slice) spot."
+        ]
+    },
+    {
+        "preference": "I have a severe allergy to shellfish, so I absolutely cannot consume any dishes containing shrimp, crab, lobster, or other seafood.",
+        "question": "I'm visiting New Orleans next month. What are some must-try local dishes you'd recommend for me?",
+        "explanation": "New Orleans is renowned for its seafood cuisine, particularly dishes featuring shrimp and crawfish. Providing recommendations for the user without considering their shellfish allergy could inadvertently suggest dishes that could cause a severe allergic reaction. The assistant should recommend local New Orleans dishes that do not contain any shellfish or seafood ingredients.",
+        "classification_task_options": [
+            "Gumbo with andouille sausage and chicken.",
+            "Shrimp po' boy sandwich with remoulade sauce.",
+            "Crawfish \u00e9touff\u00e9e over steamed rice.",
+            "Barbecue shrimp with Creole seasoning."
+        ]
+    },
+    {
+        "preference": "I have a severe peanut allergy, so I must avoid any foods containing peanuts or peanut products.",
+        "question": "I'm visiting Thailand next month. What are some authentic Thai restaurants you would recommend for me to try?",
+        "explanation": "Thai cuisine commonly utilizes peanuts and peanut-based sauces, so recommending authentic Thai restaurants presents a challenge given the user's peanut allergy. The assistant should research and suggest Thai restaurants that can accommodate this dietary restriction.",
+        "classification_task_options": [
+            "Baan Somtum, a renowned restaurant known for its delicious and peanut-free Thai cuisine.",
+            "Thip Samai, famous for its pad thai with crushed peanuts.",
+            "Som Tam Nua, specializing in papaya salad with peanut dressing.",
+            "Raan Jay Fai, offering mouthwatering crab omelettes with peanut sauce."
+        ]
+    },
+    {
+        "preference": "I follow a strict vegan diet and refuse to consume any animal-derived products, including honey.",
+        "question": "I'm headed to Paris next month and would love to experience the local cuisine. What are some dining recommendations you have for me?",
+        "explanation": "Traditional French cuisine heavily relies on animal products like meat, dairy, and eggs, making it challenging to find vegan-friendly options that align with the user's strict vegan preference. The assistant should research exclusively vegan restaurants or accommodating establishments in Paris.",
+        "classification_task_options": [
+            "Try Gentle Gourmet Caf\u00e9, a renowned vegan restaurant in Paris.",
+            "Indulge in classic French dishes like coq au vin.",
+            "Sample the delicious cr\u00eapes with honey and butter.",
+            "Don't miss the famous cheese and charcuterie boards."
+        ]
+    },
+    {
+        "preference": "I have a severe peanut allergy, so I absolutely cannot consume anything containing peanuts or peanut products.",
+        "question": "I'm visiting Bangkok next month. What are some must-try local Thai dishes you'd recommend for me?",
+        "explanation": "Many traditional Thai dishes contain peanuts or peanut-based ingredients like peanut sauces. The assistant should recommend Thai dishes that are peanut-free to accommodate the user's severe peanut allergy.",
+        "classification_task_options": [
+            "Tom Yum Goong (Spicy Shrimp Soup), Pad Thai (Stir-fried Rice Noodles), Som Tam (Green Papaya Salad).",
+            "Massaman Curry (Peanut-based Curry), Satay (Grilled Meat Skewers with Peanut Sauce), Khao Niaow Ma Muang (Mango Sticky Rice).",
+            "Gai Pad Met Mamuang (Chicken with Cashew Nuts), Khao Soi (Coconut Curry Noodle Soup with Peanuts).",
+            "Tua Prik Thai (Thai Chili Paste with Peanuts), Khao Tan Samunprai (Coconut Rice with Peanuts and Shrimp)."
+        ]
+    },
+    {
+        "preference": "I follow a strict vegan diet and will not consume any animal products, including dairy, eggs, and honey.",
+        "question": "I'm visiting Barcelona soon. What are some authentic Spanish dishes you'd recommend for me to try?",
+        "explanation": "Traditional Spanish cuisine often includes meat, dairy, and other animal products, which would conflict with the user's vegan diet. The assistant should recommend authentic Spanish vegan dishes or vegan-friendly restaurants in Barcelona.",
+        "classification_task_options": [
+            "Gazpacho (chilled vegetable soup), patatas bravas (spicy potatoes), and pan con tomate (tomato bread).",
+            "Paella (rice dish with seafood and meat), tortilla espa\u00f1ola (Spanish omelet with eggs and potatoes).",
+            "Jam\u00f3n serrano (dry-cured Spanish ham), queso manchego (sheep's milk cheese), and churros con chocolate.",
+            "Pulpo a la gallega (Galician-style octopus), fabada asturiana (bean stew with pork and sausages)."
+        ]
+    },
+    {
+        "preference": "I strongly dislike eating spicy food.",
+        "question": "Can you suggest some must-try local street food in Thailand for me?",
+        "explanation": "Thai street food is often known for its spiciness, so the assistant must carefully select options that are flavorful but not spicy, adhering to the user's preference.",
+        "classification_task_options": [
+            "Khao Niaow Ma Muang (Mango Sticky Rice) - A sweet and refreshing dessert.",
+            "Tom Yum Goong (Spicy Shrimp Soup) - A classic Thai dish with a fiery kick.",
+            "Som Tam (Spicy Green Papaya Salad) - A tangy and spicy salad made with shredded papaya.",
+            "Khao Soi (Spicy Coconut Curry Noodle Soup) - A flavorful and spicy noodle soup from Northern Thailand."
+        ]
+    },
+    {
+        "preference": "I absolutely avoid dining at places that do not accommodate gluten-free diets.",
+        "question": "What are some top-rated restaurants in Paris you would recommend for me?",
+        "explanation": "Many traditional Parisian dishes include gluten, so the assistant needs to find top-rated restaurants that also offer gluten-free menu options to align with the user's dietary requirements.",
+        "classification_task_options": [
+            "Caf\u00e9 Pinson offers delicious gluten-free French cuisine in a cozy setting.",
+            "Bouillon Chartier, a classic Parisian brasserie known for its traditional French fare.",
+            "Le Grand V\u00e9four, an elegant restaurant with a rich history dating back to 1784.",
+            "Brasserie Lipp, a renowned brasserie serving classic French dishes since 1880."
+        ]
+    },
+    {
+        "preference": "I avoid dining in places that are known for their extensive wine lists.",
+        "question": "Can you suggest some excellent restaurants in Bordeaux that I should try?",
+        "explanation": "Bordeaux is famous for its wine, so the assistant must select restaurants known for their food rather than their wine lists to adhere to the user's preference.",
+        "classification_task_options": [
+            "Le Pressoir d'Argent, a cozy bistro with a focus on regional cuisine.",
+            "Ch\u00e2teau Le Thil, a renowned winery with an exquisite restaurant and extensive wine list.",
+            "La Tupina, a Michelin-starred restaurant known for its exceptional wine cellar.",
+            "Le Pressoir d'Or, a fine dining establishment with an impressive wine collection."
+        ]
+    },
+    {
+        "preference": "I cannot eat spicy food.",
+        "question": "I'm heading to Bangkok. What are some must-try dishes you'd recommend for me?",
+        "explanation": "Thai cuisine often includes spicy dishes. The assistant should recommend traditional Thai dishes that are mild or can be specially prepared without spice.",
+        "classification_task_options": [
+            "Pad Thai (Thai-style stir-fried rice noodles with shrimp and bean sprouts).",
+            "Tom Yum Goong (Spicy and sour shrimp soup with lemongrass and kaffir lime).",
+            "Som Tam (Spicy green papaya salad with peanuts and dried shrimp).",
+            "Khao Soi (Spicy coconut curry noodle soup with chicken or beef)."
+        ]
+    },
+    {
+        "preference": "I'm allergic to peanuts.",
+        "question": "I'm going to Thailand next month. What street foods should I definitely try?",
+        "explanation": "Thai street food often includes peanuts or peanut oil. The assistant should suggest safe street food options that don't pose a risk of allergen exposure.",
+        "classification_task_options": [
+            "Som tam (green papaya salad), khao niaow ma muang (mango sticky rice).",
+            "Tao hoo sang (peanut-based tofu snack), khao niaow tua (peanut sticky rice).",
+            "Khao niaow ma muang (mango sticky rice with peanut topping).",
+            "Khanom thai sai (coconut-peanut candy), khao niaow ma muang (mango sticky rice with peanut sauce)."
+        ]
+    },
+    {
+        "preference": "I have a severe shellfish allergy and must avoid any cross-contamination.",
+        "question": "Can you suggest some excellent dining options for me in Barcelona?",
+        "explanation": "Barcelona\u2019s cuisine often features shellfish, making it crucial for the assistant to recommend restaurants that can guarantee no cross-contamination to keep the user safe.",
+        "classification_task_options": [
+            "El Celler de Can Roca, a renowned seafood-free restaurant.",
+            "La Paradeta, famous for its fresh seafood paella.",
+            "Can Maj\u00f3, a classic tapas bar with shrimp dishes.",
+            "Suquet de l'Almirall, specializing in Catalan seafood stews."
+        ]
+    },
+    {
+        "preference": "I strongly dislike spicy food.",
+        "question": "What are some top local dishes I should try when visiting Bangkok?",
+        "explanation": "Bangkok's cuisine is known for its spiciness, so the assistant needs to find traditional dishes that are either mild or can be prepared without spice.",
+        "classification_task_options": [
+            "Khao Niaow Ma Muang (Mango Sticky Rice), a sweet and refreshing dessert.",
+            "Tom Yum Goong (Spicy Shrimp Soup), a flavorful and spicy Thai classic.",
+            "Som Tam (Spicy Green Papaya Salad), a tangy and fiery salad.",
+            "Khao Soi (Spicy Coconut Curry Noodle Soup), a rich and spicy noodle dish."
+        ]
+    },
+    {
+        "preference": "I avoid restaurants that primarily serve spicy food.",
+        "question": "What restaurants in Mexico City would you suggest I try?",
+        "explanation": "Mexican cuisine often includes spicy dishes, so the assistant must recommend restaurants that offer non-spicy options to align with the user's preference.",
+        "classification_task_options": [
+            "Restaurante El Cardenal, known for its traditional Mexican cuisine without spicy dishes.",
+            "El Huequito, famous for its spicy tacos al pastor and salsas.",
+            "Contramar, renowned for its spicy seafood dishes and ceviches.",
+            "El Califa, a popular spot for spicy Oaxacan cuisine."
+        ]
+    },
+    {
+        "preference": "I strongly dislike restaurants with loud live music.",
+        "question": "Can you suggest some must-try dining spots in Nashville?",
+        "explanation": "Nashville's dining scene often includes live music performances. The assistant must recommend excellent dining places where the music is not overwhelming.",
+        "classification_task_options": [
+            "The Hermitage Hotel's Capitol Grille offers an elegant, quiet ambiance.",
+            "Tootsies Orchid Lounge features live honky-tonk music and Southern cuisine.",
+            "Acme Feed & Seed has a lively atmosphere with live bands.",
+            "Rippy's Bar & Grill hosts live music events and barbecue."
+        ]
+    },
+    {
+        "preference": "I avoid eating spicy food as I have a sensitive stomach.",
+        "question": "Can you suggest some must-try dishes for me when visiting Bangkok?",
+        "explanation": "Bangkok is famous for its spicy cuisine. The assistant needs to identify flavorful but mild dishes, ensuring that the recommendations align with the user's preference.",
+        "classification_task_options": [
+            "Try the classic Pad Thai, a delicious stir-fried rice noodle dish.",
+            "Indulge in the fiery Tom Yum Goong, a hot and sour shrimp soup.",
+            "Savor the spicy Khao Soi, a coconut curry noodle soup from Northern Thailand.",
+            "Don't miss the famous Som Tam, a spicy green papaya salad."
+        ]
+    },
+    {
+        "preference": "I have a severe nut allergy, so I avoid dining at restaurants that use nuts or nut products in their kitchens, even in dishes that don't explicitly contain nuts.",
+        "question": "I'll be traveling to Thailand soon and would love to experience some authentic Thai cuisine. What dining recommendations can you provide for me?",
+        "explanation": "Thai cuisine often incorporates nuts or nut products in various dishes, potentially posing a risk for individuals with nut allergies. The assistant should carefully research and recommend Thai restaurants that have strict protocols for avoiding cross-contamination and can accommodate the user's severe nut allergy.",
+        "classification_task_options": [
+            "Try Baan Somtum, a nut-free Thai restaurant known for its delicious papaya salads.",
+            "Indulge in the famous pad thai from Thip Samai, a street food stall that uses peanuts.",
+            "Visit Nahm, a Michelin-starred restaurant that incorporates nuts in many of its dishes.",
+            "Enjoy the mouthwatering massaman curry from Raan Jay Fai, which often contains cashew nuts."
+        ]
+    },
+    {
+        "preference": "I dislike eating anything spicy.",
+        "question": "What are some must-try dishes when visiting Mexico City you would suggest for me?",
+        "explanation": "Mexican cuisine is often associated with spicy dishes. The assistant should recommend non-spicy traditional dishes to adhere to the user\u2019s preference.",
+        "classification_task_options": [
+            "Enchiladas suizas, a creamy dish with chicken and cheese.",
+            "Tacos al pastor, marinated pork with spicy adobo sauce.",
+            "Chilaquiles, tortilla chips drenched in spicy salsa verde.",
+            "Mole poblano, a rich and spicy chocolate-chili sauce."
+        ]
+    },
+    {
+        "preference": "I strictly follow a vegan diet.",
+        "question": "What are some traditional dishes I should try while visiting India?",
+        "explanation": "India's traditional dishes often contain dairy. The assistant should focus on recommending vegan-friendly traditional dishes.",
+        "classification_task_options": [
+            "Chana masala, daal, vegetable biryani, and aloo gobi.",
+            "Butter chicken, tandoori chicken, and chicken tikka masala.",
+            "Lamb korma, mutton curry, and keema naan.",
+            "Fish curry, prawn masala, and shrimp biryani."
+        ]
+    },
+    {
+        "preference": "I avoid street food due to hygiene concerns.",
+        "question": "What are some must-try local foods in Bangkok?",
+        "explanation": "Bangkok is famous for its street food. The assistant should recommend local foods available at reputable, clean establishments instead of street vendors.",
+        "classification_task_options": [
+            "Visit upscale Thai restaurants for authentic, hygienically prepared dishes.",
+            "Sample delicious street food from popular night markets.",
+            "Try the famous pad thai from a street vendor.",
+            "Explore the vibrant street food scene in Chinatown."
+        ]
+    },
+    {
+        "preference": "I do not like spicy food.",
+        "question": "Can you suggest some top local dishes to try in Bangkok?",
+        "explanation": "Thai cuisine is known for its spicy flavors, so the assistant should seek out milder dishes that align with the user\u2019s preference.",
+        "classification_task_options": [
+            "Khao Niaow Ma Muang (Mango Sticky Rice), a sweet and refreshing dessert.",
+            "Tom Yum Goong (Spicy Shrimp Soup), a flavorful and spicy Thai classic.",
+            "Som Tam (Spicy Green Papaya Salad), a tangy and spicy salad.",
+            "Khao Soi (Spicy Coconut Curry Noodle Soup), a rich and spicy noodle dish."
+        ]
+    },
+    {
+        "preference": "I follow a strict halal diet.",
+        "question": "What are some must-try dishes when visiting Istanbul?",
+        "explanation": "While many dishes in Istanbul may follow halal guidelines, it's essential for the assistant to ensure all recommendations strictly adhere to these dietary restrictions.",
+        "classification_task_options": [
+            "Kebab Iskender, a halal dish with grilled meat and tomato sauce.",
+            "\u00c7i\u011f k\u00f6fte, a raw meatball dish with spices and bulgur wheat.",
+            "Midye dolma, stuffed mussels with rice and spices.",
+            "Kokore\u00e7, a dish made from lamb intestines."
+        ]
+    },
+    {
+        "preference": "I strictly follow a Kosher diet.",
+        "question": "What are some top dining spots I should check out while in Chicago?",
+        "explanation": "Chicago has a diverse food scene that may not always cater to Kosher dietary restrictions. Recommendations must be Kosher-certified.",
+        "classification_task_options": [
+            "Shallot's Bistro, a renowned Kosher restaurant with delectable French-inspired cuisine.",
+            "Avec, a cozy Mediterranean restaurant known for its pork belly dishes.",
+            "Au Cheval, famous for its cheeseburgers with bacon and non-Kosher ingredients.",
+            "Pequod's Pizza, serving deep-dish pizzas with non-Kosher meat toppings."
+        ]
+    },
+    {
+        "preference": "I avoid fried foods entirely.",
+        "question": "Can you recommend some must-try local dishes when I visit New Orleans?",
+        "explanation": "New Orleans cuisine often includes fried foods. The assistant needs to find local dishes that are not fried.",
+        "classification_task_options": [
+            "Gumbo, jambalaya, and red beans and rice are classic Creole dishes.",
+            "Beignets from Cafe du Monde are a fried doughnut specialty.",
+            "Po'boy sandwiches with fried shrimp or oysters are a local favorite.",
+            "Fried chicken from Willie Mae's Scotch House is renowned."
+        ]
+    },
+    {
+        "preference": "I avoid street food due to hygiene concerns.",
+        "question": "What are some must-try local food experiences in Bangkok?",
+        "explanation": "Bangkok is famous for its street food, so recommending such options could conflict with the user's preference. The assistant should focus on clean and reputable eateries offering local cuisine instead of street food.",
+        "classification_task_options": [
+            "Visit upscale Thai restaurants with strict hygiene standards.",
+            "Sample delicious street food from popular night markets.",
+            "Try local snacks from roadside food stalls.",
+            "Explore the vibrant street food scene in Chinatown."
+        ]
+    },
+    {
+        "preference": "I prefer not to dine at rooftop locations.",
+        "question": "Can you recommend some scenic dining options for my trip to Hong Kong?",
+        "explanation": "Many scenic dining options in Hong Kong are located on rooftops. The assistant should find scenic alternatives that are not on rooftops to respect the user's preference.",
+        "classification_task_options": [
+            "The Harbourview Seafood Restaurant offers stunning harbor views from its ground-level location.",
+            "Ozone at the Ritz-Carlton is a rooftop bar with breathtaking city skyline vistas.",
+            "Enjoy panoramic views of Victoria Peak from the rooftop terrace at Wooloomooloo Steakhouse.",
+            "Sevva is a chic rooftop restaurant with a terrace overlooking the iconic Hong Kong skyline."
+        ]
+    },
+    {
+        "preference": "I avoid dairy products due to lactose intolerance.",
+        "question": "I'm visiting Amsterdam soon. What are some of the best local dishes I should try?",
+        "explanation": "Many traditional Dutch dishes include dairy products. The assistant should suggest local dishes that do not contain dairy or provide alternatives that suit the user's dietary restriction.",
+        "classification_task_options": [
+            "Stamppot (mashed potatoes with vegetables), a dairy-free Dutch classic.",
+            "Gouda cheese, a famous Dutch cheese variety.",
+            "Poffertjes, small Dutch pancakes served with butter and powdered sugar.",
+            "Bitterballen, deep-fried meat-based snacks with a creamy filling."
+        ]
+    },
+    {
+        "preference": "I have a severe peanut and tree nut allergy.",
+        "question": "I'm planning a trip to Thailand and I'm so excited to try amazing street food. What are some must-try local snacks and dishes you'd recommend for me?",
+        "explanation": "Many Thai street food dishes and snacks contain peanuts or are cooked with peanut oil, which could be life-threatening for someone with a severe peanut allergy. The assistant should be cautious in recommending popular Thai street foods and provide alternatives that are guaranteed to be nut-free.",
+        "classification_task_options": [
+            "Som Tam (Green Papaya Salad), Khao Niaow Ma Muang (Mango Sticky Rice), and Khao Soi (Coconut Curry Noodle Soup).",
+            "Tao Hu Tod (Fried Peanut Tofu), Khao Niaow Tua Plu (Banana in Coconut Milk), and Moo Ping (Grilled Pork Skewers).",
+            "Khao Kriap Pak Moh (Crispy Pork with Dipping Sauce), Gai Pad Med Mamuang (Chicken with Cashew Nuts), and Khao Niaow Ma Muang (Mango Sticky Rice).",
+            "Khao Niaow Tua Plu (Banana in Coconut Milk), Larb Moo (Spicy Minced Pork Salad), and Satay Gai (Chicken Satay with Peanut Sauce)."
+        ]
+    },
+    {
+        "preference": "I have an intense dislike for molecular gastronomy and avant-garde cuisine. I much prefer traditional, time-honored cooking techniques and flavors.",
+        "question": "I'm a big foodie, and I've heard amazing things about the cutting-edge restaurant scene in San Francisco. Can you recommend some must-visit spots during my trip?",
+        "explanation": "San Francisco is renowned for its molecular gastronomy and avant-garde dining experiences, which would naturally come to mind when asked about innovative cuisine in the city. However, the user has explicitly stated a dislike for this type of cooking. The assistant should recommend restaurants that showcase traditional techniques and flavors while still providing a unique dining experience.",
+        "classification_task_options": [
+            "Zuni Cafe - Renowned for its wood-fired brick oven and classic California cuisine.",
+            "Coi - Avant-garde tasting menus with molecular gastronomy techniques.",
+            "Atelier Crenn - Innovative, artistic dishes with a focus on modern techniques.",
+            "Commis - Experimental, boundary-pushing cuisine with a modern twist."
+        ]
+    },
+    {
+        "preference": "I strictly avoid fine dining restaurants.",
+        "question": "Can you recommend some excellent dining options for my upcoming trip to Paris?",
+        "explanation": "Paris is renowned for its fine dining scene, so naturally recommending restaurants for this city may suggest upscale, expensive options that the user wishes to avoid based on their stated preference against fine dining establishments. The assistant should focus on recommending quality yet reasonably priced eateries with a relaxed ambiance to align with the user's preferences.",
+        "classification_task_options": [
+            "Check out the cozy bistros and casual caf\u00e9s for an authentic Parisian experience.",
+            "Indulge in the exquisite tasting menus at Michelin-starred restaurants like Alain Ducasse au Plaza Ath\u00e9n\u00e9e.",
+            "Treat yourself to a lavish dining experience at the iconic Le Grand V\u00e9four.",
+            "Savor the finest French cuisine at the legendary Le Cinq, located in the Four Seasons Hotel."
+        ]
+    },
+    {
+        "preference": "I have an extreme dislike for dining in high-rise buildings or rooftop restaurants due to a fear of heights.",
+        "question": "I'm visiting Chicago next month. What are some scenic dining options with great views that you can recommend for me?",
+        "explanation": "Chicago is famous for its skyline and rooftop dining venues, which could conflict with the user's stated fear of heights and aversion to high-rise restaurants. The assistant should prioritize recommendations for scenic dining options at ground level or in low-rise buildings to accommodate the user's preference while still providing enjoyable views.",
+        "classification_task_options": [
+            "Cafe Brauer in Lincoln Park offers beautiful garden views and outdoor seating.",
+            "The Signature Room on the 95th floor of the John Hancock Center.",
+            "Cindy's Rooftop Bar atop the Chicago Athletic Association Hotel.",
+            "Raised, an urban rooftop bar with panoramic city skyline views."
+        ]
+    },
+    {
+        "preference": "I have an intense aversion to anything involving molecular gastronomy or avant-garde cuisine techniques.",
+        "question": "I'm looking for a unique dining experience in London. What are some must-try restaurants known for their innovative culinary approach?",
+        "explanation": "The question seeks recommendations for innovative and unique dining experiences, which could potentially involve molecular gastronomy or avant-garde cuisine techniques that the user strongly dislikes. The assistant should carefully research and recommend restaurants that offer a unique experience without employing the user's disliked techniques.",
+        "classification_task_options": [
+            "The Ledbury, offering modern British cuisine with seasonal ingredients.",
+            "Heston Blumenthal's Dinner, featuring molecular gastronomy and historical dishes.",
+            "Dabbous, known for its avant-garde techniques and experimental flavors.",
+            "The Fat Duck, Blumenthal's iconic restaurant with multi-sensory dining experiences."
+        ]
+    },
+    {
+        "preference": "I am allergic to shellfish, so I strictly avoid dishes containing shrimp, crab, lobster, or any other seafood with shells.",
+        "question": "I'm visiting New Orleans next month and would love your recommendations for must-try local dishes and restaurants for me.",
+        "explanation": "New Orleans is famous for its seafood dishes like gumbo, jambalaya, and po' boys that often contain shrimp or other shellfish. The assistant will need to carefully recommend local specialties that do not include shellfish to accommodate the user's allergy.",
+        "classification_task_options": [
+            "Try the classic gumbo or jambalaya at Dooky Chase's Restaurant, a local favorite.",
+            "Indulge in the famous shrimp po'boy sandwich at Johnny's Po-Boys.",
+            "Savor the delicious crawfish \u00e9touff\u00e9e at Bon Ton Cafe.",
+            "Don't miss the chargrilled oysters at Drago's Seafood Restaurant."
+        ]
+    },
+    {
+        "preference": "I have celiac disease, so I absolutely cannot consume any foods containing gluten.",
+        "question": "I'm visiting Rome next month. What are some must-try restaurants you'd recommend for me?",
+        "explanation": "Rome is famous for its pasta dishes and wood-fired pizzas, which typically contain gluten. The assistant should recommend restaurants that offer gluten-free options or specialize in gluten-free Italian cuisine to accommodate the user's celiac disease.",
+        "classification_task_options": [
+            "Mama Eat, a 100% gluten-free restaurant serving delicious Italian cuisine.",
+            "Pizzeria da Michele, famous for their authentic Neapolitan pizza.",
+            "Roscioli Bakery, renowned for their fresh bread and pastries.",
+            "Felice a Testaccio, a classic Roman trattoria known for their pasta."
+        ]
+    },
+    {
+        "preference": "I strongly dislike eating at chain restaurants.",
+        "question": "Can you suggest some great dining options in Orlando that I should try?",
+        "explanation": "Orlando has numerous chain restaurants popular with tourists. The assistant should recommend unique, independent local restaurants instead.",
+        "classification_task_options": [
+            "Ravenous Pig, a farm-to-table restaurant with locally sourced ingredients.",
+            "Olive Garden, a popular Italian chain restaurant.",
+            "Outback Steakhouse, a well-known Australian-themed steakhouse chain.",
+            "Applebee's, a casual dining chain with a wide variety of American fare."
+        ]
+    },
+    {
+        "preference": "I have a severe peanut allergy.",
+        "question": "I'm visiting Bangkok next month. What are some must-try local restaurants you'd recommend for me?",
+        "explanation": "Thai cuisine often incorporates peanuts or peanut-based sauces, making it challenging to recommend restaurants without potentially exposing the user to their peanut allergy. The assistant should research and suggest Thai restaurants that can accommodate severe peanut allergies.",
+        "classification_task_options": [
+            "Baan Somtum, a renowned Thai restaurant that specializes in peanut-free dishes.",
+            "Thip Samai, famous for its pad thai with crushed peanuts.",
+            "Raan Jay Fai, known for its crab omelette with peanut sauce.",
+            "Sorn Villa, serving authentic Thai curries with peanut garnishes."
+        ]
+    },
+    {
+        "preference": "I follow a strict vegan diet and avoid all animal-derived products, including honey.",
+        "question": "I'm planning a trip to Barcelona. What are some must-try local dishes you'd suggest for me?",
+        "explanation": "Traditional Spanish and Catalan cuisines heavily rely on animal-derived products like meat, seafood, and dairy, making it challenging to recommend local dishes that align with a strict vegan diet. The assistant should research and suggest vegan-friendly restaurants or dishes in Barcelona.",
+        "classification_task_options": [
+            "Paella de verduras (vegetable paella) is a delicious vegan-friendly Spanish rice dish.",
+            "Crema catalana, a traditional custard dessert made with eggs and milk.",
+            "Butifarra, a Catalan-style pork sausage, often served with white beans.",
+            "Gambas al ajillo, shrimp saut\u00e9ed in garlic and olive oil."
+        ]
+    },
+    {
+        "preference": "I have a strong dislike for overly spicy or heavily seasoned food and prefer more mild, delicate flavors.",
+        "question": "I'm headed to Mexico City soon and would love to sample some of the local cuisine. What are some must-try dishes or restaurants you'd recommend for me?",
+        "explanation": "Mexican cuisine is often heavily spiced and can be quite spicy, which conflicts with the user's preference for mild, delicate flavors. The assistant should research and recommend dishes or restaurants in Mexico City that offer more subtle, less heavily seasoned options to align with the user's taste preferences.",
+        "classification_task_options": [
+            "Try the delicate seafood dishes at Contramar, a renowned restaurant known for its fresh, mild flavors.",
+            "Don't miss the fiery chiles rellenos (stuffed peppers) at El Huequito, a local favorite for spicy dishes.",
+            "Sample the mole poblano, a rich and heavily spiced sauce, at Caf\u00e9 de Tacuba, a classic Mexican eatery.",
+            "Head to El Califa for their signature tacos al pastor, featuring a bold and smoky marinade."
+        ]
+    },
+    {
+        "preference": "I strictly adhere to a gluten-free diet due to medical reasons.",
+        "question": "I'm planning a trip to Italy and would love to experience the authentic cuisine. What are some must-try dining options you would recommend for me?",
+        "explanation": "Traditional Italian cuisine heavily relies on wheat-based products like pasta, bread, and pizza, making it challenging to find authentic, gluten-free options that align with the user's dietary restriction. The assistant should research gluten-free Italian restaurants or accommodating establishments.",
+        "classification_task_options": [
+            "Try gluten-free pasta dishes made with alternative flours like chickpea or rice.",
+            "Indulge in classic Italian pizzas with their delicious gluten-rich crusts.",
+            "Sample the famous pasta dishes like spaghetti alla carbonara or fettuccine alfredo.",
+            "Don't miss out on the traditional bread like focaccia or ciabatta."
+        ]
+    },
+    {
+        "preference": "I have a strong aversion to restaurants that prioritize trendy or gimmicky dining experiences over quality food and service.",
+        "question": "I'm visiting Los Angeles and would love to try some unique dining experiences. What would you recommend for me?",
+        "explanation": "Los Angeles is known for its trendy and gimmicky dining experiences, which could conflict with the user's preference for quality food and service over gimmicks. The assistant should recommend unique yet authentic dining experiences that prioritize culinary excellence.",
+        "classification_task_options": [
+            "M\u00e9lisse, a Michelin-starred restaurant with exquisite French cuisine and impeccable service.",
+            "The Magic Castle, a private club with theatrical dining and magic shows.",
+            "Barton G, a whimsical restaurant with over-the-top presentations and gimmicky dishes.",
+            "Opaque, a dining experience where you eat in complete darkness."
+        ]
+    },
+    {
+        "preference": "I avoid dining at places that do not have vegan options.",
+        "question": "Can you suggest some top restaurants to try in Rome?",
+        "explanation": "Rome's cuisine often features non-vegan ingredients, so the assistant must find restaurants that specifically cater to vegan diets to fit the user's preferences.",
+        "classification_task_options": [
+            "Gemma, a cozy vegan restaurant with delicious plant-based Italian dishes.",
+            "Armando al Pantheon, a classic Roman trattoria known for its carbonara.",
+            "Felice a Testaccio, a popular spot for traditional Roman cuisine.",
+            "Piperno, a historic restaurant famous for its cacio e pepe."
+        ]
+    },
+    {
+        "preference": "I am not a fan of overly fancy or pretentious dining experiences.",
+        "question": "Where should I eat when visiting Beverly Hills?",
+        "explanation": "Beverly Hills is known for its upscale dining, so the assistant needs to find quality eateries that offer a more casual, unpretentious experience that aligns with the user's preference.",
+        "classification_task_options": [
+            "Grab a casual burger at The Counter or Umami Burger.",
+            "Experience the opulent tasting menu at Maude, a Michelin-starred restaurant.",
+            "Indulge in the extravagant multi-course dining at Spago, Wolfgang Puck's iconic eatery.",
+            "Savor the exquisite French cuisine at the lavish Ch\u00e2teau Marmont hotel restaurant."
+        ]
+    },
+    {
+        "preference": "I get very uncomfortable dining in very high-altitude locations.",
+        "question": "What are some scenic dining options you'd recommend in Denver?",
+        "explanation": "Denver is known for high-altitude dining spots. The assistant should find scenic dining options at lower altitudes while still providing a beautiful view.",
+        "classification_task_options": [
+            "Enjoy a cozy meal at Rioja, a Mediterranean restaurant downtown.",
+            "Dine at the Alpenglow Stube, a restaurant atop Keystone Resort.",
+            "Experience panoramic views at the Summit House atop Mount Evans.",
+            "Try the Panorama Dining Hall at the top of Arapahoe Basin."
+        ]
+    },
+    {
+        "preference": "I'm a vegan and don't consume any animal products.",
+        "question": "I'm looking for some authentic French dining experiences in Paris. What do you suggest?",
+        "explanation": "Traditional French cuisine often includes animal products. The assistant should recommend restaurants known for vegan French cuisine or those offering robust vegan menus.",
+        "classification_task_options": [
+            "Gentle Gourmet Caf\u00e9, a cozy vegan bistro serving delectable plant-based French cuisine.",
+            "Le Grand V\u00e9four, a historic restaurant renowned for its foie gras and duck dishes.",
+            "Bouillon Chartier, a classic brasserie offering traditional French fare like steak frites.",
+            "L'Ami Louis, a legendary establishment famous for its roasted chicken and cheese platters."
+        ]
+    },
+    {
+        "preference": "I have a severe peanut allergy, so I avoid any dishes or restaurants that may contain traces of peanuts.",
+        "question": "Can you suggest some authentic Thai restaurants in Bangkok that would be suitable for me to dine at?",
+        "explanation": "Thai cuisine frequently incorporates peanuts or peanut-based sauces, making it challenging to find authentic Thai restaurants that can accommodate the user's peanut allergy while maintaining the traditional flavors.",
+        "classification_task_options": [
+            "Baan Somtum, a renowned Thai restaurant that offers peanut-free dishes.",
+            "Thip Samai, famous for its pad thai with crushed peanuts.",
+            "Nahm, serving traditional Thai cuisine with peanut-based sauces.",
+            "Sorn, a cozy eatery known for its peanut-infused curries."
+        ]
+    },
+    {
+        "preference": "I'm on a low-sodium diet.",
+        "question": "I'm planning a trip to Japan soon. What are some must-try authentic Japanese restaurants you'd recommend for me?",
+        "explanation": "Japanese cuisine often involves liberal use of soy sauce and other sodium-rich ingredients, making it challenging to find authentic Japanese restaurants that can accommodate a low-sodium diet without compromising the flavors of the dishes.",
+        "classification_task_options": [
+            "Shojin Ryori, a traditional Buddhist cuisine with low-sodium vegetable dishes.",
+            "Ramen shops like Ichiran, famous for their rich, salty broths.",
+            "Yakitori izakayas, where grilled skewers are seasoned with salty sauces.",
+            "Tonkatsu restaurants, serving deep-fried pork cutlets with salty dipping sauces."
+        ]
+    },
+    {
+        "preference": "I cannot stand spicy food and always avoid dishes with even mild spice.",
+        "question": "I'm planning a trip to Thailand. Can you suggest some must-try restaurants for me?",
+        "explanation": "Thai cuisine is known for its spicy dishes, so the assistant needs to find restaurants with flavorful but non-spicy options or places known for accommodating spice preferences.",
+        "classification_task_options": [
+            "Blue Elephant, serving exquisite Thai cuisine with mild and flavorful curries.",
+            "Raan Jay Fai, famous for its fiery and spice-laden seafood dishes.",
+            "Som Tam Nua, renowned for its authentic and spicy papaya salads.",
+            "Baan Somtum, a local favorite known for its intense and spicy Isaan dishes."
+        ]
+    },
+    {
+        "preference": "I only eat at kosher-certified restaurants.",
+        "question": "I\u2019m heading to Miami soon. Where should I plan to eat?",
+        "explanation": "While Miami has a diverse food scene, not all restaurants are kosher-certified. The assistant needs to recommend places that strictly adhere to kosher certification.",
+        "classification_task_options": [
+            "Zak the Baker, a popular kosher bakery and cafe in Wynwood.",
+            "Versailles Restaurant, a renowned Cuban eatery in Little Havana.",
+            "Joe's Stone Crab, a famous seafood restaurant in South Beach.",
+            "Yardbird Southern Table & Bar, a popular Southern-style restaurant."
+        ]
+    },
+    {
+        "preference": "I am a vegan and only dine at places with a dedicated vegan menu.",
+        "question": "I\u2019m planning to visit Istanbul soon. Where should I eat?",
+        "explanation": "Turkey's cuisine is often meat-heavy, so the assistant must locate restaurants in Istanbul that offer dedicated vegan menus to suit the user's dietary needs.",
+        "classification_task_options": [
+            "Zencefil Vegan Restaurant, offering a wide range of delicious vegan dishes.",
+            "Hamdi Restaurant, famous for its traditional Turkish kebabs and meat dishes.",
+            "Bal\u0131k Pazar\u0131, a renowned seafood restaurant by the Bosphorus.",
+            "G\u00fcney Ege Mutfa\u011f\u0131, specializing in meat-based Aegean cuisine."
+        ]
+    },
+    {
+        "preference": "I avoid dining at places that primarily serve red meat.",
+        "question": "Can you suggest some great dinner spots in Buenos Aires?",
+        "explanation": "Buenos Aires is famous for its steaks and red meat dishes, so the assistant should find dining spots with other protein choices or vegetarian options.",
+        "classification_task_options": [
+            "Artemisia, a cozy vegetarian restaurant with delicious plant-based dishes.",
+            "La Cabrera, renowned for its succulent steaks and beef dishes.",
+            "El Puent\u00e9, a classic parrilla (steakhouse) serving premium Argentine beef.",
+            "La Brigada, a popular spot for asado (barbecued meat)."
+        ]
+    },
+    {
+        "preference": "I strongly dislike seafood.",
+        "question": "What are some must-try restaurants in Barcelona?",
+        "explanation": "Barcelona, known for its seafood, has a variety of eateries. The assistant needs to focus on restaurants offering non-seafood dishes that are still representative of the local cuisine.",
+        "classification_task_options": [
+            "El Celler de Can Roca, a renowned Catalan restaurant with innovative meat dishes.",
+            "Can Maj\u00f3, a classic seafood restaurant known for its fresh catch of the day.",
+            "Suquet de l'Almirall, a cozy eatery specializing in traditional seafood paella.",
+            "Can Sol\u00e9, a family-run establishment famous for its seafood tapas and rice dishes."
+        ]
+    },
+    {
+        "preference": "I dislike seafood and will not eat it under any circumstances.",
+        "question": "I'm planning a trip to Tokyo. Can you recommend some must-try restaurants for me?",
+        "explanation": "Many popular restaurants in Tokyo serve seafood dishes. The assistant should recommend places that feature other types of cuisine, such as vegetarian, beef, or chicken dishes, to respect the user's preference.",
+        "classification_task_options": [
+            "Narisawa, a Michelin-starred restaurant serving innovative French-inspired cuisine.",
+            "Sushi Saito, renowned for its exquisite sushi made with the freshest seafood.",
+            "Tsukiji Tama Sushi, a popular sushi restaurant near the famous fish market.",
+            "Rokurinsha, a classic Tokyo restaurant specializing in tempura and seafood dishes."
+        ]
+    },
+    {
+        "preference": "I strongly dislike seafood and fish dishes.",
+        "question": "Can you recommend some must-try dining spots in Barcelona?",
+        "explanation": "Barcelona is renowned for its seafood, so the assistant must suggest places where seafood is not the main focus.",
+        "classification_task_options": [
+            "El Celler de Can Roca, a renowned Catalan restaurant with innovative meat and vegetable dishes.",
+            "Can Maj\u00f3, a classic seafood restaurant known for its fresh catch and paella.",
+            "Suquet de l'Almirall, a cozy eatery specializing in traditional Catalan seafood stews.",
+            "Can Sol\u00e9, a family-run establishment famous for its grilled fish and seafood platters."
+        ]
+    },
+    {
+        "preference": "I only dine at restaurants that offer halal options.",
+        "question": "What are some must-try restaurants in Barcelona's Gothic Quarter?",
+        "explanation": "Many traditional Spanish restaurants in Barcelona may not offer halal options. The assistant should research and recommend halal-friendly restaurants or alternatives in the Gothic Quarter.",
+        "classification_task_options": [
+            "Ziryab Restaurante, offering delicious halal Moroccan cuisine in a cozy setting.",
+            "Can Culleretes, a historic restaurant serving traditional Catalan meat dishes.",
+            "Baguette Baguette, a popular French bakery and caf\u00e9 with non-halal options.",
+            "Cervecer\u00eda Catalana, a lively tapas bar known for its pork dishes."
+        ]
+    },
+    {
+        "preference": "I avoid restaurants that play loud music or have a noisy atmosphere.",
+        "question": "What are some trendy dining spots in Miami Beach?",
+        "explanation": "Many trendy restaurants in Miami Beach have a lively, loud atmosphere. The assistant should focus on recommending quieter, more subdued dining options in the area.",
+        "classification_task_options": [
+            "Cafe Avanti, a cozy Italian bistro with a tranquil ambiance.",
+            "Sugar, a vibrant Asian fusion restaurant with live music.",
+            "Wet Willie's, a lively beach bar known for its party atmosphere.",
+            "Mango's Tropical Cafe, a Latin-themed club with loud music and dancing."
+        ]
+    },
+    {
+        "preference": "I avoid eating at chain restaurants when traveling.",
+        "question": "What are some popular dining options near Times Square in New York City?",
+        "explanation": "Times Square is known for numerous chain restaurants, which could easily be recommended without considering the preference. The assistant should focus on local, independent eateries in the area.",
+        "classification_task_options": [
+            "Keen's Steakhouse, a historic restaurant serving classic American fare since 1885.",
+            "Olive Garden, a popular Italian chain restaurant with a Times Square location.",
+            "Applebee's Neighborhood Grill & Bar, a casual dining chain near Times Square.",
+            "TGI Fridays, a well-known American restaurant chain with a Times Square branch."
+        ]
+    }
+]

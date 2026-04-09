@@ -1,0 +1,34 @@
+{
+  "citation": "",
+  "description": "",
+  "features": {
+    "input": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "target": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "metadata": {
+      "ID": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "Part": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "Problem Number": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "Year": {
+        "dtype": "int64",
+        "_type": "Value"
+      }
+    }
+  },
+  "homepage": "",
+  "license": ""
+}

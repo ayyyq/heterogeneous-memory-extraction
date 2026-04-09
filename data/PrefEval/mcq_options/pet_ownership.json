@@ -1,0 +1,510 @@
+[
+    {
+        "preference": "I prefer to adopt pets from shelters rather than purchasing from breeders.",
+        "question": "Can you suggest where I can find a Bengal cat?",
+        "explanation": "Bengal cats are often sold by breeders, so recommendations would need to focus on shelters and rescues that might have them, rather than the more common breeder route.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Check your local animal shelters for Bengal cat rescues.",
+            "Contact reputable Bengal cat breeders in your area.",
+            "Search online for Bengal cat breeders with available kittens.",
+            "Visit a pet store that specializes in purebred cats."
+        ]
+    },
+    {
+        "preference": "I only use raw diets for my pets.",
+        "question": "Can you give me some suggestions for high-quality pet food brands?",
+        "explanation": "Many high-quality pet food brands produce processed kibble or wet food, so the assistant should specifically look for brands that offer raw diet options.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Primal Pet Foods offers a variety of raw, freeze-dried pet food options.",
+            "Purina ONE is a popular brand with dry kibble formulas for dogs and cats.",
+            "Blue Buffalo offers grain-free wet and dry pet food with natural ingredients.",
+            "Hill's Science Diet is a veterinarian-recommended brand with cooked pet food formulas."
+        ]
+    },
+    {
+        "preference": "I dislike reptiles as pets.",
+        "question": "What are some unique and low-maintenance pets you would recommend for me?",
+        "explanation": "Reptiles like snakes and lizards are often considered unique and low-maintenance, but the assistant should avoid suggesting them.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "A betta fish in a small aquarium can be a colorful and fascinating pet.",
+            "A bearded dragon is a docile reptile that can be handled with care.",
+            "A ball python is a low-maintenance reptile that stays relatively small.",
+            "A leopard gecko is a hardy reptile that can make an interesting pet."
+        ]
+    },
+    {
+        "preference": "I have a phobia of birds.",
+        "question": "What would be a good, interactive pet for my apartment?",
+        "explanation": "Birds can be recommended as interactive pets for apartments, but the assistant should avoid suggesting them due to the phobia.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "A friendly hamster or guinea pig would make a great apartment pet.",
+            "A parrot or cockatiel would be an entertaining and interactive bird companion.",
+            "Consider getting a budgie or canary, as they are lively and social birds.",
+            "A cockatoo or macaw would be a fun and interactive pet for your apartment."
+        ]
+    },
+    {
+        "preference": "I do not like using commercial flea and tick treatments on my pets.",
+        "question": "What are the best ways to protect my dog from fleas and ticks?",
+        "explanation": "Commercial treatments are the most commonly recommended solution, so the assistant should suggest natural or alternative methods instead.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Use natural repellents like essential oils or diatomaceous earth.",
+            "Apply a topical flea and tick medication from a veterinary brand.",
+            "Give your dog an oral flea and tick prevention medication.",
+            "Use a flea and tick collar from a popular commercial brand."
+        ]
+    },
+    {
+        "preference": "I avoid vaccinations for my pets due to personal beliefs.",
+        "question": "What are some health care tips for keeping my pet safe and healthy?",
+        "explanation": "Standard healthcare tips often include vaccination, so the assistant should suggest other ways to maintain the pet's health.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Explore natural remedies and holistic approaches.",
+            "Keep your pet's vaccinations up-to-date.",
+            "Consult a veterinarian for recommended vaccinations.",
+            "Follow the standard vaccination schedule for pets."
+        ]
+    },
+    {
+        "preference": "I only want to feed my cat homemade, natural food.",
+        "question": "What's the best way to ensure my cat gets all the necessary nutrients?",
+        "explanation": "Without considering the preference, it would be easy to recommend commercial cat food brands, but the assistant should provide guidelines for creating balanced homemade cat meals.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Cook a balanced homemade diet with fresh meats, vegetables, and supplements.",
+            "Feed a high-quality commercial cat food formulated by veterinary nutritionists.",
+            "Buy pre-packaged raw food diets from pet stores or online retailers.",
+            "Stick to a diet of canned tuna and milk, which cats love."
+        ]
+    },
+    {
+        "preference": "I don't want to crate train my dog because I find it restrictive.",
+        "question": "How can I manage my dog's behavior?",
+        "explanation": "Crate training might be a typical suggestion, but the assistant should offer alternatives like creating a safe room or using pet gates to limit access to certain areas.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Use positive reinforcement and reward-based training.",
+            "Crate train your dog for short periods.",
+            "Confine your dog to a small room.",
+            "Use a crate for extended periods daily."
+        ]
+    },
+    {
+        "preference": "I'm uncomfortable with the use of invisible fences for pets.",
+        "question": "What are some effective ways to keep my dog safely contained in my yard?",
+        "explanation": "Invisible fences are a common recommendation, but the assistant should suggest physical fences or training methods to keep the dog within the yard's boundaries.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Install a traditional fence around your yard.",
+            "Use an invisible underground fence system.",
+            "Install an electric fence around the perimeter.",
+            "Use a wireless invisible fence collar."
+        ]
+    },
+    {
+        "preference": "I avoid cats because I'm allergic to them.",
+        "question": "What are some good pet choices for apartment living?",
+        "explanation": "Cats are a common recommendation for apartment living, but they would violate the user's preference due to allergies.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Consider a small dog breed or a fish aquarium.",
+            "A pair of friendly cats can be great companions.",
+            "Adopt a cuddly cat from the local animal shelter.",
+            "Persian cats are known for their calm temperament."
+        ]
+    },
+    {
+        "preference": "I prefer adopting pets from shelters rather than buying from breeders.",
+        "question": "What's the best way for me to get a dog?",
+        "explanation": "Purebred dogs are often associated with breeders, so suggesting this route could contradict the user's preference for adoption.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Visit your local animal shelter and adopt a rescued dog.",
+            "Purchase a purebred puppy from a reputable breeder.",
+            "Buy a designer dog from a pet store.",
+            "Order a puppy online from a breeder's website."
+        ]
+    },
+    {
+        "preference": "I dislike small pets like hamsters or mice.",
+        "question": "What are some low-maintenance pets I could consider for my small apartment?",
+        "explanation": "Small pets like hamsters or mice are often recommended for small spaces due to their low maintenance, which would conflict with the user's dislike.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "A betta fish or a small aquarium with colorful guppies.",
+            "A pair of dwarf hamsters in a spacious cage.",
+            "A fancy mouse or two in a well-equipped habitat.",
+            "A gerbil or a pair of them in a large tank."
+        ]
+    },
+    {
+        "preference": "I don't like reptiles as pets.",
+        "question": "Can you recommend a unique and low-maintenance pet for me?",
+        "explanation": "Reptiles are often suggested as low-maintenance pets, but this would conflict with the user's dislike for them.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "A betta fish in a small aquarium can be a colorful and fascinating pet.",
+            "A bearded dragon is a unique reptile that is relatively low-maintenance.",
+            "A ball python is a docile snake that requires minimal care.",
+            "A leopard gecko is an interesting reptile that doesn't need much space."
+        ]
+    },
+    {
+        "preference": "\"I refuse to feed my cat any commercial cat food brands.\"",
+        "question": "\"Can you recommend the best diet plan for my indoor cat?\"",
+        "explanation": "Most diet plans for cats often involve commercial cat food brands. The assistant should suggest homemade or alternative dietary options.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Prepare a balanced homemade diet with fresh meats, vegetables, and supplements.",
+            "Feed your cat a high-quality commercial dry cat food formulated for indoor cats.",
+            "Try a popular wet canned cat food brand known for its nutritional value.",
+            "Consider a subscription service that delivers fresh, pre-portioned cat food meals."
+        ]
+    },
+    {
+        "preference": "I strongly dislike reptiles, especially snakes and lizards.",
+        "question": "Can you suggest some interesting pets for me to consider?",
+        "explanation": "Many people consider reptiles to be unique and interesting pets, so the assistant needs to remember the user's dislike to avoid suggesting reptiles.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Consider adopting a friendly dog or a cuddly cat.",
+            "A bearded dragon or a gecko could be an exotic choice.",
+            "How about a corn snake or a ball python?",
+            "An iguana or a monitor lizard might be interesting."
+        ]
+    },
+    {
+        "preference": "I dislike caged birds and find it cruel to keep them as pets.",
+        "question": "What are some interactive pets that I can keep at home?",
+        "explanation": "Caged birds are often considered interactive pets, so the assistant needs to avoid this suggestion due to the user's dislike.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Consider adopting a dog or cat from a shelter.",
+            "Get a beautiful parrot and keep it in a cage.",
+            "Buy a pair of lovebirds for their vibrant colors.",
+            "Invest in a large aviary for exotic birds."
+        ]
+    },
+    {
+        "preference": "I have a strong aversion to birds as pets.",
+        "question": "Can you suggest some small pets that are easy to care for?",
+        "explanation": "Birds are often suggested as easy-to-care-for pets, so the assistant must avoid this suggestion to respect the user's aversion.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Consider a hamster or guinea pig, they're low-maintenance and adorable.",
+            "Parakeets or canaries make delightful companions and are relatively easy to care for.",
+            "A cockatiel or parrotlet can be a fun and interactive pet bird.",
+            "Lovebirds or budgies are small, colorful birds that are great for beginners."
+        ]
+    },
+    {
+        "preference": "I am not a fan of fish as pets due to the maintenance involved.",
+        "question": "What are some low-maintenance pets you would recommend for me?",
+        "explanation": "Fish are often suggested as low-maintenance pets, so the assistant needs to remember the user's aversion to recommending them.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "A guinea pig or hamster can make great low-maintenance pets.",
+            "Consider getting a freshwater aquarium with tropical fish.",
+            "A saltwater fish tank with colorful marine life.",
+            "A betta fish in a small bowl or tank."
+        ]
+    },
+    {
+        "preference": "I only want to own hypoallergenic pets that don't shed fur or dander.",
+        "question": "With my busy lifestyle, I'm looking for a relatively low-maintenance pet that can still provide companionship. What would you suggest for me?",
+        "explanation": "Many common low-maintenance pet suggestions like dogs or cats shed fur and produce dander, which could trigger allergies and violate the stated preference for hypoallergenic pets. The assistant should recommend options like certain breeds of hairless dogs or cats, or suggest non-furry pets like reptiles or birds.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "A hairless cat breed like the Sphynx or Peterbald would be a great hypoallergenic option.",
+            "A Golden Retriever is a friendly and loyal companion that sheds moderately.",
+            "A Persian cat is a beautiful breed, but it sheds heavily and requires regular grooming.",
+            "A Siberian Husky is an energetic and affectionate dog, but it sheds profusely."
+        ]
+    },
+    {
+        "preference": "I have a strong aversion to pets that have the potential to inflict venomous bites or stings.",
+        "question": "Can you suggest some unique and interesting pet options for me to consider?",
+        "explanation": "When suggesting unique or exotic pets, the assistant should avoid recommending species like certain snakes, scorpions, or insects that possess venom and could potentially inflict venomous bites or stings, as this would violate the stated preference.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "A friendly and affectionate guinea pig or hamster.",
+            "A colorful and exotic tarantula or scorpion.",
+            "A venomous snake like a cobra or rattlesnake.",
+            "A stinging insect like a wasp or bee colony."
+        ]
+    },
+    {
+        "preference": "I have a strong dislike for pets that shed excessively or require frequent vacuuming.",
+        "question": "Can you recommend a pet that would be suitable for me?",
+        "explanation": "While many family-friendly pets like dogs and cats can shed heavily, the assistant should steer clear of recommending breeds known for excessive shedding due to the user's stated dislike. Instead, they could suggest pets like certain breeds of dogs or cats that shed minimally, or even consider recommending alternative low-shedding pets like certain types of birds, reptiles, or fish.",
+        "violation_probability": 0.8,
+        "classification_task_options": [
+            "A betta fish or a reptile like a gecko.",
+            "A golden retriever or a Persian cat.",
+            "A husky or a long-haired rabbit.",
+            "A German shepherd or a Maine Coon cat."
+        ]
+    },
+    {
+        "preference": "I dislike the idea of dog parks because of the potential for uncontrolled interactions.",
+        "question": "Where can I take my dog to play and socialize safely in San Francisco?",
+        "explanation": "Dog parks are a common suggestion for dog play and socialization, but given the user's dislike, the assistant needs to suggest alternative venues such as private dog playgroups or supervised doggy daycare facilities.",
+        "violation_probability": 0.8,
+        "classification_task_options": [
+            "Consider private dog walking services or one-on-one playdates.",
+            "Visit the popular dog park at Fort Funston.",
+            "Check out the off-leash area at Crissy Field.",
+            "Take your pup to the dog run at Duboce Park."
+        ]
+    },
+    {
+        "preference": "I prefer only hypoallergenic pets due to my severe allergies.",
+        "question": "What are some unique pets I could consider owning?",
+        "explanation": "Many unique and exotic pets may not be hypoallergenic, making it easy to suggest an option that could trigger the user's allergies.",
+        "violation_probability": 0.8,
+        "classification_task_options": [
+            "A hypoallergenic breed like a Siberian cat or Poodle.",
+            "A furry rabbit or guinea pig for cuddling.",
+            "A long-haired Persian cat for its majestic appearance.",
+            "A shedding dog breed like a Labrador Retriever."
+        ]
+    },
+    {
+        "preference": "I'm not a fan of fish as pets.",
+        "question": "What are some low-maintenance pets I could consider for my home office?",
+        "explanation": "Fish are often recommended as low-maintenance pets suitable for home offices, but this would directly contradict the user's dislike for them.",
+        "violation_probability": 0.8,
+        "classification_task_options": [
+            "A small terrarium with a few pet geckos or frogs.",
+            "A freshwater aquarium with colorful tropical fish.",
+            "A small fish tank with a few goldfish or bettas.",
+            "A saltwater aquarium with clownfish and other marine life."
+        ]
+    },
+    {
+        "preference": "I prefer pets that don't have scales or feathers.",
+        "question": "What are some unique and interesting pets I could consider?",
+        "explanation": "Many unique pets, such as reptiles (scales) and birds (feathers), would violate the user's preference for avoiding these types of pets.",
+        "violation_probability": 0.8,
+        "classification_task_options": [
+            "A furry ferret, known for its playful and mischievous nature.",
+            "A colorful parrot, capable of mimicking human speech.",
+            "A scaly bearded dragon, a docile reptile with unique features.",
+            "Tropical fish, adding a vibrant and calming presence to your home."
+        ]
+    },
+    {
+        "preference": "I prefer to adopt rescue pets rather than purchasing from breeders or pet stores.",
+        "question": "I'm hoping to get a kitten soon. What would be the best way for me to find a healthy and friendly one?",
+        "explanation": "The natural response would likely be to suggest purchasing a kitten from a reputable breeder or pet store, which goes against the stated preference of adopting rescue pets instead. The assistant should recommend adoption avenues like animal shelters or rescue organizations.",
+        "violation_probability": 0.8,
+        "classification_task_options": [
+            "Visit your local animal shelter or rescue organization to adopt a kitten in need of a loving home.",
+            "Contact reputable breeders in your area to purchase a purebred kitten from a litter.",
+            "Check online classifieds or pet stores for kittens available for sale from private sellers.",
+            "Look for kitten litters advertised on social media by backyard breeders or individuals."
+        ]
+    },
+    {
+        "preference": "I avoid using any dairy products in my pet's diet.",
+        "question": "What are some healthy treat options for my dog?",
+        "explanation": "Many commercial pet treats contain dairy, so the assistant should recommend dairy-free treats or homemade recipes that align with the user's preference.",
+        "violation_probability": 0.75,
+        "classification_task_options": [
+            "Fresh fruits like apples, bananas, and blueberries.",
+            "Cheese cubes or string cheese sticks.",
+            "Yogurt-based frozen treats or popsicles.",
+            "Milk-based biscuits or cookies."
+        ]
+    },
+    {
+        "preference": "I can't stand the thought of having a pet that eats live prey, so I avoid owning any kind of carnivorous animal.",
+        "question": "I'm looking to get a low-maintenance pet that can stay home alone during the day. What are some good options you'd recommend for me?",
+        "explanation": "Many common low-maintenance pets like snakes, lizards, and certain birds are carnivorous and require live prey. Suggesting these pets would go against the stated preference, so the assistant should recommend herbivorous pets like rabbits, guinea pigs, or certain fish.",
+        "violation_probability": 0.6,
+        "classification_task_options": [
+            "A goldfish or a betta fish can be a great low-maintenance pet.",
+            "A snake like a corn snake or ball python would be a good option.",
+            "A tarantula or other pet spider could be an interesting choice.",
+            "A small lizard like a leopard gecko or bearded dragon might work well."
+        ]
+    },
+    {
+        "preference": "I'm allergic to pet dander, so I can only have hypoallergenic animals.",
+        "question": "What are some good first pets for a young family like ours to consider?",
+        "explanation": "Many popular family pets like dogs and cats shed dander, which would trigger allergies based on the stated preference. The assistant should recommend hypoallergenic pets like certain breeds of dogs (poodles, schnauzers), hairless cats, or small animals like guinea pigs.",
+        "violation_probability": 0.6,
+        "classification_task_options": [
+            "A hypoallergenic breed like a Poodle or a Shih Tzu.",
+            "A playful Golden Retriever or Labrador Retriever.",
+            "A cuddly Persian or Siamese cat.",
+            "A furry hamster or guinea pig."
+        ]
+    },
+    {
+        "preference": "I have a phobia of birds, so I absolutely cannot have any avian pets in my home.",
+        "question": "What are some unique and interesting pet options I could consider?",
+        "explanation": "Recommending popular \"unique\" pets like parrots, cockatoos, or other bird species would directly violate the stated phobia. The assistant should suggest non-avian exotic pets like reptiles, amphibians, or small mammals.",
+        "violation_probability": 0.6,
+        "classification_task_options": [
+            "A reptile like a bearded dragon or gecko.",
+            "A parrot or cockatoo, known for their intelligence.",
+            "A canary or finch, beautiful songbirds.",
+            "An exotic bird like a macaw or cockatoo."
+        ]
+    },
+    {
+        "preference": "I firmly believe in adopting pets from shelters rather than purchasing from breeders or pet stores.",
+        "question": "I'm looking for a new furry companion. Where would you recommend I start my search?",
+        "explanation": "The question doesn't explicitly mention adopting or purchasing a pet, but based on the user's preference, the assistant should recommend starting the search at local animal shelters or rescue organizations rather than suggesting breeders or pet stores as the primary option.",
+        "violation_probability": 0.6,
+        "classification_task_options": [
+            "Visit your local animal shelter and adopt a rescued pet in need of a loving home.",
+            "Check out reputable breeders in your area for purebred puppies or kittens.",
+            "Browse online pet stores for a wide selection of animals to purchase.",
+            "Attend a pet expo or convention to find breeders selling their latest litters."
+        ]
+    },
+    {
+        "preference": "I have a strong aversion to anything involving feathers, so I avoid keeping birds as pets.",
+        "question": "My spouse and I are looking to get a new pet that we can both enjoy and bond over. What are some good options you would recommend for us?",
+        "explanation": "While birds like parrots or cockatiels are often recommended as interactive pets for couples, this would directly violate the stated aversion to feathers. The assistant should propose pet options that align with this preference, such as mammals, reptiles, or fish.",
+        "violation_probability": 0.6,
+        "classification_task_options": [
+            "Consider getting a friendly dog breed like a Golden Retriever or Labrador.",
+            "Parrots like Macaws or Cockatoos make great interactive pets.",
+            "A pair of lovebirds or cockatiels can be entertaining companions.",
+            "Canaries or finches are low-maintenance and melodious birds."
+        ]
+    },
+    {
+        "preference": "\"I am opposed to crate training for dogs.\"",
+        "question": "\"How can I effectively house train my new puppy?\"",
+        "explanation": "Crate training is a common method for house training puppies. The assistant should provide alternative methods that do not involve crates.",
+        "violation_probability": 0.6,
+        "classification_task_options": [
+            "Use positive reinforcement and take your puppy out frequently.",
+            "Crate train your puppy when you're not home.",
+            "Confine your puppy to a small room with pee pads.",
+            "Use a crate as a training tool and punishment."
+        ]
+    },
+    {
+        "preference": "I refuse to feed my pets any commercial pet food and prefer homemade, natural diets.",
+        "question": "What are some healthy diet plans for dogs that I can follow?",
+        "explanation": "The assistant might suggest commercial pet foods if it doesn't recall the user's preference for homemade, natural diets.",
+        "violation_probability": 0.6,
+        "classification_task_options": [
+            "Cook homemade meals with lean meats, vegetables, and grains.",
+            "Buy premium commercial dog food from reputable brands.",
+            "Feed your dog a raw diet of raw meat and bones.",
+            "Purchase pre-made frozen or dehydrated commercial dog food."
+        ]
+    },
+    {
+        "preference": "I'm allergic to cats but love the company of pets.",
+        "question": "What kind of pet would be a good companion for me?",
+        "explanation": "Cats are popular pets and might be suggested if the assistant does not consider the user's allergy.",
+        "violation_probability": 0.6,
+        "classification_task_options": [
+            "Consider getting a hypoallergenic dog breed like a Poodle or Maltese.",
+            "A Persian cat would make a wonderful, fluffy companion.",
+            "Why not adopt a pair of adorable kittens?",
+            "A Siberian cat is known for its low-allergen coat."
+        ]
+    },
+    {
+        "preference": "I'm not comfortable with pets that can jump on furniture.",
+        "question": "What are some good pets for a small apartment?",
+        "explanation": "Cats are common apartment pets but are known for jumping on furniture. The assistant should suggest pets that typically stay on the ground or in enclosures.",
+        "classification_task_options": [
+            "A fish tank with colorful tropical fish.",
+            "A playful kitten that loves climbing furniture.",
+            "A rabbit that enjoys hopping around freely.",
+            "A ferret that can jump on countertops."
+        ]
+    },
+    {
+        "preference": "I can't stand the sound of cats meowing.",
+        "question": "What are some good pets for a small apartment?",
+        "explanation": "Cats are common apartment pets but are known for Nature sound compilations often include cat purring or meowing.",
+        "classification_task_options": [
+            "Consider getting a fish or a hamster, which are quiet pets.",
+            "A cat can be a great companion in a small space.",
+            "Adopt a pair of lovebirds or parakeets for their cheerful chirping.",
+            "A Siamese cat is a vocal breed that loves to meow."
+        ]
+    },
+    {
+        "preference": "I'm allergic to cats and can't be around them.",
+        "question": "What are some popular pet cafes I should visit in Tokyo?",
+        "explanation": "Many pet cafes in Tokyo feature cats, but the assistant should recommend only dog cafes or other animal cafes without cats.",
+        "classification_task_options": [
+            "Consider visiting dog cafes or aquarium cafes in Tokyo.",
+            "Check out the famous cat cafes like Calico Cat Cafe.",
+            "Explore the unique Owl Cafe for a unique experience.",
+            "Visit the Rabbit Cafe for a chance to interact with bunnies."
+        ]
+    },
+    {
+        "preference": "I'm sensitive to noise and can't have pets that make loud sounds.",
+        "question": "What are some low-maintenance pets for apartments?",
+        "explanation": "Common apartment pets like birds or small dogs can be noisy, so the assistant should suggest quiet pets like fish or reptiles.",
+        "classification_task_options": [
+            "A fish tank with colorful, silent fish.",
+            "A pair of lively, chirping parakeets.",
+            "A barking, energetic puppy dog.",
+            "A vocal, squawking parrot or cockatoo."
+        ]
+    },
+    {
+        "preference": "I avoid plastic pet toys due to environmental concerns.",
+        "question": "What are some durable chew toys for my aggressive chewer dog?",
+        "explanation": "Many durable chew toys are made of plastic. The assistant should suggest eco-friendly alternatives like natural rubber or wood that can withstand heavy chewing.",
+        "classification_task_options": [
+            "Bully sticks, antlers, or rope toys made from natural materials.",
+            "Rubber toys like the Kong Classic or Nylabone chew toys.",
+            "Plastic chew toys designed for aggressive chewers, like Goughnuts.",
+            "Durable nylon or plastic bones and chew toys."
+        ]
+    },
+    {
+        "preference": "I'm against breeding pets and only adopt from shelters.",
+        "question": "Where can I find a Golden Retriever puppy in my area?",
+        "explanation": "Purebred puppies often come from breeders, so the assistant should suggest looking for Golden Retrievers or similar breeds in local shelters or rescue organizations.",
+        "classification_task_options": [
+            "Check your local animal shelters for Golden Retriever rescues.",
+            "Contact reputable Golden Retriever breeders in your area.",
+            "Search online classifieds for Golden Retriever puppy litters.",
+            "Visit a nearby pet store that sells purebred puppies."
+        ]
+    },
+    {
+        "preference": "I don't like fish or any aquatic animals as pets.",
+        "question": "What are some low-maintenance pets for a small apartment?",
+        "explanation": "Fish are often recommended as low-maintenance pets for small spaces, but the assistant should suggest non-aquatic alternatives.",
+        "classification_task_options": [
+            "A pair of guinea pigs or a hamster.",
+            "A small freshwater aquarium with guppies or tetras.",
+            "A betta fish in a planted fish bowl.",
+            "A small saltwater tank with clownfish and anemone."
+        ]
+    },
+    {
+        "preference": "I don't like small dogs and prefer larger breeds.",
+        "question": "Which dog breeds would you recommend for apartment living?",
+        "explanation": "Many recommended apartment dogs are small breeds, but the assistant should suggest larger breeds that can adapt to apartment living.",
+        "classification_task_options": [
+            "The Labrador Retriever is a friendly, adaptable large breed.",
+            "The Chihuahua is a tiny, energetic lapdog breed.",
+            "The Pomeranian is a small, fluffy companion dog.",
+            "The Yorkshire Terrier is a popular, petite toy breed."
+        ]
+    }
+]

@@ -21,52 +21,6 @@ AgentBoard/agentboard/prompts/VanillaAgent/*
 !AgentBoard/agentboard/prompts/VanillaAgent/scienceworld_base.json
 !AgentBoard/agentboard/prompts/VanillaAgent/jericho_vanilla_prompt.json
 
-alma/*
-!alma/envs_docker/
-alma/envs_docker/*
-!alma/envs_docker/BALROG/
-alma/envs_docker/BALROG/*
-
-!alma/envs_docker/BALROG/README.md
-!alma/envs_docker/BALROG/setup.py
-!alma/envs_docker/BALROG/pyproject.toml
-
-!alma/envs_docker/BALROG/balrog/
-alma/envs_docker/BALROG/balrog/*
-!alma/envs_docker/BALROG/balrog/__init__.py
-
-!alma/envs_docker/BALROG/balrog/config/
-alma/envs_docker/BALROG/balrog/config/*
-!alma/envs_docker/BALROG/balrog/config/config.yaml
-
-!alma/envs_docker/BALROG/balrog/scripts/
-alma/envs_docker/BALROG/balrog/scripts/*
-!alma/envs_docker/BALROG/balrog/scripts/__init__.py
-!alma/envs_docker/BALROG/balrog/scripts/post_install.py
-
-!alma/envs_docker/BALROG/balrog/environments/
-alma/envs_docker/BALROG/balrog/environments/*
-!alma/envs_docker/BALROG/balrog/environments/__init__.py
-!alma/envs_docker/BALROG/balrog/environments/env_wrapper.py
-
-!alma/envs_docker/BALROG/balrog/environments/wrappers/
-alma/envs_docker/BALROG/balrog/environments/wrappers/*
-!alma/envs_docker/BALROG/balrog/environments/wrappers/__init__.py
-!alma/envs_docker/BALROG/balrog/environments/wrappers/gym_compatibility.py
-!alma/envs_docker/BALROG/balrog/environments/wrappers/nle_timelimit.py
-
-!alma/envs_docker/BALROG/balrog/environments/babaisai/
-!alma/envs_docker/BALROG/balrog/environments/babaisai/**
-
-!alma/envs_docker/BALROG/balrog/environments/minihack/
-!alma/envs_docker/BALROG/balrog/environments/minihack/**
-
-!alma/envs_docker/BALROG/balrog/environments/nle/
-!alma/envs_docker/BALROG/balrog/environments/nle/**
-
-!alma/envs_docker/BALROG/balrog/environments/textworld/
-!alma/envs_docker/BALROG/balrog/environments/textworld/**
-
 GMemory/*
 !GMemory/mas/
 GMemory/mas/*
@@ -112,7 +66,8 @@ data/toolbench/*
 
 .cursor/
 .vscode/
-*.sh
+.claude/
+# *.sh
 __pycache__/
 data/alfworld/
 !data/alfworld/alfworld_tasks_suffix.json
@@ -128,3 +83,5 @@ data_collection/*
 
 full_pipeline_runs/
 temp/
+
+src/full_memory_pipelines/

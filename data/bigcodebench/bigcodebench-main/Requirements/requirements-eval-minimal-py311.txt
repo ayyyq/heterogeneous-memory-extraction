@@ -1,0 +1,10 @@
+# Minimal dependencies for running BigCodeBench evaluation on Python 3.11.
+# This is intentionally much smaller than requirements-eval.txt and focuses on:
+# 1) evaluator runtime (bigcodebench.eval)
+# 2) headless OpenCV to avoid Qt/xcb errors on remote servers
+#
+# Note: This is not a full "official" environment; some tasks may still fail if
+# their tests require additional third-party libraries not listed here.
+
+numpy>=1.26,<2.0
+opencv-python-headless>=4.9,<5.0

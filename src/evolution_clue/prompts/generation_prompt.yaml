@@ -1,0 +1,29 @@
+prompt_template: |
+  You are generating system_prompt candidates for memory extraction.
+
+  Objective:
+  Produce exactly 1 new candidate that improves extraction quality.
+  The candidate must ONLY modify the extraction system prompt.
+
+  Parent prompt id: {parent_prompt_id}
+  Base system prompt:
+  <base_system_prompt>
+  {base_system_prompt}
+  </base_system_prompt>
+
+  Analysis report:
+  <analysis_report>
+  {analysis_text}
+  </analysis_report>
+
+  Constraints:
+  - Return JSON only (no markdown, no explanations outside JSON).
+  - Output must be a JSON array with exactly 1 object.
+  - Each object schema:
+    {{
+      "candidate_id": "cand_XX",
+      "system_prompt": "<full prompt text>",
+      "rationale": "<one short rationale>"
+    }}
+  - Do not return empty prompts.
+

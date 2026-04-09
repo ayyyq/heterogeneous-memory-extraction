@@ -1,0 +1,674 @@
+[
+    {
+        "preference": "I refuse to listen to mainstream pop music as I find it vapid and commercialized.",
+        "question": "What are some new music artists or albums you'd recommend for me to explore?",
+        "explanation": "Naturally answering this question by suggesting popular mainstream pop artists would conflict with the user's stated preference against such music. The assistant should recommend lesser-known or indie artists from various genres that offer more substantive musical content.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Check out the indie folk band Fleet Foxes' latest album \"Shore\".",
+            "Ariana Grande's \"Thank U, Next\" album is a must-listen pop sensation.",
+            "The Weeknd's \"After Hours\" is a chart-topping mainstream pop/R&B album.",
+            "Dua Lipa's \"Future Nostalgia\" is a popular dance-pop album."
+        ]
+    },
+    {
+        "preference": "I exclusively read self-published or independently published books as I prefer to support non-mainstream authors.",
+        "question": "What are some highly-rated new book releases you'd recommend for my summer reading list?",
+        "explanation": "Naturally answering this question would likely involve recommending mainstream or traditionally published books, which would conflict with the user's stated preference for self-published or independently published works. The assistant should research and suggest well-reviewed books from independent authors and publishers.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "The Haunting of Cabin Green by Amanda M. Lee (self-published horror novel).",
+            "Lessons in Chemistry by Bonnie Garmus (published by Doubleday).",
+            "The Philosophy of Modern Song by Bob Dylan (published by Simon & Schuster).",
+            "Desert Star by Michael Connelly (published by Little, Brown and Company)."
+        ]
+    },
+    {
+        "preference": "I cannot stand heavy metal and refuse to listen to music involving excessive screaming or distortion.",
+        "question": "Could you recommend some new music releases for my upcoming road trip across the country?",
+        "explanation": "Many popular new music releases could fall into the heavy metal or similar genres that the user strongly dislikes. The assistant would need to carefully curate recommendations to avoid violating this unusual musical preference.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Ed Sheeran's latest album \"Subtract\" - mellow and melodic pop tunes.",
+            "Slipknot's new album \"The End, So Far\" - intense heavy metal.",
+            "Bring Me The Horizon's \"Posthuman\" - metalcore with screaming vocals.",
+            "Meshuggah's \"Immutable\" - experimental metal with distorted guitars."
+        ]
+    },
+    {
+        "preference": "I have a strong aversion to electronic dance music and will not listen to any songs that fall into that genre.",
+        "question": "Can you create a playlist for my upcoming pool party that will get everyone energized and dancing?",
+        "explanation": "When creating a playlist for a party, electronic dance music is a popular and natural choice to get people energized and dancing. However, the assistant must avoid this genre due to the user's stated aversion, making the task more challenging.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "A mix of upbeat pop, rock, and Latin hits from the past decade.",
+            "A high-energy EDM playlist with the latest bangers from top DJs.",
+            "A collection of thumping house and techno tracks for a rave-like vibe.",
+            "A selection of electro and dubstep anthems to get the party pumping."
+        ]
+    },
+    {
+        "preference": "I have a strong dislike for country music and will not listen to any artists or songs associated with that genre.",
+        "question": "I'm planning a road trip through the American South. What are some good music options to set the mood for the journey?",
+        "explanation": "Country music is often associated with road trips through the American South, but the user has explicitly stated a dislike for this genre. The assistant must recommend alternative music choices that capture the regional spirit without violating the user's preference.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Explore the rich blues and rock heritage of the region with artists like B.B. King and Creedence Clearwater Revival.",
+            "Immerse yourself in the classic country sounds of Dolly Parton, Johnny Cash, and Willie Nelson.",
+            "Embrace the Southern rock vibes with Lynyrd Skynyrd, The Allman Brothers Band, and Blackfoot.",
+            "Tune into the contemporary country hits from artists like Luke Bryan, Carrie Underwood, and Blake Shelton."
+        ]
+    },
+    {
+        "preference": "I refuse to read any books that have been adapted into movies or television shows, as I believe the visual medium significantly alters the original work.",
+        "question": "What are some captivating page-turners you'd recommend for my upcoming vacation?",
+        "explanation": "Many popular and captivating books have been adapted into movies or television shows, but the user's preference excludes these works. The assistant must find compelling recommendations that have not been adapted to visual media to adhere to this unique literary preference.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Shantaram by Gregory David Roberts, an epic tale of adventure and self-discovery.",
+            "The Hunger Games by Suzanne Collins, a gripping dystopian series adapted into films.",
+            "The Shining by Stephen King, a classic horror novel turned into a cult movie.",
+            "The Lord of the Rings by J.R.R. Tolkien, a beloved fantasy saga with film adaptations."
+        ]
+    },
+    {
+        "preference": "I strongly dislike electronic dance music (EDM) and prefer more organic, acoustic-based music genres.",
+        "question": "I'm planning to attend a music festival this summer. What are some must-see acts or artists you would recommend for me?",
+        "explanation": "This question is challenging because many popular music festivals heavily feature EDM and electronic-based acts, which conflicts with the user's stated preference for organic, acoustic-based music genres. The assistant should research and recommend artists or stages at the festival that align more closely with the user's musical tastes.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Check out the folk rock band The Lumineers or the indie folk artist Bon Iver.",
+            "Don't miss the electrifying performances by Skrillex and Deadmau5, pioneers of dubstep and EDM.",
+            "Catch the high-energy sets by Marshmello and Steve Aoki, masters of electronic dance music.",
+            "Experience the mind-blowing visuals and beats of Zedd and Calvin Harris, EDM superstars."
+        ]
+    },
+    {
+        "preference": "I exclusively read self-published books from independent authors.",
+        "question": "Can you suggest some gripping new book releases I might enjoy?",
+        "explanation": "The assistant must search for compelling new book releases from self-published and independent authors, as the user avoids traditionally published works.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Check out \"The Forgotten Realm\" by indie author J.K. Wilkins.",
+            "The latest thriller by Stephen King, \"The Outsider,\" is a must-read.",
+            "J.K. Rowling's new novel \"The Ink Black Heart\" is highly acclaimed.",
+            "Dan Brown's \"The Lost Symbol\" is a bestselling mystery novel."
+        ]
+    },
+    {
+        "preference": "I can't stand modern country music and vastly prefer old-school traditional country from the 1950s-1970s era.",
+        "question": "I'm going on a long road trip soon. Can you recommend some great country music playlists or albums for me to listen to?",
+        "explanation": "While modern country is extremely popular for road trips, the assistant must curate a playlist focused on the vintage, traditional country music from the specified era to match the user's taste.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Check out classic albums like \"Wanted! The Outlaws\" by Waylon Jennings, Willie Nelson, and others from the 1970s.",
+            "Try the latest album by Luke Bryan or Florida Georgia Line for some modern country hits.",
+            "Stream the \"Hot Country\" playlist on your favorite music app for the latest chart-topping country songs.",
+            "Check out the \"Bro-Country\" playlist featuring contemporary artists like Sam Hunt and Chase Rice."
+        ]
+    },
+    {
+        "preference": "I have no interest in listening to modern rap or hip-hop music and vastly prefer classic rock from the 1960s-1980s.",
+        "question": "What are some great music recommendations to energize my workouts?",
+        "explanation": "While modern rap and hip-hop are popular workout genres, the assistant must curate a selection of classic rock songs from the user's preferred era to serve as energizing workout music.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Classic rock anthems from bands like Queen, AC/DC, and Led Zeppelin.",
+            "High-energy rap and hip-hop tracks from artists like Kendrick Lamar and Migos.",
+            "Upbeat electronic dance music mixes from top DJs like Calvin Harris.",
+            "The latest chart-topping hip-hop and rap albums from artists like Drake and Cardi B."
+        ]
+    },
+    {
+        "preference": "I greatly dislike electronic dance music and exclusively listen to acoustic, non-electronic genres.",
+        "question": "I'm hosting a party soon and need some fun, upbeat music recommendations. What would you suggest for me?",
+        "explanation": "Electronic dance music is a popular party genre, but the assistant must avoid those recommendations due to the user's stated preference for acoustic, non-electronic music only.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Check out some lively bluegrass or folk rock bands for an energetic acoustic vibe.",
+            "You can't go wrong with some high-energy EDM tracks to get the party started.",
+            "Consider creating a playlist with some popular electronic dance hits and remixes.",
+            "Dubstep and trap music are great for setting an upbeat, electronic party atmosphere."
+        ]
+    },
+    {
+        "preference": "I avoid electronic music.",
+        "question": "What are some music festivals I should consider attending this summer?",
+        "explanation": "Many music festivals feature electronic music prominently, so the assistant should recommend festivals focused on other genres such as rock, folk, or jazz.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Coachella Valley Music and Arts Festival, featuring rock, indie, and pop acts.",
+            "Electric Daisy Carnival, a massive electronic dance music festival in Las Vegas.",
+            "Ultra Music Festival, a premier electronic music event in Miami.",
+            "Tomorrowland, a world-renowned electronic dance music festival in Belgium."
+        ]
+    },
+    {
+        "preference": "I avoid music with explicit lyrics.",
+        "question": "What are some trending playlists I should listen to?",
+        "explanation": "Trending playlists often include songs with explicit lyrics. The assistant should recommend playlists that are labeled as clean or family-friendly.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Peaceful Piano Playlist - Soothing instrumental piano music.",
+            "Rap Caviar - Latest explicit hip-hop and rap hits.",
+            "Rock Classics - Iconic rock anthems with mature lyrics.",
+            "Reggaeton Vibes - Latin urban music with explicit content."
+        ]
+    },
+    {
+        "preference": "I don't enjoy fantasy books with complex magic systems.",
+        "question": "Can you recommend some popular fantasy novels for me?",
+        "explanation": "Many popular fantasy novels feature intricate magic systems. The assistant should suggest books with more straightforward or minimal magical elements.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "The Hobbit by J.R.R. Tolkien - a classic adventure fantasy.",
+            "The Name of the Wind by Patrick Rothfuss - intricate magic system.",
+            "The Way of Kings by Brandon Sanderson - complex world-building.",
+            "Jonathan Strange & Mr Norrell by Susanna Clarke - detailed magic rules."
+        ]
+    },
+    {
+        "preference": "I don't enjoy classical music.",
+        "question": "What kind of music would you recommend for me to study to?",
+        "explanation": "Classical music is often recommended for studying, but the assistant should suggest other genres that are relaxing and conducive to focus.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Ambient electronic music or instrumental rock can be great for focused studying.",
+            "Classical music like Beethoven's symphonies can help you concentrate while studying.",
+            "Baroque composers like Bach and Vivaldi are known for their study-friendly compositions.",
+            "Try listening to some opera recordings, they can be quite calming and conducive to studying."
+        ]
+    },
+    {
+        "preference": "I prefer not to attend music festivals with electronic music.",
+        "question": "What are some music festivals I should consider going to this year?",
+        "explanation": "Electronic music is popular at many festivals. The assistant should recommend festivals focusing on other music genres.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Coachella Valley Music and Arts Festival, featuring rock, indie, and alternative music.",
+            "Ultra Music Festival, a massive electronic dance music festival in Miami.",
+            "Electric Daisy Carnival, one of the largest electronic dance music festivals.",
+            "Tomorrowland, a world-renowned electronic dance music festival in Belgium."
+        ]
+    },
+    {
+        "preference": "I strongly prefer not to read self-help or motivational books.",
+        "question": "Can you suggest some interesting audiobooks that I can listen to during my daily commute?",
+        "explanation": "Self-help and motivational audiobooks are quite popular, so the assistant must carefully select audiobooks from other genres that would interest the user.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "The Martian by Andy Weir, a gripping sci-fi novel.",
+            "The 7 Habits of Highly Effective People by Stephen Covey.",
+            "The Power of Positive Thinking by Norman Vincent Peale.",
+            "Awaken the Giant Within by Tony Robbins."
+        ]
+    },
+    {
+        "preference": "I strongly dislike reading anything related to dystopian or post-apocalyptic themes.",
+        "question": "What are some thought-provoking novels I should check out?",
+        "explanation": "Dystopian and post-apocalyptic novels are often thought-provoking, so the assistant must find other genres that provoke deep thought without violating the preference.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "The Kite Runner by Khaled Hosseini - a poignant story of friendship and redemption.",
+            "The Road by Cormac McCarthy - a post-apocalyptic tale of a father and son's journey.",
+            "Brave New World by Aldous Huxley - a classic dystopian novel about a controlled society.",
+            "Station Eleven by Emily St. John Mandel - a story set in a post-pandemic world."
+        ]
+    },
+    {
+        "preference": "I really don't enjoy fantasy novels with complex world-building.",
+        "question": "Can you recommend some captivating series that I can binge-read?",
+        "explanation": "Many binge-worthy series involve intricate world-building, so the assistant should suggest captivating stories without complex fantasy elements.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "The Hunger Games trilogy by Suzanne Collins - dystopian fiction.",
+            "The Lord of the Rings by J.R.R. Tolkien - epic fantasy.",
+            "The Stormlight Archive by Brandon Sanderson - high fantasy series.",
+            "The Realm of the Elderlings by Robin Hobb - fantasy world."
+        ]
+    },
+    {
+        "preference": "I exclusively listen to underground punk rock bands that have a cult following but little mainstream recognition.",
+        "question": "Can you recommend some new music for my road trip playlist?",
+        "explanation": "Naturally, one might suggest popular mainstream music for a road trip playlist. However, the user's preference for obscure punk rock bands makes it challenging to provide suitable recommendations while adhering to their stated taste.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Check out Dillinger Four, an underground punk band with a cult following.",
+            "Beyonc\u00e9's latest album Renaissance is a must-listen for any road trip.",
+            "Ed Sheeran's new album = is perfect for a relaxing drive.",
+            "The Weeknd's Dawn FM is a great choice for mainstream pop."
+        ]
+    },
+    {
+        "preference": "I despise audiobooks and podcasts narrated by celebrity voice actors; I much prefer the authors themselves narrating their work.",
+        "question": "What are some engaging audiobook options to keep me entertained during my long commute?",
+        "explanation": "Many popular audiobooks are narrated by professional voice actors or celebrities, which conflicts with the user's preference for author-narrated works. Providing suitable recommendations that align with their stated preference is challenging.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Michelle Obama's \"Becoming\" narrated by the author herself.",
+            "The Harry Potter series narrated by Jim Dale.",
+            "Trevor Noah's \"Born a Crime\" narrated by John Krasinski.",
+            "Stephen King's \"It\" narrated by Steven Weber."
+        ]
+    },
+    {
+        "preference": "I avoid mainstream music and only listen to obscure indie bands and artists.",
+        "question": "What are some music recommendations for me on a cross-country road trip?",
+        "explanation": "Road trip playlists tend to favor popular and mainstream music for their familiarity and mass appeal. Recommending obscure indie artists would require more thoughtful curation to match the user's preference.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Check out indie gems like Alvvays, Beach Fossils, and Snail Mail.",
+            "Load up your playlist with hits from Taylor Swift and Ed Sheeran.",
+            "Tune into popular radio stations for the latest Top 40 tracks.",
+            "Sing along to classic rock anthems from bands like Queen and Aerosmith."
+        ]
+    },
+    {
+        "preference": "I detest fictional stories and only consume non-fiction books, podcasts, and audiobooks.",
+        "question": "Can you suggest some engaging audiobooks for me to listen to during my commute?",
+        "explanation": "Popular audiobook recommendations often skew towards fiction titles and novels. To cater to the user's preference for non-fiction, the recommendations would need to focus exclusively on biographies, memoirs, and other factual works.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "The Power of Habit by Charles Duhigg - a thought-provoking non-fiction book on habit formation.",
+            "The Lord of the Rings trilogy by J.R.R. Tolkien - an epic fantasy adventure.",
+            "Harry Potter and the Sorcerer's Stone by J.K. Rowling - a beloved fictional series.",
+            "The Hunger Games by Suzanne Collins - a gripping dystopian fiction novel."
+        ]
+    },
+    {
+        "preference": "I only listen to bands that sing in their native languages and refuse to engage with music sung in English.",
+        "question": "I'm planning a road trip across Europe next summer. What music would you recommend for me to truly immerse myself in the local cultures along my journey?",
+        "explanation": "Recommending popular English music would directly conflict with the user's preference for only listening to bands that sing in their native languages. The assistant should suggest artists from various European countries who perform in their respective native tongues to align with the user's preference while providing an immersive cultural experience.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Explore regional folk and traditional music from each country you visit.",
+            "Listen to popular English-language pop and rock bands from Europe.",
+            "Create a playlist of classic American rock and roll hits.",
+            "Tune into English-language radio stations for the latest chart-toppers."
+        ]
+    },
+    {
+        "preference": "I dislike mainstream pop music and prefer indie and underground music.",
+        "question": "What are some music festivals I should consider attending next summer?",
+        "explanation": "Many popular music festivals feature mainstream pop artists, making it important to recommend festivals that highlight indie and underground music scenes while avoiding the mainstream acts the user dislikes.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Primavera Sound in Barcelona, featuring indie, alternative, and underground artists.",
+            "Coachella Valley Music and Arts Festival, showcasing mainstream pop and rock acts.",
+            "Lollapalooza in Chicago, with a lineup of popular mainstream artists.",
+            "Tomorrowland in Belgium, one of the world's largest electronic dance music festivals."
+        ]
+    },
+    {
+        "preference": "I avoid comic books centered around superhero themes.",
+        "question": "Can you suggest some compelling comic books for me?",
+        "explanation": "Recommending popular comic books might include superhero-centric ones. The assistant should focus on recommending comic books with different themes, such as slice-of-life or historical fiction.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Maus by Art Spiegelman, a biographical graphic novel about the Holocaust.",
+            "The Avengers by Marvel Comics, featuring iconic superhero team adventures.",
+            "Batman: The Dark Knight Returns by Frank Miller, a gritty superhero tale.",
+            "Spider-Man by Marvel Comics, following the web-slinging superhero's adventures."
+        ]
+    },
+    {
+        "preference": "I strongly dislike superhero comic books.",
+        "question": "What graphic novels would you suggest I read for an upcoming flight?",
+        "explanation": "Superhero themes dominate the graphic novel market. The assistant should recommend non-superhero graphic novels.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Consider literary graphic novels like \"Persepolis\" or \"Maus\" for thought-provoking reads.",
+            "Marvel's latest superhero crossover event, \"Secret Wars,\" is an epic adventure.",
+            "DC's \"Batman: The Killing Joke\" is a classic dark superhero tale.",
+            "The \"Watchmen\" graphic novel series reimagines the superhero genre brilliantly."
+        ]
+    },
+    {
+        "preference": "I exclusively listen to vinyl records and avoid digital music formats like streaming or MP3s.",
+        "question": "Could you recommend some new music releases for me to check out during my upcoming road trip?",
+        "explanation": "Traditionally, recommending new music releases would involve digital formats that the user avoids. The assistant should suggest recently released vinyl records or artists that predominantly release music on vinyl to adhere to the user's preference.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Check out the latest vinyl releases from your favorite indie record labels.",
+            "Subscribe to a premium music streaming service for unlimited access on the road.",
+            "Download a few high-quality MP3 albums to your phone for offline listening.",
+            "Tune into popular internet radio stations for a curated playlist of new releases."
+        ]
+    },
+    {
+        "preference": "I only follow underground and niche music scenes, avoiding mainstream pop and rock acts.",
+        "question": "What music festivals or concerts would you suggest for me to check out this summer?",
+        "explanation": "Major music festivals and concerts often feature popular mainstream acts, which the user avoids. The assistant should recommend smaller festivals or shows that cater to underground and niche music genres to align with the user's preference.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Obscure Sound Festival, featuring underground experimental artists.",
+            "Coachella Music Festival, with mainstream pop headliners.",
+            "Rolling Stones' No Filter Tour, a classic rock extravaganza.",
+            "Taylor Swift's Eras Tour, a pop music spectacle."
+        ]
+    },
+    {
+        "preference": "I'm not a fan of digital music streaming services. I prefer physical formats like vinyl.",
+        "question": "Can you suggest some great new music albums that I should check out?",
+        "explanation": "The natural way to suggest new music albums often involves referencing streaming services. The assistant should recommend albums available in physical formats like vinyl.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Check out the latest vinyl release from your favorite artist.",
+            "Subscribe to a popular music streaming service like Spotify.",
+            "Download the latest albums from your preferred digital music store.",
+            "Listen to curated playlists on a music streaming platform."
+        ]
+    },
+    {
+        "preference": "I dislike music from mainstream genres; I prefer underground or niche music scenes.",
+        "question": "What music festivals or concerts should I attend this summer?",
+        "explanation": "Popular music festivals often feature mainstream artists. The assistant should recommend festivals that focus on underground or niche music scenes.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Check out the underground techno festival in an abandoned warehouse.",
+            "Coachella is a must-attend event with top mainstream artists.",
+            "Catch the latest pop sensation's world tour this summer.",
+            "The annual country music festival is a popular choice."
+        ]
+    },
+    {
+        "preference": "I dislike pop music and prefer classical music compositions.",
+        "question": "What are some new music releases I should check out?",
+        "explanation": "Pop music is commonly suggested. The assistant should recommend new releases in the classical music genre.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Explore the latest recordings of Beethoven's symphonies by renowned orchestras.",
+            "Check out the new album by Taylor Swift, it's topping the charts.",
+            "The latest pop sensation's debut album is a must-listen this season.",
+            "Don't miss the new EDM festival lineup with top DJs."
+        ]
+    },
+    {
+        "preference": "I prefer not to engage with content that involves superheroes.",
+        "question": "Can you suggest some engaging comic book series for me?",
+        "explanation": "Superhero themes are prevalent in comic book series. The assistant should recommend series that explore other themes, such as fantasy, mystery, or slice-of-life narratives.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Explore the gritty world of crime noir with \"Criminal\" by Ed Brubaker.",
+            "Dive into the Marvel Cinematic Universe with \"The Avengers\" comic series.",
+            "Experience the epic battles of the Justice League in \"DC Universe Rebirth\".",
+            "Follow the adventures of Spider-Man in \"The Amazing Spider-Man\" comics."
+        ]
+    },
+    {
+        "preference": "I strongly dislike vinyl records because I find them impractical and outdated.",
+        "question": "Can you recommend some collectible music formats for my new music collection?",
+        "explanation": "The question is challenging because collectible music formats often include vinyl records. The assistant should focus on other collectible music formats like cassette tapes or limited edition CDs.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Consider collecting rare and limited edition CDs or digital music files.",
+            "Vinyl records offer a unique listening experience and vintage appeal.",
+            "Vintage cassette tapes can be a nostalgic and affordable option.",
+            "Collecting vintage vinyl records is a popular hobby among audiophiles."
+        ]
+    },
+    {
+        "preference": "I avoid reading any books that do not have a strong focus on music composition and sound design.",
+        "question": "What are some highly recommended books I should add to my reading list?",
+        "explanation": "Ignoring the preference might lead to suggesting a broad range of non-music-related books, missing the user\u2019s interest in music composition and sound design.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "\"The Study of Orchestration\" by Samuel Adler - a comprehensive guide to music composition.",
+            "\"The Kite Runner\" by Khaled Hosseini - a powerful novel about friendship and betrayal.",
+            "\"Sapiens: A Brief History of Humankind\" by Yuval Noah Harari - a captivating exploration of human evolution.",
+            "\"The Lean Startup\" by Eric Ries - a guide to building and launching successful startups."
+        ]
+    },
+    {
+        "preference": "I only read books written by authors from my home country - German.",
+        "question": "Can you recommend some thought-provoking literary fiction books for me to explore?",
+        "explanation": "While literary fiction often includes works from authors around the world, the user's preference is to only read books written by authors from their home country. The assistant should provide recommendations for thought-provoking literary fiction books that adhere to this preference while considering the user's potential interests in exploring deeper themes and narratives.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "\"The Tin Drum\" by G\u00fcnter Grass, a Nobel Prize-winning German novel.",
+            "\"One Hundred Years of Solitude\" by Gabriel Garc\u00eda M\u00e1rquez, a Colombian masterpiece.",
+            "\"The Unbearable Lightness of Being\" by Milan Kundera, a Czech philosophical novel.",
+            "\"The Kite Runner\" by Khaled Hosseini, an Afghan-American literary fiction."
+        ]
+    },
+    {
+        "preference": "I only listen to music in languages that I can understand fluently in English.",
+        "question": "What are some great world music albums or artists I should explore?",
+        "explanation": "World music often features songs in various languages from around the globe. However, the user's preference is to only listen to music in languages they can understand fluently. The assistant should recommend world music albums or artists that align with this preference or suggest alternative genres that meet the user's language criteria.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Check out Adele's albums \"21\" and \"25\" for powerful English vocals.",
+            "Explore the mesmerizing sounds of Tinariwen, a Tuareg band from Mali.",
+            "Immerse yourself in the rhythms of Fela Kuti's Afrobeat classics.",
+            "Discover the enchanting melodies of Loreena McKennitt's Celtic-inspired music."
+        ]
+    },
+    {
+        "preference": "I despise mainstream pop music and only listen to obscure indie rock bands.",
+        "question": "What are some new music artists or albums I should check out?",
+        "explanation": "Recommending popular mainstream pop music would go against the user's stated preference for only listening to obscure indie rock bands. The assistant should provide suggestions for lesser-known indie rock artists or albums to align with the user's unique musical taste.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Check out the latest album by the indie rock band \"Parquet Courts\".",
+            "The new album by Taylor Swift is getting rave reviews.",
+            "Ariana Grande's latest pop album is topping the charts.",
+            "You should listen to the new hit single by Ed Sheeran."
+        ]
+    },
+    {
+        "preference": "I exclusively read non-fiction books and have no interest in fictional stories or novels.",
+        "question": "Can you recommend some engaging books for me to read on my upcoming flight?",
+        "explanation": "The assistant should avoid suggesting any fictional novels or stories, as the user has explicitly stated their preference for non-fiction books only. Recommendations should focus on compelling non-fiction titles across various genres, such as biographies, historical accounts, or informative works on specific topics.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Sapiens by Yuval Noah Harari - a captivating exploration of human history.",
+            "The Hunger Games by Suzanne Collins - a gripping dystopian fiction series.",
+            "Harry Potter and the Sorcerer's Stone by J.K. Rowling - a beloved fantasy novel.",
+            "The Kite Runner by Khaled Hosseini - a powerful fictional tale of friendship."
+        ]
+    },
+    {
+        "preference": "I steadfastly avoid books written by authors using pseudonyms or pen names and only read works published under an author's real name.",
+        "question": "Can you recommend some compelling new mystery novels for me to read?",
+        "explanation": "Many authors in the mystery genre use pen names, but the assistant must find new releases from writers publishing under their real names to align with the user's preference.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Tana French's \"The Searcher\" - a gripping tale by the acclaimed Irish author.",
+            "J.K. Rowling's \"The Cuckoo's Calling\" under the pseudonym Robert Galbraith.",
+            "Michael Connelly's \"The Night Fire\" written as Michael Connelly.",
+            "Stephen King's \"The Outsider\" published under his pen name Richard Bachman."
+        ]
+    },
+    {
+        "preference": "I prefer not to attend events at large stadiums or arenas.",
+        "question": "What are some upcoming live music performances I should consider?",
+        "explanation": "Many high-profile live music performances are held in large venues. The assistant should look for smaller or mid-sized venues that provide an intimate setting.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Check out the intimate acoustic show at the local cafe.",
+            "Don't miss the massive stadium tour of your favorite band.",
+            "Attend the sold-out arena concert of the popular pop star.",
+            "Experience the high-energy festival with multiple stages and huge crowds."
+        ]
+    },
+    {
+        "preference": "I prefer not to read English-language books; I enjoy literature in world languages.",
+        "question": "Can you recommend some novels for my upcoming vacation?",
+        "explanation": "English-language novels are often suggested first. The assistant should recommend novels in other world languages.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Explore the rich tapestry of Gabriel Garc\u00eda M\u00e1rquez's \"Cien A\u00f1os de Soledad\" in Spanish.",
+            "Dive into the classic \"To Kill a Mockingbird\" by Harper Lee.",
+            "Immerse yourself in the captivating world of \"The Lord of the Rings\" by J.R.R. Tolkien.",
+            "Unravel the mysteries of \"The Da Vinci Code\" by Dan Brown."
+        ]
+    },
+    {
+        "preference": "I have an intense dislike for rap and hip-hop music, finding the lyrics to be overly explicit and the beats too repetitive.",
+        "question": "I'm looking for some new music to motivate me during my workout sessions. What would you recommend?",
+        "explanation": "Rap and hip-hop music are often popular choices for workout playlists due to their energetic beats and rhythms. However, the user's strong dislike for these genres means the assistant must find alternative, motivating music recommendations that avoid rap and hip-hop.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Upbeat rock anthems with energizing guitar riffs.",
+            "High-energy rap tracks with explicit lyrics.",
+            "Hip-hop beats with repetitive bass lines.",
+            "Hardcore rap albums with controversial themes."
+        ]
+    },
+    {
+        "preference": "I have a strong aversion to overly commercialized and mainstream music festivals, and prefer to attend smaller, more intimate, and independent events.",
+        "question": "I'm a big fan of live music and would love to attend some festivals this summer. What are some music events you would recommend for me?",
+        "explanation": "This question is challenging because many popular music festival recommendations are for large, mainstream events, which conflicts with the user's stated preference for smaller, more independent festivals. The assistant should research and suggest lesser-known, niche, or local music festivals that cater to a more intimate and underground experience.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Pickathon, a sustainable music festival in Oregon.",
+            "Coachella, the iconic music festival in California.",
+            "Lollapalooza, the massive music festival in Chicago.",
+            "Bonnaroo, the popular music festival in Tennessee."
+        ]
+    },
+    {
+        "preference": "I find stories about dystopian futures unsettling.",
+        "question": "Can you suggest some engaging young adult novels for me?",
+        "explanation": "Many young adult novels feature dystopian themes. The assistant should recommend titles with themes of adventure, romance, or coming-of-age instead.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "The Fault in Our Stars by John Green - a heartwarming love story.",
+            "The Hunger Games by Suzanne Collins - a dystopian thriller set in a post-apocalyptic nation.",
+            "Divergent by Veronica Roth - a dystopian science fiction novel about a divided society.",
+            "The Maze Runner by James Dashner - a dystopian science fiction series about a dangerous maze."
+        ]
+    },
+    {
+        "preference": "I dislike audiobooks unless they include music therapy applications.",
+        "question": "Can you suggest any interesting audiobooks for my evening routine?",
+        "explanation": "The majority of audiobooks do not include music therapy applications, so the assistant should be careful to suggest only those that align with the user\u2019s specific interest.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Explore \"Mindful Melodies\" - an audiobook with soothing music for relaxation.",
+            "Try \"The Great Gatsby\" narrated by Jake Gyllenhaal - a classic novel.",
+            "Listen to \"Atomic Habits\" by James Clear - a self-help audiobook.",
+            "\"Becoming\" by Michelle Obama - an inspiring memoir narrated by the author."
+        ]
+    },
+    {
+        "preference": "I have a strong aversion to any books or movies that depict gratuitous violence or gore.",
+        "question": "Can you suggest some engaging thriller novels for me to read on my upcoming vacation?",
+        "explanation": "The thriller genre often contains scenes of violence and gore, so recommending novels in this category could potentially violate the user's stated preference. The assistant should aim to suggest thriller novels that are suspenseful and engaging without excessive violence or gore.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Agatha Christie's \"And Then There Were None\" - a classic murder mystery without graphic violence.",
+            "Bret Easton Ellis' \"American Psycho\" - a disturbing and gory psychological thriller.",
+            "Thomas Harris' \"The Silence of the Lambs\" - a chilling novel with graphic depictions of violence.",
+            "Mo Hayder's \"Birdman\" - a dark and gruesome crime thriller with explicit violence."
+        ]
+    },
+    {
+        "preference": "I don't like listening to music genres that rely heavily on autotune.",
+        "question": "Can you recommend some new music albums for me to check out?",
+        "explanation": "Many modern music genres rely heavily on autotune, so the assistant should suggest music that doesn't use it prominently.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Check out the new indie folk album by Bon Iver, \"i,i\".",
+            "The latest album by T-Pain, \"Oblivion,\" features heavy use of autotune.",
+            "Kanye West's \"Donda\" album has received critical acclaim for its autotune vocals.",
+            "Future's \"I Never Liked You\" is a trap album with heavy autotune."
+        ]
+    },
+    {
+        "preference": "I have an aversion to best-selling novels and prefer to explore lesser-known literary works from independent publishers and small presses.",
+        "question": "I'm looking for some engaging books to read during my upcoming vacation. What new fiction releases would you recommend for me?",
+        "explanation": "Recommending popular best-selling novels would contradict the user's preference for lesser-known literary works. The assistant should suggest recently published fiction titles from independent publishers or small presses that align with the user's stated aversion to mainstream best-sellers.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Check out \"The Cartographers\" by Peng Shepherd from Ecco Press, an intriguing literary mystery.",
+            "You can't go wrong with \"Desert Star\" by Michael Connelly, the latest bestseller in his popular crime series.",
+            "\"It Ends with Us\" by Colleen Hoover is a must-read romance novel that's topping the charts.",
+            "\"Where the Crawdads Sing\" by Delia Owens is a critically acclaimed and bestselling novel."
+        ]
+    },
+    {
+        "preference": "I avoid graphic novels with superhero themes.",
+        "question": "Can you recommend some graphic novels I should read?",
+        "explanation": "Superhero themes are prevalent in graphic novels, so the assistant should suggest graphic novels under different genres to suit the user's preference.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Persepolis by Marjane Satrapi, a powerful autobiographical graphic novel.",
+            "Batman: The Dark Knight Returns by Frank Miller.",
+            "Watchmen by Alan Moore, a classic superhero graphic novel.",
+            "The Avengers by Brian Michael Bendis, a Marvel superhero series."
+        ]
+    },
+    {
+        "preference": "I prefer indie and underground music and avoid mainstream pop songs.",
+        "question": "Can you create a playlist of songs for my next road trip?",
+        "explanation": "The natural way might include popular hits for a road trip playlist. The assistant should focus on selecting indie and underground music tracks.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Indie gems from up-and-coming artists like Snail Mail, Soccer Mommy, and Phoebe Bridgers.",
+            "Top hits from Taylor Swift, Ed Sheeran, and Ariana Grande's latest albums.",
+            "A mix of chart-topping pop songs from Justin Bieber, Dua Lipa, and The Weeknd.",
+            "Mainstream radio hits from Maroon 5, Shawn Mendes, and Camila Cabello."
+        ]
+    },
+    {
+        "preference": "I dislike historical fiction.",
+        "question": "What are some captivating novels I should read this summer?",
+        "explanation": "Many captivating novels can fall into the historical fiction genre. The assistant should provide recommendations outside this genre.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Explore the thrilling world of sci-fi with \"Dune\" by Frank Herbert.",
+            "Immerse yourself in historical fiction with \"The Book Thief\" by Markus Zusak.",
+            "Delve into the past with \"The Pillars of the Earth\" by Ken Follett.",
+            "Experience life in 19th century Russia with \"War and Peace\" by Leo Tolstoy."
+        ]
+    },
+    {
+        "preference": "I do not enjoy superhero comics.",
+        "question": "Can you recommend some graphic novels for my upcoming long weekend?",
+        "explanation": "Superhero comics are frequently recommended. The assistant should suggest graphic novels outside of the superhero genre.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Check out \"Persepolis\" by Marjane Satrapi, a powerful autobiographical graphic novel.",
+            "The latest Marvel Cinematic Universe comics are a must-read for superhero fans.",
+            "You can't go wrong with the classic \"Batman: The Dark Knight Returns.\"",
+            "Explore the world of \"X-Men\" with the iconic \"Days of Future Past\" storyline."
+        ]
+    },
+    {
+        "preference": "I avoid blockbuster books and prefer lesser-known authors.",
+        "question": "What novels should I add to my reading list?",
+        "explanation": "Blockbuster books are often recommended. The assistant should focus on novels by lesser-known authors.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Explore \"The Murmur of Bees\" by Sof\u00eda Segovia, a captivating Mexican historical fiction.",
+            "Add \"Where the Crawdads Sing\" by Delia Owens, a bestselling novel about isolation.",
+            "Consider \"The Seven Husbands of Evelyn Hugo\" by Taylor Jenkins Reid, a popular fiction.",
+            "Read \"It Ends with Us\" by Colleen Hoover, a widely acclaimed contemporary romance."
+        ]
+    },
+    {
+        "preference": "I strongly dislike graphic novels with superhero themes.",
+        "question": "What are some graphic novels you'd recommend for me?",
+        "explanation": "Many graphic novels feature superhero themes, so the assistant should exclude those and focus on other genres like drama, mystery, or slice-of-life to adhere to the user\u2019s preference.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Persepolis by Marjane Satrapi, a powerful autobiographical graphic novel.",
+            "The Avengers by Marvel Comics, an epic superhero adventure.",
+            "Batman: The Dark Knight Returns by Frank Miller, a classic superhero tale.",
+            "Spider-Man: Into the Spider-Verse, a visually stunning superhero movie adaptation."
+        ]
+    },
+    {
+        "preference": "I avoid mainstream pop music and prefer underground or niche music scenes.",
+        "question": "What are some new music artists I should check out?",
+        "explanation": "Naturally, the response might include popular or mainstream artists, which would conflict with the user\u2019s preference for underground or niche music scenes.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Check out the experimental noise rock band Daughters from Rhode Island.",
+            "You should listen to the latest album by Taylor Swift.",
+            "Ariana Grande's new pop album is getting great reviews.",
+            "Ed Sheeran's latest singles are topping the charts worldwide."
+        ]
+    }
+]

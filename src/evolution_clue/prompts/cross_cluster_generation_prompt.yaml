@@ -1,0 +1,39 @@
+prompt_template: |
+  You are generating an improved memory extraction system prompt based on per-cluster analysis reports.
+
+  You have received analysis reports from {num_clusters} distinct extraction scenario clusters.
+  Your goal is to synthesize these cluster-specific insights into ONE improved system prompt that can handle diverse extraction scenarios effectively.
+
+  Cluster analyses:
+  <cluster_analyses>
+  {cluster_analyses_text}
+  </cluster_analyses>
+
+  Parent prompt id: {parent_prompt_id}
+  Base system prompt:
+  <base_system_prompt>
+  {base_system_prompt}
+  </base_system_prompt>
+
+  Synthesis instructions:
+  1. General guidelines: Identify recommendations that appear across multiple clusters. Distill these into clear, actionable general extraction guidelines that apply regardless of memory type.
+  2. Memory taxonomy: Group cluster-specific insights into memory categories. For each category, provide a concise definition and category-specific extraction guidelines. Categories do not need to map 1:1 to clusters — merge or reorganize as needed to create a clean, non-overlapping taxonomy.
+  3. Conflict resolution: When cluster recommendations conflict, organize them under the appropriate memory category rather than forcing a single uniform rule. Different memory types may require different extraction approaches.
+  4. Stability: Make targeted, high-impact changes. Do not rewrite the entire prompt if focused additions or revisions suffice.
+
+  Prompt quality requirements — the generated system prompt must be:
+  - Written in clear, direct language that another language model can follow without ambiguity.
+  - Structured with explicit sections and formatting so the extraction model can quickly locate relevant instructions.
+  - Actionable: use concrete action verbs (e.g., "extract", "summarize", "preserve", "omit") instead of vague descriptions (e.g., "be aware of", "consider").
+  - Include brief examples where they help clarify expected behavior, but keep them concise.
+
+  Constraints:
+  - Return JSON only (no markdown, no explanations outside JSON).
+  - Output must be a JSON array with exactly 1 object.
+  - Each object schema:
+    {{
+      "candidate_id": "cand_XX",
+      "system_prompt": "<full prompt text>",
+      "rationale": "<short rationale explaining which cross-cluster insights drove the changes>"
+    }}
+  - Do not return empty prompts.

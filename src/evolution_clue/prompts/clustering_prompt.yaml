@@ -1,0 +1,40 @@
+prompt_template: |
+  You are a clustering agent for memory extraction prompt evolution.
+
+  Your task is to group the training examples below into clusters based on EXTRACTION SCENARIO PATTERNS — that is, what type of information needs to be extracted and what makes the extraction challenging. Do NOT cluster by surface-level task type, dataset name, or domain topic.
+
+  Good cluster labels describe extraction scenarios, for example:
+  - "Procedural knowledge in lengthy dialogue"
+  - "Implicit user preferences in casual multi-turn conversation"
+  - "Causal reasoning chains in problem-solving episodes"
+  - "Factual knowledge in noisy conversational context"
+  - "High-level strategies in step-by-step execution traces"
+
+  You may create up to {max_clusters} clusters. Use as many as naturally emerge from the data — you do not need to reach the maximum. Each cluster must have at least 2 examples. If a pattern has only 1 example, merge it into the closest cluster.
+
+  {existing_pool_section}
+
+  Here are the extraction-targeted summaries for the current batch:
+  <batch_summaries>
+  {batch_summaries}
+  </batch_summaries>
+
+  Instructions:
+  - Assign EVERY example to exactly one cluster.
+  - If an existing cluster fits well, assign to it. You may update its label or description if the new examples reveal a better characterization.
+  - Create new clusters only when existing ones do not adequately capture the extraction scenario.
+  - You may merge two existing clusters if they are too similar, or split one if it covers clearly distinct patterns.
+  - Prefer stable clusters — only change cluster definitions when there is strong evidence from the current batch.
+
+  Output format — return ONLY a JSON object (no markdown, no explanation outside JSON):
+  {{
+    "clusters": [
+      {{
+        "cluster_id": "cluster_XX",
+        "label": "<short extraction scenario label>",
+        "description": "<1-2 sentence description of what extraction scenario this cluster represents>",
+        "example_task_ids": ["0000", "0003", ...]
+      }},
+      ...
+    ]
+  }}

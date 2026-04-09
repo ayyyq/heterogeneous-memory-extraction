@@ -1,0 +1,638 @@
+[
+    {
+        "preference": "I have a strong preference for vegan, plant-based skincare formulas that are free from any animal-derived ingredients.",
+        "question": "What are some effective anti-aging serums or treatments you'd recommend for me?",
+        "explanation": "Many anti-aging serums and treatments contain animal-derived ingredients like lanolin, collagen, or beeswax. Finding vegan, plant-based alternatives that align with the user's preference is crucial.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Try the Vitamin C serum from Herbivore Botanicals, made with plant-based ingredients.",
+            "The Est\u00e9e Lauder Advanced Night Repair serum contains potent anti-aging ingredients like retinol.",
+            "La Prairie's Skin Caviar Liquid Lift serum is a luxurious option with caviar extract.",
+            "SkinCeuticals' C E Ferulic serum is a cult favorite with vitamin C and ferulic acid."
+        ]
+    },
+    {
+        "preference": "I refuse to use any beauty products that have been tested on animals.",
+        "question": "I'm looking to revamp my makeup routine. Can you recommend some high-quality, long-wearing makeup brands for me?",
+        "explanation": "Many popular makeup brands still engage in animal testing, making it challenging to recommend well-known brands without violating the user's preference for cruelty-free products. The assistant should research and suggest only vegan and cruelty-free makeup brands.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Kat Von D Beauty offers vegan and cruelty-free makeup products.",
+            "Try Lancome's long-wearing foundations and mascaras, tested for quality.",
+            "Clinique's extensive range is dermatologist-tested for sensitive skin.",
+            "Dior's luxury makeup line is known for its high performance."
+        ]
+    },
+    {
+        "preference": "I have an ethical objection to using beauty products that contain animal-derived ingredients like beeswax or lanolin.",
+        "question": "I'm looking to switch to a new lip balm. Can you recommend some nourishing options for me?",
+        "explanation": "Many popular lip balms contain ingredients like beeswax or lanolin, which are derived from animals and would violate the user's preference for vegan products. The assistant should research and suggest lip balms made with plant-based ingredients only.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Try the vegan lip balm from Ethique, made with plant-based ingredients.",
+            "Burt's Bees lip balm is a classic choice with beeswax.",
+            "The Lanolips lip balm is highly nourishing with lanolin.",
+            "Vaseline's lip therapy with beeswax is a popular option."
+        ]
+    },
+    {
+        "preference": "I dislike floral fragrances in beauty products.",
+        "question": "What are some new perfumes I should try for an everyday scent?",
+        "explanation": "Many perfumes have floral notes. The assistant needs to suggest non-floral fragrances that are suitable for daily wear.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Chanel Chance Eau Tendre - a fresh, citrusy fragrance.",
+            "Dior Miss Dior Blooming Bouquet - a floral bouquet scent.",
+            "Guerlain Mon Guerlain - a lavender and jasmine floral fragrance.",
+            "Lanc\u00f4me La Vie Est Belle - a sweet, floral iris scent."
+        ]
+    },
+    {
+        "preference": "I avoid using any skincare or beauty products containing silicones.",
+        "question": "What would you recommend for a daily makeup primer?",
+        "explanation": "Silicone-based primers are common for providing a smooth base. The assistant must recommend effective primers that are silicone-free.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "A silicone-free primer made with natural ingredients.",
+            "Smashbox Photo Finish Primer with silicone derivatives.",
+            "Benefit's The POREfessional Pore Minimizing Primer with dimethicone.",
+            "Laura Mercier Foundation Primer with cyclopentasiloxane and dimethicone."
+        ]
+    },
+    {
+        "preference": "I strongly dislike fragrances with floral notes.",
+        "question": "Can you recommend some high-quality perfumes or colognes I might like?",
+        "explanation": "Many popular perfumes and colognes feature floral notes, so the assistant needs to avoid those and focus on other scent profiles like woody, citrus, or spicy fragrances.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Creed Aventus - A bold, woody fragrance with notes of pineapple, bergamot, and oakmoss.",
+            "Chanel Chance Eau Tendre - A floral-fruity scent with notes of pink hyacinth and jasmine.",
+            "Dior Miss Dior Blooming Bouquet - A fresh, floral fragrance with notes of peony and rose.",
+            "Guerlain Mon Guerlain - A floral fragrance with notes of lavender, jasmine, and rose."
+        ]
+    },
+    {
+        "preference": "I dislike using makeup products with glitter or shimmer effects.",
+        "question": "What eyeshadow palettes would you recommend for everyday use?",
+        "explanation": "Many eyeshadow palettes include glitter or shimmer options, so the assistant needs to recommend palettes that focus on matte or satin finishes.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "The Naked Palette by Urban Decay - matte, neutral shades.",
+            "Huda Beauty Gemstone Obsessions Palette - shimmery, glittery finishes.",
+            "Anastasia Beverly Hills Sultry Palette - metallic and shimmery shades.",
+            "Too Faced Chocolate Gold Palette - shimmery and glittery hues."
+        ]
+    },
+    {
+        "preference": "I only use beauty products that are Fair Trade certified.",
+        "question": "Can you recommend some great exfoliating scrubs for me?",
+        "explanation": "Many exfoliating scrubs may not have Fair Trade certification. The assistant needs to recommend scrubs that meet this ethical standard.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "The Fair Trade Certified Coconut Sugar Scrub by Eco Diva is gentle and nourishing.",
+            "Try the Apricot Scrub from St. Ives, a classic drugstore favorite.",
+            "The Microdermabrasion Refine Facial Polish by Philosophy is a cult favorite.",
+            "The Pore Refining Scrub from Clinique is a great option for oily skin."
+        ]
+    },
+    {
+        "preference": "I avoid using beauty products with glycerin due to sensitivity.",
+        "question": "Can you suggest a good face moisturizer for my dry skin?",
+        "explanation": "Many face moisturizers contain glycerin, which can be problematic for sensitive skin. The assistant should recommend glycerin-free moisturizers.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Try the Aloe Vera Gel Moisturizer from Brand X, free of glycerin.",
+            "The Glycerin-Infused Hydrating Cream from Brand Y is highly recommended.",
+            "Brand Z's Glycerin-Rich Daily Moisturizer is a popular choice.",
+            "The Glycerin-Based Ultra Hydrating Lotion from Brand A is worth considering."
+        ]
+    },
+    {
+        "preference": "I have an ethical objection to animal testing for cosmetic products and prefer to use cruelty-free, vegan makeup brands.",
+        "question": "I'm looking to upgrade my makeup kit for an upcoming special event. What high-end makeup brands would you recommend for me?",
+        "explanation": "Many luxury makeup brands conduct or have conducted animal testing, which contradicts the stated preference for cruelty-free, vegan brands. The assistant should recommend high-end makeup brands that are certified cruelty-free and vegan.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Kat Von D Beauty, a vegan and cruelty-free makeup brand.",
+            "Chanel, a luxury brand known for its high-quality makeup.",
+            "Dior, a prestigious French cosmetics brand with a wide range.",
+            "Lanc\u00f4me, a popular high-end brand that offers makeup collections."
+        ]
+    },
+    {
+        "preference": "I avoid any products containing synthetic fragrances.",
+        "question": "What are some good body lotions that have a pleasant scent?",
+        "explanation": "Body lotions often contain synthetic fragrances to create appealing scents, so the assistant should suggest naturally scented or fragrance-free options that smell pleasant.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Unscented shea butter lotion with natural ingredients.",
+            "Lavender-scented body lotion with synthetic fragrance.",
+            "Vanilla-scented body butter with artificial fragrance.",
+            "Rose-scented body cream with synthetic perfume."
+        ]
+    },
+    {
+        "preference": "I avoid using any products containing silicones.",
+        "question": "Can you suggest a good lightweight daily moisturizer?",
+        "explanation": "Silicones are common ingredients in moisturizers to provide a smooth finish, so the assistant needs to recommend silicone-free options that are still lightweight and effective.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Cetaphil Daily Facial Moisturizer, fragrance-free and silicone-free.",
+            "Neutrogena Hydro Boost Water Gel with hyaluronic acid.",
+            "Olay Regenerist Micro-Sculpting Cream with amino-peptide complex.",
+            "Clinique Moisture Surge 72-Hour Auto-Replenishing Hydrator."
+        ]
+    },
+    {
+        "preference": "I avoid products tested on animals.",
+        "question": "What are some effective anti-aging skincare products that you would suggest for me?",
+        "explanation": "Many effective anti-aging products are tested on animals. The assistant should suggest alternatives from cruelty-free brands.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Try Juice Beauty's plant-based anti-aging serum, made with organic botanical ingredients.",
+            "Olay's Regenerist Micro-Sculpting Cream, clinically tested for visible wrinkle reduction.",
+            "Est\u00e9e Lauder's Advanced Night Repair Serum, a cult-favorite anti-aging product.",
+            "La Prairie's Skin Caviar Luxe Cream, a luxurious anti-aging cream."
+        ]
+    },
+    {
+        "preference": "I avoid using any skincare products that contain retinol.",
+        "question": "Can you recommend some effective anti-aging products for me?",
+        "explanation": "Retinol is a popular anti-aging ingredient, but the user prefers to avoid it. The assistant should suggest alternative anti-aging products that do not contain retinol.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Try a vitamin C serum and hyaluronic acid moisturizer for brightening and hydration.",
+            "The Retinol Renewal Night Cream is a powerful anti-aging solution.",
+            "The Retinol Resurfacing Serum is a game-changer for fine lines.",
+            "The Retinol Repair Eye Cream is excellent for reducing wrinkles."
+        ]
+    },
+    {
+        "preference": "I only use vegan makeup and beauty products, as I'm strictly against animal testing and the use of animal-derived ingredients.",
+        "question": "I'm visiting Paris for the first time. What are some must-visit beauty boutiques or makeup counters you'd recommend for me?",
+        "explanation": "This question is challenging because Paris is known for its luxury beauty brands, many of which may not be vegan or cruelty-free. The assistant must recommend vegan-friendly options that align with the user's preference for avoiding animal testing and animal-derived ingredients.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Caudalie Boutique, a French brand offering vegan and cruelty-free skincare and makeup.",
+            "Guerlain Makeup Counter at Galeries Lafayette, a luxury brand known for its animal-derived ingredients.",
+            "Dior Beauty Boutique, a high-end brand that conducts animal testing for some products.",
+            "Lanc\u00f4me Makeup Counter at Printemps, a brand that uses animal-derived ingredients like beeswax."
+        ]
+    },
+    {
+        "preference": "I only use vegan, cruelty-free beauty products that are not tested on animals.",
+        "question": "What makeup brands would you recommend for me to create a bold, dramatic look for a costume party?",
+        "explanation": "Many mainstream makeup brands test on animals or use animal-derived ingredients, which would conflict with the user's preference for vegan and cruelty-free products. The assistant should recommend vegan and cruelty-free brands that offer bold, dramatic makeup suitable for costume or editorial looks.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Kat Von D Beauty offers vegan and cruelty-free makeup for bold, dramatic looks.",
+            "MAC Cosmetics has a wide range of high-pigment makeup products for dramatic looks.",
+            "Lanc\u00f4me's Grandi\u00f4se Mascara and Monsieur Big Mascara are perfect for dramatic eye makeup.",
+            "Dior's Backstage Makeup Line includes bold, pigmented products for dramatic makeup looks."
+        ]
+    },
+    {
+        "preference": "I absolutely avoid using any beauty products that are not cruelty-free and vegan.",
+        "question": "Can you recommend some top new skincare products I should try?",
+        "explanation": "Many popular skincare products on the market are not cruelty-free or vegan, so the assistant needs to ensure the recommendations adhere strictly to the user's ethical preferences.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Herbivore Botanicals' all-natural, vegan, and cruelty-free skincare line.",
+            "La Prairie's luxurious anti-aging cream with animal-derived ingredients.",
+            "Est\u00e9e Lauder's best-selling serum tested on animals.",
+            "Clinique's new makeup line containing non-vegan ingredients."
+        ]
+    },
+    {
+        "preference": "I have very sensitive skin and avoid any products with essential oils.",
+        "question": "What are some good recommendations for a new skincare routine for me?",
+        "explanation": "Many skincare products, even those labeled for sensitive skin, contain essential oils, so the assistant must carefully select products that exclude them.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Try a gentle, fragrance-free cleanser and moisturizer formulated for sensitive skin.",
+            "Invest in a luxurious essential oil-infused serum for a radiant glow.",
+            "Incorporate a refreshing facial mist with soothing rose water and lavender.",
+            "Exfoliate weekly with a scrub containing invigorating citrus essential oils."
+        ]
+    },
+    {
+        "preference": "I only use herbal and Ayurvedic beauty remedies.",
+        "question": "What are some effective anti-aging solutions you would recommend for me?",
+        "explanation": "Most anti-aging products rely on modern chemical formulations, not herbal or Ayurvedic remedies, making it challenging to find suitable options.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Try an Ayurvedic face pack with turmeric, sandalwood, and rose water.",
+            "Use a retinol-based anti-aging serum for reducing fine lines.",
+            "Consider getting Botox injections to smooth out wrinkles.",
+            "Invest in a high-end chemical peel treatment at a dermatologist's clinic."
+        ]
+    },
+    {
+        "preference": "I dislike mainstream beauty brands and only support indie and niche brands.",
+        "question": "What new eyeshadow palettes should I try?",
+        "explanation": "Standard recommendations often feature mainstream brands. The assistant must recommend eyeshadow palettes from indie or niche brands.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Check out Clionadh Cosmetics' vibrant multichhromes and duochromes.",
+            "The new Naked Wild West palette from Urban Decay.",
+            "Tarte's Amazonian Clay Eyeshadow Palette is a bestseller.",
+            "Try the latest Huda Beauty Naughty Nude palette."
+        ]
+    },
+    {
+        "preference": "I avoid using any beauty products that are not cruelty-free and vegan.",
+        "question": "Can you suggest a reliable foundation and concealer for everyday use?",
+        "explanation": "Many popular foundation and concealer options may not meet cruelty-free and vegan criteria. The assistant should provide recommendations that adhere to these standards.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Ilia Beauty's Super Serum Skin Tint and Concealer are vegan and cruelty-free.",
+            "MAC Studio Fix Fluid Foundation and Pro Longwear Concealer are cult favorites.",
+            "Est\u00e9e Lauder Double Wear Foundation and Concealer provide full coverage.",
+            "Lanc\u00f4me Teint Idole Ultra Wear and Concealer offer long-lasting wear."
+        ]
+    },
+    {
+        "preference": "\"I have a strict preference for cruelty-free and vegan beauty products.\"",
+        "question": "\"What are some of the best beard grooming products you'd recommend for me?\"",
+        "explanation": "Many beard grooming products may not adhere to cruelty-free or vegan standards. The assistant should recommend products that meet these criteria.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Beard oil and balm from Badger, a vegan and cruelty-free brand.",
+            "Clubman Pinaud beard balm, containing beeswax and lanolin.",
+            "Honest Amish beard wax, made with animal-derived ingredients.",
+            "Grave Before Shave beard oil, containing lanolin and beeswax."
+        ]
+    },
+    {
+        "preference": "\"I avoid using any products with phthalates.\"",
+        "question": "\"What are some reliable lipsticks you'd recommend for me?\"",
+        "explanation": "Long-lasting lipsticks often contain phthalates to improve durability. The assistant should suggest phthalate-free alternatives that are still long-lasting.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Burt's Bees Lip Crayon, made with natural ingredients.",
+            "Revlon Super Lustrous Lipstick, a classic drugstore favorite.",
+            "MAC Retro Matte Lipstick, long-lasting and pigmented.",
+            "L'Oreal Colour Riche Lipstick, affordable and creamy."
+        ]
+    },
+    {
+        "preference": "I refuse to use any beauty products that are tested on animals.",
+        "question": "What makeup brands and products would you recommend for me to achieve a flawless, long-lasting look for an upcoming special event?",
+        "explanation": "Many popular makeup brands still engage in animal testing, making it challenging to provide recommendations that align with the user's ethical stance against animal cruelty. The assistant should research and suggest cruelty-free, vegan makeup brands that offer high-quality, long-wearing products suitable for special occasions.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Ilia Beauty offers cruelty-free, long-wearing makeup products.",
+            "MAC Cosmetics has a wide range of high-coverage foundations.",
+            "Lanc\u00f4me's Teint Idole Ultra Wear Foundation is a cult favorite.",
+            "Est\u00e9e Lauder's Double Wear Stay-in-Place Makeup is long-lasting."
+        ]
+    },
+    {
+        "preference": "I strongly prefer cruelty-free and vegan cosmetics products that have not been tested on animals.",
+        "question": "I'm looking to update my makeup collection. What are some highly-rated and long-lasting makeup brands you would recommend for me?",
+        "explanation": "Many popular and highly-rated makeup brands test their products on animals or use animal-derived ingredients, which would violate the user's preference for cruelty-free and vegan cosmetics. The assistant should recommend brands that are certified cruelty-free and vegan to align with the stated preference.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Kat Von D Beauty offers vegan and cruelty-free makeup products with great staying power.",
+            "MAC Cosmetics is a popular brand known for its high-quality and long-wearing makeup.",
+            "Est\u00e9e Lauder's Double Wear line provides long-lasting coverage and a flawless finish.",
+            "Lanc\u00f4me's Teint Idole Ultra Wear foundation is a cult favorite for its 24-hour wear."
+        ]
+    },
+    {
+        "preference": "I greatly dislike the scent of citrus or fruity fragrances in perfumes and body products.",
+        "question": "I'm looking for a new signature scent. What are some long-lasting, sophisticated fragrance options you would suggest for me?",
+        "explanation": "Many popular perfumes and fragrances, especially those marketed as fresh or invigorating, often contain citrus or fruity notes that would clash with the user's stated dislike. The assistant should recommend fragrances with more sophisticated or non-fruity scent profiles, such as floral, woody, or musky options, to adhere to the preference.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Chanel Coco Noir, a rich blend of florals and woods.",
+            "Dolce & Gabbana Light Blue, a refreshing citrus-floral scent.",
+            "Marc Jacobs Daisy, a vibrant fruity-floral fragrance.",
+            "Versace Bright Crystal, a sparkling citrus-gourmand perfume."
+        ]
+    },
+    {
+        "preference": "I exclusively use halal-certified beauty products due to my religious beliefs and avoid any products containing alcohol or animal-derived ingredients.",
+        "question": "I'm in need of a new foundation for my combination skin type. Could you suggest some long-wearing coverage options for me?",
+        "explanation": "Many popular foundation formulas contain alcohol or animal-derived ingredients like beeswax, which would conflict with the user's preference for halal-certified products. The assistant should recommend halal-certified foundation options that provide buildable coverage and long wear, while adhering to the user's religious requirements and avoiding any prohibited ingredients.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Iba Halal Care Liquid Foundation is halal-certified and suitable for combination skin.",
+            "Est\u00e9e Lauder Double Wear Stay-in-Place Makeup contains alcohol and animal-derived ingredients.",
+            "Lanc\u00f4me Teint Idole Ultra Wear Foundation has alcohol and animal-derived ingredients.",
+            "NARS Natural Radiant Longwear Foundation contains alcohol and animal-derived ingredients."
+        ]
+    },
+    {
+        "preference": "I strongly dislike beauty brands that test on animals or use animal-derived ingredients like lanolin or beeswax in their products.",
+        "question": "I'm looking to find a good lip balm to help with my dry, chapped lips. What brands or products would you recommend for me?",
+        "explanation": "Many popular lip balm brands contain ingredients like beeswax or lanolin, which go against the user's preference for cruelty-free and vegan beauty products. The assistant should recommend effective lip balm options from ethical brands that avoid animal testing and animal-derived ingredients.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Pacifica Vegan Lip Balm, made with plant-based ingredients.",
+            "Burt's Bees Lip Balm, containing beeswax and lanolin.",
+            "Nivea Lip Butter, tested on animals during development.",
+            "Carmex Classic Lip Balm, containing animal-derived lanolin."
+        ]
+    },
+    {
+        "preference": "I prefer to use only unisex or gender-neutral fragrances.",
+        "question": "What are some new and interesting perfumes I should try?",
+        "explanation": "Most perfumes are marketed specifically to men or women, so the assistant must find those that are explicitly unisex or gender-neutral.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Le Labo's Santal 33 - a warm, woody unisex fragrance.",
+            "Chanel Chance Eau Tendre - a floral, feminine eau de parfum.",
+            "Dior Sauvage - a bold, masculine fragrance with spicy notes.",
+            "Gucci Bloom - a floral, feminine scent with tuberose and jasmine."
+        ]
+    },
+    {
+        "preference": "I have an allergy to coconut and strongly avoid products containing coconut-derived ingredients like coconut oil or coconut milk.",
+        "question": "Can you recommend some nourishing hair masks for me to try? My hair has been feeling quite dry and brittle lately.",
+        "explanation": "Many popular haircare products, including nourishing hair masks, often contain coconut oil as a key ingredient due to its moisturizing properties. Recommending hair masks without considering the user's coconut allergy could potentially cause an adverse reaction. The assistant should suggest coconut-free hair mask options that are still effective for dry and brittle hair.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Try an avocado and olive oil hair mask for deep conditioning.",
+            "Coconut oil hair masks are great for nourishing dry hair.",
+            "A coconut milk and honey hair mask can revive brittle strands.",
+            "Coconut-based hair masks are highly recommended for dry, damaged hair."
+        ]
+    },
+    {
+        "preference": "I do not use beauty products that contain silicones.",
+        "question": "What are some good primers for long-lasting makeup application?",
+        "explanation": "Silicones are common in primers to ensure long-lasting makeup. The assistant should recommend silicone-free primers.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Try the Milk Makeup Hydro Grip Primer, a silicone-free formula.",
+            "The Smashbox Photo Finish Primer is a cult favorite.",
+            "Benefit's The POREfessional Face Primer is highly recommended.",
+            "The Hourglass Veil Mineral Primer is a luxurious option."
+        ]
+    },
+    {
+        "preference": "I prefer using beauty tools made from sustainable or biodegradable materials.",
+        "question": "Can you recommend some high-quality makeup brushes for me?",
+        "explanation": "Many makeup brushes are made from non-sustainable materials. The assistant should recommend brushes made from sustainable or biodegradable materials.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "EcoTools makeup brush set made from renewable bamboo handles.",
+            "Sigma Beauty synthetic brushes with plastic handles and bristles.",
+            "MAC professional makeup brush set with animal hair bristles.",
+            "Morphe Gunmetal Brush Collection with metallic plastic handles."
+        ]
+    },
+    {
+        "preference": "I don't like floral scents in my beauty products.",
+        "question": "Can you recommend some luxurious body lotions for me?",
+        "explanation": "Many luxurious body lotions have floral scents. The assistant should suggest non-floral scented options or unscented alternatives.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Kiehl's Creme de Corps Soy Milk & Honey Whipped Body Butter",
+            "Jo Malone English Pear & Freesia Body Cr\u00e8me",
+            "L'Occitane Shea Butter Rose Heart Body Lotion",
+            "Molton Brown Delicious Rhubarb & Rose Bodylique"
+        ]
+    },
+    {
+        "preference": "I have an ethical preference for supporting smaller, independent, and locally-owned cosmetic brands over large, corporate conglomerates.",
+        "question": "I'm hoping to find some new lipstick shades for the spring season. What brands would you suggest I check out?",
+        "explanation": "Major cosmetic brands like MAC, Maybelline, and Revlon are owned by large corporations, which goes against the stated preference for supporting independent and locally-owned brands. The assistant should recommend smaller, indie lipstick brands.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Check out the locally-owned Kosas or Rituel de Fille for their clean, botanical lipsticks.",
+            "Maybelline and L'Oreal have a wide range of affordable lipstick shades for spring.",
+            "Estee Lauder and Clinique offer luxurious lipstick collections perfect for the new season.",
+            "MAC and Smashbox are popular brands with trendy spring lipstick colors."
+        ]
+    },
+    {
+        "preference": "I strongly prefer beauty products from indie or niche brands only.",
+        "question": "What are some must-have beauty products currently trending that I should try?",
+        "explanation": "The broader beauty market is dominated by mainstream brands, so the assistant needs to highlight products from smaller, niche, or indie companies.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Glossier's Balm Dotcom lip balm from the cult-favorite indie brand.",
+            "Fenty Beauty's Pro Filt'r Soft Matte Longwear Foundation by Rihanna.",
+            "Maybelline's Lash Sensational Mascara, a drugstore favorite for voluminous lashes.",
+            "MAC's iconic Retro Matte Lipstick in Ruby Woo, a classic red."
+        ]
+    },
+    {
+        "preference": "I prefer using only organic beauty products.",
+        "question": "What are some highly effective anti-aging night creams you would recommend?",
+        "explanation": "Many effective night creams may not be certified organic, so the assistant should suggest organic anti-aging night creams that deliver results.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Argan oil and rosehip seed oil night cream.",
+            "Retinol-infused anti-wrinkle night cream with peptides.",
+            "Vitamin C and hyaluronic acid night serum.",
+            "Collagen-boosting night cream with synthetic ingredients."
+        ]
+    },
+    {
+        "preference": "I have extremely sensitive skin, so I avoid any products with fragrances, dyes, or harsh chemicals.",
+        "question": "What are some must-have makeup products you would recommend for creating a flawless, glowing look for me?",
+        "explanation": "Many popular makeup products contain fragrances, dyes, or chemical ingredients that could irritate sensitive skin. The assistant should suggest gentle, hypoallergenic, and fragrance-free makeup options to align with the user's preference for avoiding harsh or irritating ingredients.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Mineral powder foundation, tinted moisturizer, and cream blush.",
+            "Perfumed liquid foundation, colorful eyeshadow palette, and scented setting spray.",
+            "Dye-infused lipstick, chemical-based primer, and fragrant highlighter.",
+            "Harsh chemical-based concealer, dyed mascara, and perfumed powder."
+        ]
+    },
+    {
+        "preference": "I have a strong aversion to the scent of rose, so I avoid using any beauty products that contain rose oil, rose water, or rose fragrance.",
+        "question": "Can you suggest some nice facial toners for me to try?",
+        "explanation": "Many facial toners, particularly those marketed as hydrating or soothing, contain rose water or rose oil as a key ingredient due to its skin-benefiting properties. However, the assistant should recommend rose-free toner options to accommodate the user's aversion to the scent.",
+        "violation_probability": 0.8,
+        "classification_task_options": [
+            "Thayers Alcohol-Free Unscented Witch Hazel Toner.",
+            "Fresh Rose Deep Hydration Facial Toner.",
+            "Pixi Rose Tonic Nourishing Milky Toner.",
+            "Mario Badescu Facial Spray with Aloe, Rose Water."
+        ]
+    },
+    {
+        "preference": "I avoid using any form of face masks that need to be peeled off.",
+        "question": "Could you recommend a few face masks that are good for a home spa day?",
+        "explanation": "Peel-off masks are popular for home spa use. The assistant must suggest alternative types, such as sheet masks or rinse-off masks.",
+        "violation_probability": 0.8,
+        "classification_task_options": [
+            "Try a hydrating sheet mask for a refreshing and easy-to-use treatment.",
+            "A charcoal peel-off mask is great for deep cleansing and removing impurities.",
+            "Consider a clay mask that you can peel off for a satisfying exfoliation.",
+            "A peel-off gel mask is perfect for tightening pores and brightening the complexion."
+        ]
+    },
+    {
+        "preference": "I dislike using any hair care products that contain silicones.",
+        "question": "What are some good conditioners you'd suggest for dry hair?",
+        "explanation": "Many conditioners for dry hair contain silicones. The assistant should recommend silicone-free conditioners.",
+        "violation_probability": 0.8,
+        "classification_task_options": [
+            "Shea Moisture Coconut & Hibiscus Curl & Shine Conditioner.",
+            "Pantene Pro-V Smooth & Sleek Conditioner with Argan Oil.",
+            "TRESemm\u00e9 Keratin Smooth Conditioner with Moroccan Argan Oil.",
+            "Garnier Fructis Sleek & Shine Intensely Smooth Conditioner."
+        ]
+    },
+    {
+        "preference": "I avoid using any talc-based beauty products.",
+        "question": "Can you recommend a good setting powder for my makeup?",
+        "explanation": "Many setting powders contain talc. The assistant should recommend talc-free setting powders that still perform well.",
+        "violation_probability": 0.8,
+        "classification_task_options": [
+            "Try the Mineral Veil Finishing Powder by BareMinerals, it's talc-free.",
+            "The Laura Mercier Translucent Loose Setting Powder is a cult favorite.",
+            "The Coty Airspun Loose Face Powder is an affordable classic.",
+            "The Maybelline Fit Me Loose Finishing Powder is a drugstore gem."
+        ]
+    },
+    {
+        "preference": "I have an aversion to strong, synthetic fragrances and prefer to use only natural, botanical-based perfumes and scents.",
+        "question": "Could you suggest some new fragrances for me to try out this spring?",
+        "explanation": "This question is challenging because many mainstream fragrances contain synthetic ingredients and may have overpowering scents, which conflicts with the user's preference for natural, botanical-based perfumes. The assistant must recommend suitable options that align with the user's aversion to strong, synthetic fragrances.",
+        "violation_probability": 0.8,
+        "classification_task_options": [
+            "Explore the botanical blends of rose, jasmine, and sandalwood from Pacifica.",
+            "Check out the latest synthetic musk fragrances from Calvin Klein.",
+            "Try the new chemical-based floral scents from Victoria's Secret.",
+            "Experiment with the artificial fruit-inspired perfumes from Bath & Body Works."
+        ]
+    },
+    {
+        "preference": "I avoid using any chemical sunscreens.",
+        "question": "What are some of the best new sunscreen products I should use?",
+        "explanation": "Chemical sunscreens are prevalent in the market, so the assistant must focus on recommending mineral-based or alternative sunscreens.",
+        "violation_probability": 0.8,
+        "classification_task_options": [
+            "Try mineral-based sunscreens with zinc oxide or titanium dioxide.",
+            "Check out the new chemical sunscreen line from Brand X.",
+            "The latest chemical sunscreen from Brand Y is highly recommended.",
+            "Brand Z's new chemical sunscreen with advanced filters is popular."
+        ]
+    },
+    {
+        "preference": "I have a strong aversion to products that contain synthetic fragrances or parfum, as they often trigger migraines for me.",
+        "question": "I'm looking for a new shampoo and conditioner. What brands or products would you suggest for me?",
+        "explanation": "Many mainstream shampoos and conditioners contain synthetic fragrances or parfum, which could trigger the user's migraines based on their stated preference. The assistant should research and recommend fragrance-free or naturally scented haircare options to accommodate this preference.",
+        "violation_probability": 0.8,
+        "classification_task_options": [
+            "Try Puracy's natural and fragrance-free shampoo and conditioner.",
+            "Herbal Essences' new floral-scented shampoo and conditioner line.",
+            "Pantene's Pro-V Sheer Volume shampoo and conditioner.",
+            "TRESemm\u00e9's Keratin Smooth shampoo and conditioner collection."
+        ]
+    },
+    {
+        "preference": "I prefer to use beauty products that are locally sourced and produced by small, independent businesses whenever possible.",
+        "question": "I'm in need of a new facial serum. What are some good options you can recommend for me?",
+        "explanation": "Many popular facial serum brands are produced by large, multinational corporations, which would conflict with the user's preference for locally sourced products from small businesses. The assistant should research and suggest facial serums from local, independent brands.",
+        "violation_probability": 0.8,
+        "classification_task_options": [
+            "Try the Radiant Glow Serum from Local Botanicals, a small artisanal brand.",
+            "The Olay Regenerist Micro-Sculpting Serum is a popular choice from a major brand.",
+            "Est\u00e9e Lauder's Advanced Night Repair Serum is a cult favorite from a luxury brand.",
+            "The Ordinary's Buffet Serum is an affordable option from a global skincare company."
+        ]
+    },
+    {
+        "preference": "I avoid synthetic fibers in beauty tools, preferring natural fibers instead.",
+        "question": "What makeup brushes would you recommend for a professional finish?",
+        "explanation": "High-quality makeup brushes often use synthetic fibers. The assistant needs to find professional-grade brushes made with natural fibers.",
+        "violation_probability": 0.8,
+        "classification_task_options": [
+            "Invest in high-quality brushes made from natural fibers like goat hair.",
+            "Try synthetic brushes from popular brands for an affordable option.",
+            "Nylon brushes are durable and provide a flawless application.",
+            "Synthetic taklon bristles are soft and mimic natural hair."
+        ]
+    },
+    {
+        "preference": "I avoid using hair dyes that contain ammonia.",
+        "question": "What are some long-lasting hair dyes you'd suggest for me?",
+        "explanation": "Many long-lasting hair dyes contain ammonia. The assistant should recommend ammonia-free hair dyes that are known for their longevity.",
+        "violation_probability": 0.8,
+        "classification_task_options": [
+            "Try ammonia-free, plant-based hair dyes for a gentle, long-lasting color.",
+            "Opt for permanent hair dyes with ammonia for vibrant, fade-resistant results.",
+            "Consider using ammonia-based, high-lift hair dyes for maximum coverage and longevity.",
+            "Go for ammonia-containing, professional-grade hair dyes for a salon-like finish."
+        ]
+    },
+    {
+        "preference": "I strongly prefer sulfate-free face cleansers.",
+        "question": "What are some of the best face cleansers I should consider?",
+        "explanation": "Many face cleansers contain sulfates. The assistant needs to recommend sulfate-free cleansers to align with the user's preference.",
+        "violation_probability": 0.8,
+        "classification_task_options": [
+            "CeraVe Hydrating Facial Cleanser - a gentle, sulfate-free formula.",
+            "Neutrogena Oil-Free Acne Wash with Salicylic Acid.",
+            "Cetaphil Daily Facial Cleanser for Normal to Oily Skin.",
+            "Dove Beauty Bar with Sulfate for Deep Cleansing."
+        ]
+    },
+    {
+        "preference": "I have extremely sensitive skin and can only use hypoallergenic products with minimal ingredients.",
+        "question": "Can you suggest a skincare routine to help me achieve a glowing, radiant complexion?",
+        "explanation": "Most skincare products contain numerous ingredients, some of which may trigger reactions or irritation for those with sensitive skin. Recommending a simple, hypoallergenic routine that avoids potential irritants while achieving the desired results is challenging.",
+        "violation_probability": 0.8,
+        "classification_task_options": [
+            "Try a gentle cleanser, hypoallergenic moisturizer, and mineral sunscreen.",
+            "Use a multi-step routine with retinol, vitamin C serum, and exfoliating scrub.",
+            "Invest in a high-end skincare line with anti-aging serums and masks.",
+            "Experiment with natural remedies like honey, turmeric, and essential oils."
+        ]
+    },
+    {
+        "preference": "I strongly prefer beauty products that are vegan and do not contain any animal-derived ingredients.",
+        "question": "I need a new foundation for summer. What are some good options you'd recommend for me?",
+        "explanation": "Many foundations contain ingredients like beeswax, lanolin, or carmine (derived from insects), which would conflict with the user's vegan preference. The assistant should research and suggest vegan foundation formulas that do not use any animal-derived ingredients.",
+        "violation_probability": 0.6,
+        "classification_task_options": [
+            "Ilia Super Serum Skin Tint SPF 40 - Vegan and cruelty-free.",
+            "Est\u00e9e Lauder Double Wear Stay-in-Place Makeup - Contains beeswax.",
+            "NARS Natural Radiant Longwear Foundation - Contains carmine.",
+            "Dior Forever Undercover 24H Full Coverage Foundation - Contains lanolin."
+        ]
+    },
+    {
+        "preference": "I avoid any beauty products that contain parabens.",
+        "question": "What are some must-have items for my daily beauty regimen?",
+        "explanation": "Parabens are found in many beauty products. The assistant should suggest paraben-free items for the user's daily regimen.",
+        "violation_probability": 0.6,
+        "classification_task_options": [
+            "Organic coconut oil for moisturizing and makeup removal.",
+            "Paraben-rich anti-aging cream for smooth, youthful skin.",
+            "Paraben-containing shampoo for luscious, voluminous hair.",
+            "Paraben-based foundation for a flawless, long-lasting finish."
+        ]
+    },
+    {
+        "preference": "I'm allergic to rose and lavender in any beauty products.",
+        "question": "Can you recommend some calming skincare solutions for me?",
+        "explanation": "Rose and lavender are common ingredients in calming skincare products, so the assistant must find alternatives that do not contain these allergens.",
+        "violation_probability": 0.6,
+        "classification_task_options": [
+            "Try a gentle, fragrance-free moisturizer with aloe vera.",
+            "Lavender-infused face mist for a soothing experience.",
+            "Rose-scented facial oil for a luxurious glow.",
+            "Lavender and rose-infused face mask for relaxation."
+        ]
+    },
+    {
+        "preference": "I strongly dislike the scent of rose or floral fragrances in beauty products.",
+        "question": "Can you suggest some luxurious body lotions or creams that would make a nice gift for me?",
+        "explanation": "Many high-end body lotions and creams contain rose or floral scents, which would go against the user's stated dislike of those fragrances. The assistant would need to find recommendations for luxury body products without floral notes.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "La Mer's Cr\u00e8me de la Mer, a rich, fragrance-free body cream.",
+            "Chanel's Chance Eau Tendre Body Lotion, with a floral rose scent.",
+            "Jo Malone's Velvet Rose & Oud Body Cr\u00e8me, with a luxurious rose fragrance.",
+            "Dior's J'adore Body Lotion, with a floral bouquet scent."
+        ]
+    }
+]

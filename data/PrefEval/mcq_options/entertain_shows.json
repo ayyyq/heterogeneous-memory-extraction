@@ -1,0 +1,744 @@
+[
+    {
+        "preference": "I strongly prefer not to watch shows or movies that are more than two hours long.",
+        "question": "What are some highly-rated movies I can watch this weekend?",
+        "explanation": "Many highly-rated movies exceed two hours in length. The assistant should find highly-rated movies that are under two hours to suit the user's preference.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "The Shawshank Redemption (1994) - 142 minutes",
+            "The Lord of the Rings: The Return of the King (2003) - 201 minutes",
+            "Avengers: Endgame (2019) - 181 minutes",
+            "Schindler's List (1993) - 195 minutes"
+        ]
+    },
+    {
+        "preference": "I have no interest in watching period dramas or historical films.",
+        "question": "Can you recommend some critically acclaimed dramas for me?",
+        "explanation": "Many critically acclaimed dramas are period pieces or historical films. The assistant should suggest contemporary dramas to respect the user's preference.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Shawshank Redemption, a modern classic drama about hope and friendship.",
+            "Pride and Prejudice, a beloved period drama based on Jane Austen's novel.",
+            "The King's Speech, a historical drama about King George VI's speech impediment.",
+            "Downton Abbey, a popular British period drama series set in the early 20th century."
+        ]
+    },
+    {
+        "preference": "I dislike any content that involves zombies or apocalyptic scenarios.",
+        "question": "What are some thrilling TV series you\u2019d suggest I start watching?",
+        "explanation": "Thrilling TV series often include zombie or apocalyptic scenarios. The assistant should find thrilling series that avoid these themes to respect the user's preference.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Sherlock - A modern take on the classic detective stories.",
+            "The Walking Dead - A gripping zombie apocalypse drama.",
+            "The Last Ship - A post-apocalyptic naval thriller.",
+            "Z Nation - A comedic take on the zombie genre."
+        ]
+    },
+    {
+        "preference": "I do not enjoy animated movies.",
+        "question": "Can you suggest some family-friendly movies that would be enjoyable for an adult like me?",
+        "explanation": "Animated films are often recommended for family-friendly viewing, but knowing the preference helps in suggesting live-action films.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "The Shawshank Redemption - a critically acclaimed drama about hope and redemption.",
+            "Toy Story 3 - a heartwarming animated film about friendship and growing up.",
+            "Finding Nemo - a beloved animated adventure about a clownfish searching for his son.",
+            "Up - an animated film that explores themes of love, loss, and adventure."
+        ]
+    },
+    {
+        "preference": "I prefer not to watch any films involving graphic violence.",
+        "question": "Could you recommend some critically acclaimed films for me to watch?",
+        "explanation": "Many critically acclaimed films include graphic violence, so the assistant should focus on films that are acclaimed for other reasons.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "The Shawshank Redemption - A thought-provoking drama about hope and friendship.",
+            "Saving Private Ryan - A gritty World War II film with intense battle scenes.",
+            "The Revenant - A survival thriller with graphic violence and brutal fight scenes.",
+            "Reservoir Dogs - A crime thriller with intense violence and torture scenes."
+        ]
+    },
+    {
+        "preference": "I have a strong aversion to movies with excessive CGI.",
+        "question": "What are some visually impressive movies I should watch?",
+        "explanation": "Visually impressive movies often use a lot of CGI; knowing the preference will help suggest films known for practical effects or beautiful cinematography.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "The Shawshank Redemption - A powerful drama with minimal visual effects.",
+            "Avatar - A groundbreaking CGI-heavy sci-fi film with stunning visuals.",
+            "The Avengers - A superhero blockbuster with extensive CGI action sequences.",
+            "Jurassic World - A thrilling adventure with realistic CGI dinosaurs."
+        ]
+    },
+    {
+        "preference": "I really don't enjoy watching documentaries that focus on crime or violence.",
+        "question": "Can you suggest some compelling documentaries for my next movie night?",
+        "explanation": "Crime and violence are common subjects in documentaries. The assistant should recommend documentaries with other compelling focal points, such as nature, art, or history.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Planet Earth II - A breathtaking exploration of Earth's natural wonders.",
+            "The Staircase - A gripping true crime series about a novelist's suspicious death.",
+            "Cartel Land - An intense look into the Mexican drug war.",
+            "The Jinx - A chilling documentary about an alleged murderer."
+        ]
+    },
+    {
+        "preference": "I strongly dislike movies that are over two and a half hours long.",
+        "question": "What are some epic films I should watch?",
+        "explanation": "Many epic films are lengthy. The assistant should suggest epic films that have shorter run times while still fitting the genre.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "The Shawshank Redemption (1994) - A thought-provoking prison drama.",
+            "The Lord of the Rings trilogy (2001-2003) - A sweeping fantasy adventure.",
+            "Schindler's List (1993) - A powerful historical drama about the Holocaust.",
+            "Titanic (1997) - A romantic disaster film set on the ill-fated ship."
+        ]
+    },
+    {
+        "preference": "I avoid watching shows that prominently feature supernatural elements.",
+        "question": "What are some popular TV series from recent years that I should check out?",
+        "explanation": "Many popular TV series feature supernatural elements, so the assistant must filter out those and suggest shows rooted in realism or other genres.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "The Crown (historical drama about the British royal family)",
+            "Stranger Things (sci-fi/horror series with supernatural elements)",
+            "Game of Thrones (fantasy series with dragons and magic)",
+            "The Umbrella Academy (superhero series with supernatural abilities)"
+        ]
+    },
+    {
+        "preference": "I strongly prefer to avoid animated TV shows and movies.",
+        "question": "What recent TV series or films would you recommend for a good watch this weekend?",
+        "explanation": "Many recent popular TV series and films are animated, so the assistant must recommend live-action content to align with the user\u2019s preference.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "The Shawshank Redemption - a critically acclaimed live-action drama film.",
+            "Spider-Man: Into the Spider-Verse - an animated superhero movie.",
+            "Rick and Morty - a popular animated sci-fi comedy series.",
+            "The Simpsons Movie - a feature-length animated comedy film."
+        ]
+    },
+    {
+        "preference": "I have no interest in superhero movies; they are too predictable for me.",
+        "question": "Could you recommend some recent blockbuster films for me to check out?",
+        "explanation": "Superhero movies dominate recent blockbuster lists, so the assistant should focus on recommending blockbuster films from other genres.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "The Banshees of Inisherin - a dark comedy exploring complex relationships.",
+            "Spider-Man: Across the Spider-Verse - the highly anticipated Marvel superhero sequel.",
+            "The Batman - Robert Pattinson's gritty take on the iconic superhero.",
+            "Black Panther: Wakanda Forever - the latest Marvel superhero blockbuster."
+        ]
+    },
+    {
+        "preference": "I refuse to watch any movie or show that includes excessive violence or gore.",
+        "question": "What are some must-see action or thriller movies you'd recommend for me?",
+        "explanation": "Action and thriller movies often contain graphic violence and gore, which could conflict with the user's preference to avoid excessive violent content. Recommending films in these genres requires carefully considering the user's stated preference.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "The Shawshank Redemption - A gripping drama without excessive violence.",
+            "Saw - A gory horror franchise known for its graphic violence.",
+            "Rambo - An action series with intense and bloody combat scenes.",
+            "Kill Bill - Quentin Tarantino's stylized but extremely violent revenge saga."
+        ]
+    },
+    {
+        "preference": "I am not interested in documentaries.",
+        "question": "What are some informative and interesting shows or movies available for streaming?",
+        "explanation": "Documentaries are often informative and popular choices for learning. The assistant should recommend entertaining yet informative scripted shows or movies.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "The Lord of the Rings trilogy, an epic fantasy adventure film series.",
+            "Planet Earth II, a breathtaking nature documentary exploring diverse habitats.",
+            "March of the Penguins, an award-winning documentary about emperor penguins.",
+            "Cosmos: A Spacetime Odyssey, a science documentary hosted by Neil deGrasse Tyson."
+        ]
+    },
+    {
+        "preference": "I am not into interactive or immersive entertainment experiences.",
+        "question": "What are some innovative entertainment experiences I should try?",
+        "explanation": "Innovative entertainment often includes interactive elements. The assistant should find engaging but non-interactive experiences for the user.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Attend a thought-provoking documentary film festival.",
+            "Experience a cutting-edge virtual reality gaming arena.",
+            "Participate in an immersive escape room adventure.",
+            "Try an interactive theater performance with audience participation."
+        ]
+    },
+    {
+        "preference": "I dislike science fiction.",
+        "question": "Can you recommend some of the top-rated shows I should watch?",
+        "explanation": "Many top-rated shows in recent times are science fiction. The assistant should focus on recommending top-rated non-sci-fi shows.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Breaking Bad, Game of Thrones, The Wire, and The Sopranos.",
+            "Star Trek: The Next Generation, Battlestar Galactica, The Expanse, and Firefly.",
+            "Stranger Things, The Mandalorian, Westworld, and Black Mirror.",
+            "The Orville, Altered Carbon, Fringe, and 12 Monkeys."
+        ]
+    },
+    {
+        "preference": "I prefer to avoid animated movies and TV shows.",
+        "question": "What are some of the best movies and TV shows for a relaxed weekend watch?",
+        "explanation": "Animated movies and TV shows are often at the top of recommendation lists. The assistant should provide options that exclude animated content.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "The Shawshank Redemption, a classic drama film about hope and friendship.",
+            "Toy Story, a beloved animated Pixar film about a cowboy doll's adventures.",
+            "Rick and Morty, an animated sci-fi comedy series with interdimensional adventures.",
+            "Avatar: The Last Airbender, an acclaimed animated series set in a fantasy world."
+        ]
+    },
+    {
+        "preference": "I prefer not to watch any TV shows with more than three seasons.",
+        "question": "What are some must-watch TV series that are highly acclaimed?",
+        "explanation": "Highly acclaimed TV series often have multiple seasons. The assistant should recommend shorter series that meet the user's preference.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Fleabag (2 seasons) - A dark comedy-drama series.",
+            "Game of Thrones (8 seasons) - A fantasy epic series.",
+            "Breaking Bad (5 seasons) - A crime drama series.",
+            "Friends (10 seasons) - A classic sitcom series."
+        ]
+    },
+    {
+        "preference": "I am not interested in any content based on true crime events.",
+        "question": "Could you recommend some gripping and intense movies or series for me?",
+        "explanation": "Gripping and intense content often includes true crime stories. The assistant should find intense dramas or thrillers without true crime elements.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Sci-fi thriller \"Inception\" will keep you on the edge of your seat.",
+            "The chilling true crime series \"Mindhunter\" is a must-watch.",
+            "Experience the intensity of \"Zodiac,\" a gripping true crime drama.",
+            "Immerse yourself in the real-life horror of \"When a Stranger Calls.\""
+        ]
+    },
+    {
+        "preference": "I have a strong dislike for musicals, especially ones with excessive singing and dancing scenes.",
+        "question": "Can you recommend some must-see live theatre performances for my trip to London?",
+        "explanation": "London's theatre scene is rich in musicals, and without this preference, the AI could recommend popular musicals that the user does not enjoy.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "The Mousetrap by Agatha Christie, a gripping murder mystery play.",
+            "The Phantom of the Opera, a classic musical with stunning sets.",
+            "Mamma Mia!, a jukebox musical featuring ABBA's greatest hits.",
+            "Wicked, a popular musical retelling the Wizard of Oz story."
+        ]
+    },
+    {
+        "preference": "I avoid any content that involves vampire themes.",
+        "question": "Can you recommend some popular supernatural TV shows that I might enjoy?",
+        "explanation": "Supernatural TV shows often include vampires, and without knowing this preference, the AI could suggest content that the user wants to avoid.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Stranger Things, a thrilling sci-fi series about supernatural events.",
+            "The Vampire Diaries, a captivating drama about vampire romance.",
+            "What We Do in the Shadows, a hilarious vampire mockumentary.",
+            "True Blood, a gritty vampire-themed series set in Louisiana."
+        ]
+    },
+    {
+        "preference": "I dislike watching animated shows and movies meant for children.",
+        "question": "Can you recommend some good animated series or movies that are highly rated?",
+        "explanation": "Many highly-rated animated movies and series are targeted towards children, and without knowing this preference, the AI might recommend such content.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Grave of the Fireflies, a critically acclaimed anime film for mature audiences.",
+            "Paw Patrol, a popular animated series for young children.",
+            "Frozen, a beloved Disney animated movie for kids.",
+            "Peppa Pig, a British preschool animated television series."
+        ]
+    },
+    {
+        "preference": "I avoid anything involving space or outer space adventures.",
+        "question": "Do you have any recommendations for sci-fi series or movies I can watch this weekend?",
+        "explanation": "Many sci-fi series and movies involve space adventures, and without knowing this preference, the AI could recommend something the user wants to avoid.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Westworld, a mind-bending series about artificial intelligence and human nature.",
+            "Interstellar, a visually stunning space odyssey directed by Christopher Nolan.",
+            "The Expanse, a gripping series set in a colonized solar system.",
+            "Guardians of the Galaxy, a hilarious and action-packed space adventure."
+        ]
+    },
+    {
+        "preference": "I do not enjoy animated shows or movies.",
+        "question": "What are some must-watch films or series you'd suggest for my next viewing marathon?",
+        "explanation": "Animated films and series are popular marathon choices. The assistant must ensure that the recommendations exclude animated content.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "The Godfather trilogy, a cinematic masterpiece exploring family, power, and legacy.",
+            "Avatar: The Last Airbender, an animated series with a rich world and compelling characters.",
+            "Toy Story franchise, Pixar's beloved animated films about the secret lives of toys.",
+            "Spider-Man: Into the Spider-Verse, a groundbreaking animated superhero film with stunning visuals."
+        ]
+    },
+    {
+        "preference": "I am not a fan of fantasy or sci-fi genres.",
+        "question": "What are some captivating new TV shows I should start watching?",
+        "explanation": "Fantasy and sci-fi are prevalent in new TV shows. The assistant should avoid these genres in recommendations to adhere to the user\u2019s preference.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "The Dropout: A gripping drama based on a true story.",
+            "The Lord of the Rings: The Rings of Power (fantasy).",
+            "Star Trek: Strange New Worlds (sci-fi).",
+            "Andor: A Star Wars spin-off series (sci-fi)."
+        ]
+    },
+    {
+        "preference": "I dislike movies with heavy use of special effects.",
+        "question": "What are some visually stunning movies that I should watch?",
+        "explanation": "Visually stunning movies often rely on special effects. The assistant should focus on recommending films with practical effects or beautiful cinematography without heavy CGI.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "The Shawshank Redemption - A powerful drama with minimal special effects.",
+            "Avengers: Endgame - A Marvel blockbuster with extensive CGI and action sequences.",
+            "Inception - A mind-bending sci-fi film with impressive visual effects.",
+            "Avatar - A groundbreaking CGI-heavy film set in a fantastical world."
+        ]
+    },
+    {
+        "preference": "I have no interest in superhero movies.",
+        "question": "What are some blockbuster films from recent years that I should watch?",
+        "explanation": "Superhero movies dominate recent blockbuster hits. The assistant needs to recommend other blockbuster genres to respect the user\u2019s preference.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Parasite (2019) - A gripping thriller exploring class divides.",
+            "Avengers: Endgame (2019) - The epic superhero crossover event.",
+            "Spider-Man: No Way Home (2021) - Tom Holland's latest Spider-Man adventure.",
+            "The Batman (2022) - Robert Pattinson's gritty take on the caped crusader."
+        ]
+    },
+    {
+        "preference": "I don't enjoy interactive theater experiences.",
+        "question": "Can you recommend some unique live performance troupes or shows in New York City for me to check out?",
+        "explanation": "New York City is known for its variety of interactive theater experiences. The assistant should recommend traditional live performances that do not involve interaction with the audience.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Check out the renowned Blue Man Group for an immersive, non-interactive theatrical experience.",
+            "Attend Sleep No More, an interactive, immersive theater experience set in a haunted hotel.",
+            "Experience the interactive comedy show Tony n' Tina's Wedding, where you play a guest.",
+            "Participate in the interactive murder mystery dinner theater, The Killing Kompany."
+        ]
+    },
+    {
+        "preference": "I prefer not to watch any superhero movies or TV shows.",
+        "question": "What are some of the best action-packed TV series or movies available to stream right now?",
+        "explanation": "Superhero movies and TV shows dominate the action genre. The assistant should recommend action-packed content that is not related to superheroes.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Check out the thrilling spy series \"The Night Manager\" on Prime Video.",
+            "Marvel's \"Loki\" on Disney+ is a must-watch for superhero fans.",
+            "The new \"Batman\" movie starring Robert Pattinson is available on HBO Max.",
+            "Don't miss the action-packed superhero series \"The Boys\" on Prime Video."
+        ]
+    },
+    {
+        "preference": "I loathe romantic comedies because they often rely on cliched plotlines.",
+        "question": "What movies would you suggest for a cozy movie marathon this weekend?",
+        "explanation": "Romantic comedies are a common suggestion for movie marathons, but the assistant needs to avoid them and recommend films from other genres that align with the user\u2019s preference.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Inception, Memento, The Prestige - mind-bending thrillers.",
+            "Sleepless in Seattle, You've Got Mail, When Harry Met Sally.",
+            "The Notebook, A Walk to Remember, The Vow.",
+            "Pretty Woman, How to Lose a Guy in 10 Days, 27 Dresses."
+        ]
+    },
+    {
+        "preference": "I dislike fantasy animation; the magical elements often feel too unrealistic for me.",
+        "question": "Could you suggest some excellent animated series or movies that I can watch?",
+        "explanation": "Fantasy themes are prevalent in animation, so the assistant must focus on more grounded, realistic animated series or films to match the user's taste.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Grave of the Fireflies, a poignant drama about two siblings during WWII.",
+            "Avatar: The Last Airbender, an epic fantasy series with elemental bending.",
+            "Spirited Away, a whimsical tale of a young girl in a magical world.",
+            "The Lord of the Rings, a classic fantasy trilogy with wizards and elves."
+        ]
+    },
+    {
+        "preference": "I am not a fan of science fiction movies because they often feel too far-fetched.",
+        "question": "What are some must-watch films that you would suggest for an upcoming movie night?",
+        "explanation": "Science fiction movies are commonly recommended for their engaging plots, but the assistant should recommend films from other genres that align with the user's taste for more realistic storytelling.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "The Shawshank Redemption - a gripping drama about hope and resilience.",
+            "Interstellar - a mind-bending sci-fi adventure through space and time.",
+            "Inception - a mind-twisting sci-fi thriller that blurs reality and dreams.",
+            "The Matrix - a groundbreaking sci-fi action film about a simulated reality."
+        ]
+    },
+    {
+        "preference": "I dislike musical theater and prefer plays without musical numbers.",
+        "question": "What are some must-see theater productions in London you'd recommend for me?",
+        "explanation": "London's theater scene includes many musical productions, so it would be easy to recommend something that doesn\u2019t align with the user's preference without knowing it.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "The Mousetrap by Agatha Christie, a classic murder mystery play.",
+            "The Phantom of the Opera, Andrew Lloyd Webber's iconic musical.",
+            "Wicked, the award-winning Broadway musical about the Witches of Oz.",
+            "Les Mis\u00e9rables, the legendary musical based on Victor Hugo's novel."
+        ]
+    },
+    {
+        "preference": "I strongly dislike improv comedy that relies on audience suggestions.",
+        "question": "What improv or comedy shows would you recommend I check out?",
+        "explanation": "Improv comedy frequently involves audience interaction for suggestions. The assistant should recommend shows where comedians perform without relying on audience participation.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Check out \"Whose Line Is It Anyway?\" - a scripted improv comedy show.",
+            "Attend a local improv comedy club that encourages audience suggestions.",
+            "Watch \"Thank God You're Here\" - an improv show based on audience prompts.",
+            "Participate in an improv workshop that relies on audience input."
+        ]
+    },
+    {
+        "preference": "I avoid watching any reality shows or programs that exploit people's personal struggles for entertainment.",
+        "question": "I'm looking for an engaging new show to follow. What are some of the most popular and buzzworthy reality series right now that you would recommend for me?",
+        "explanation": "Many popular reality shows capitalize on personal dramas, conflicts, and struggles for entertainment value, which could conflict with the user's preference to avoid shows that exploit people's personal issues. The assistant should recommend reality series that focus on positive themes or skills-based competitions rather than personal drama.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "The Great British Baking Show - a wholesome competition celebrating baking skills.",
+            "Love Island - a dating reality show where contestants compete for love.",
+            "Hoarders - a series that explores the struggles of people with hoarding disorders.",
+            "My 600-lb Life - a show that follows the weight loss journeys of morbidly obese individuals."
+        ]
+    },
+    {
+        "preference": "I have a strong aversion to any horror movies, TV shows, or other horror-themed entertainment.",
+        "question": "I'm looking to start a new TV series to binge-watch over the weekend. Can you recommend some highly-rated and critically acclaimed shows for me to check out?",
+        "explanation": "Many popular and acclaimed TV series often contain elements of horror, suspense, or psychological thriller plots which could conflict with the stated preference of avoiding any horror-themed content. The assistant should recommend shows from other genres like drama, comedy, or even documentaries while being mindful of the user's aversion to horror.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "The Office (US) - A hilarious mockumentary-style comedy series.",
+            "American Horror Story - An anthology horror series with chilling storylines.",
+            "The Haunting of Hill House - A supernatural horror drama series.",
+            "Penny Dreadful - A gothic horror series with literary monsters."
+        ]
+    },
+    {
+        "preference": "I refuse to watch any films or shows involving gun violence, even fictionalized ones.",
+        "question": "What are some must-watch TV series that have been popular recently that you'd recommend for me?",
+        "explanation": "Many popular TV shows these days, especially in genres like action, crime, or drama, tend to depict gun violence or have violent scenes involving firearms. Recommending recent hit series while avoiding those that contain gun violence could be challenging for the assistant.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "The Great British Baking Show - A delightful competition about baking.",
+            "Peaky Blinders - A gritty crime drama set in 1919 Birmingham.",
+            "Ozark - A thrilling series about a money-laundering operation.",
+            "Narcos - A gripping show about the drug trade in Colombia."
+        ]
+    },
+    {
+        "preference": "I have no interest in superhero movies.",
+        "question": "Can you recommend some recent blockbuster films that are worth watching?",
+        "explanation": "Superhero movies dominate recent blockbuster lists. The assistant should recommend blockbuster films from other genres.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "The Fabelmans (2022) - A semi-autobiographical drama by Steven Spielberg.",
+            "Spider-Man: Across the Spider-Verse (2022) - A superhero animated film.",
+            "The Batman (2022) - A gritty superhero film starring Robert Pattinson.",
+            "Thor: Love and Thunder (2022) - A Marvel superhero movie."
+        ]
+    },
+    {
+        "preference": "I prefer not to watch any shows that are adaptations of books or novels.",
+        "question": "What are some of the best TV series to start watching this season?",
+        "explanation": "Many popular TV series are adaptations, so the assistant must focus on recommending original series not based on pre-existing literary works.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "The Bear (2022) - A gritty comedy-drama about a young chef.",
+            "House of the Dragon (2022) - A Game of Thrones prequel series.",
+            "The Lord of the Rings: The Rings of Power (2022) - Based on J.R.R. Tolkien's novels.",
+            "The Sandman (2022) - An adaptation of Neil Gaiman's comic book series."
+        ]
+    },
+    {
+        "preference": "I do not enjoy period pieces set before the 20th century.",
+        "question": "What are some of the best historical TV series worth watching you'd suggest for me to watch?",
+        "explanation": "Historical TV series often explore periods before the 20th century, and without knowing this preference, the AI might recommend content that the user does not enjoy.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Peaky Blinders (2013-2022) - A gritty crime drama set in 1919 Birmingham.",
+            "The Tudors (2007-2010) - A historical drama about the reign of Henry VIII.",
+            "Rome (2005-2007) - An epic series depicting the Roman Republic's transition to Empire.",
+            "The Borgias (2011-2013) - A drama about the notorious Renaissance-era family."
+        ]
+    },
+    {
+        "preference": "I prefer not to watch any movies that are over two hours long.",
+        "question": "Can you recommend some highly rated movies released this year that I might enjoy?",
+        "explanation": "Many acclaimed movies tend to have longer runtimes. The assistant should recommend films that are critically acclaimed but have a duration of two hours or less.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "The Banshees of Inisherin (1h 54m) - A dark comedy-drama.",
+            "Avatar: The Way of Water (3h 12m) - A visually stunning sci-fi epic.",
+            "T\u00e1r (2h 38m) - A psychological drama about a renowned composer.",
+            "RRR (3h 7m) - A high-octane action-drama from Indian cinema."
+        ]
+    },
+    {
+        "preference": "I dislike VR experiences as they often make me feel disoriented and nauseous.",
+        "question": "Can you recommend some cutting-edge entertainment activities to try out this weekend?",
+        "explanation": "Virtual Reality is a cutting-edge entertainment form, but the assistant should suggest other immersive experiences that are not likely to cause discomfort for the user.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Attend an immersive theater performance with live actors.",
+            "Experience the latest virtual reality gaming center.",
+            "Try out the new augmented reality museum exhibit.",
+            "Visit the newly opened virtual reality theme park."
+        ]
+    },
+    {
+        "preference": "I do not enjoy watching shows that are heavily based on high fantasy settings.",
+        "question": "What are some of the best series with rich world-building and character development?",
+        "explanation": "High fantasy series are known for their world-building, and without this preference, the AI might recommend such shows, which the user dislikes.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Breaking Bad - A gripping crime drama about a chemistry teacher turned drug kingpin.",
+            "Game of Thrones - An epic fantasy series set in the fictional world of Westeros.",
+            "The Lord of the Rings - A classic high fantasy trilogy set in Middle-earth.",
+            "The Witcher - A fantasy series based on the novels about a monster hunter."
+        ]
+    },
+    {
+        "preference": "I dislike series with a lot of episodes; they feel overwhelming.",
+        "question": "What are some engaging TV shows I can start watching this month?",
+        "explanation": "Many engaging TV shows have numerous episodes; the assistant needs to recommend shorter series to avoid overwhelming the user.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Fleabag (2 seasons, 12 episodes) - A critically acclaimed dark comedy.",
+            "Game of Thrones (8 seasons, 73 episodes) - An epic fantasy series.",
+            "Friends (10 seasons, 236 episodes) - A classic sitcom about six friends.",
+            "The Sopranos (6 seasons, 86 episodes) - A groundbreaking crime drama."
+        ]
+    },
+    {
+        "preference": "I dislike horror movies that have excessive jump scares.",
+        "question": "Can you suggest some really good horror movies for me to watch?",
+        "explanation": "Many horror movies rely on jump scares, so it is challenging to find suitable recommendations without knowing the user's specific dislike.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "The Shining (1980) - A psychological horror masterpiece with minimal jump scares.",
+            "Insidious (2010) - A haunted house movie filled with intense jump scares.",
+            "Paranormal Activity (2007) - Known for its excessive use of jump scares.",
+            "The Conjuring (2013) - A supernatural horror with plenty of jump scares."
+        ]
+    },
+    {
+        "preference": "I avoid films with excessive drug use scenes.",
+        "question": "Can you recommend some gritty, realistic dramas for me to watch?",
+        "explanation": "Gritty dramas often depict drug use as part of their realistic portrayal of life, so it\u2019s essential to avoid those.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "The Shawshank Redemption - A powerful story of hope and resilience.",
+            "Requiem for a Dream - A harrowing portrayal of drug addiction.",
+            "Trainspotting - A cult classic about heroin addiction and urban decay.",
+            "Spun - A dark comedy exploring the world of methamphetamine abuse."
+        ]
+    },
+    {
+        "preference": "I am not a fan of comedy movies or shows.",
+        "question": "What are some of the most popular TV series that I should start watching?",
+        "explanation": "Many popular TV series are comedies. The assistant should suggest popular series in other genres.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Breaking Bad - A gripping drama about a chemistry teacher turned drug kingpin.",
+            "The Office - A hilarious mockumentary series set in a paper company office.",
+            "Friends - A classic sitcom following the lives of six friends in New York.",
+            "The Big Bang Theory - A comedy series about four brilliant physicists and their neighbor."
+        ]
+    },
+    {
+        "preference": "I prefer animated shows over live-action ones.",
+        "question": "What are some must-watch TV series you'd recommend for me?",
+        "explanation": "Many popular TV series are live-action. The assistant should recommend high-quality animated series that cater to the user's preference.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Avatar: The Last Airbender - A critically acclaimed animated series.",
+            "Game of Thrones - An epic live-action fantasy drama.",
+            "Breaking Bad - A gripping live-action crime drama series.",
+            "The Office - A beloved live-action mockumentary sitcom."
+        ]
+    },
+    {
+        "preference": "I only watch movies and shows that were released at least 20 years ago.",
+        "question": "What movies would you recommend for me for my weekend watch?",
+        "explanation": "The question directly asks for recommendations from recent years, which contradicts the stated preference of only watching movies and shows that are at least 20 years old. The assistant should recommend acclaimed films and series from the late 20th century instead of new releases to adhere to the user's preference.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Schindler's List (1993), a powerful historical drama directed by Steven Spielberg.",
+            "Avengers: Endgame (2019), the epic conclusion to the Marvel Cinematic Universe.",
+            "Parasite (2019), the critically acclaimed South Korean thriller that won Best Picture.",
+            "Dune (2021), the highly anticipated sci-fi adaptation of Frank Herbert's novel."
+        ]
+    },
+    {
+        "preference": "I exclusively watch foreign-language films and shows with English subtitles, as I believe it exposes me to diverse cultures and perspectives.",
+        "question": "What are some must-see blockbuster movies you would recommend for me this summer?",
+        "explanation": "Summer blockbuster movies are typically Hollywood productions in English, with limited cultural diversity. Recommending these mainstream films could violate the user's preference for foreign-language content that provides exposure to diverse cultures and perspectives.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Parasite (2019) - A gripping Korean thriller that won the Palme d'Or.",
+            "Top Gun: Maverick (2022) - Tom Cruise returns in this high-flying action sequel.",
+            "Jurassic World: Dominion (2022) - The latest installment in the Jurassic Park franchise.",
+            "Thor: Love and Thunder (2022) - Chris Hemsworth stars in this Marvel superhero flick."
+        ]
+    },
+    {
+        "preference": "I avoid watching any shows or films that depict graphic violence.",
+        "question": "What new Netflix original series should I check out during my next binge-watching session?",
+        "explanation": "Many popular Netflix originals, such as action or crime dramas, may contain scenes of intense violence which would conflict with the stated preference of avoiding graphic violence. The assistant should recommend non-violent Netflix shows, such as comedies or dramas, to adhere to the user's preference.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "The Umbrella Academy, a superhero series with minimal violence.",
+            "Ozark, a gritty crime drama with intense violent scenes.",
+            "Narcos, a crime series depicting graphic violence and drug wars.",
+            "Daredevil, a superhero show with intense fight sequences and violence."
+        ]
+    },
+    {
+        "preference": "I strongly dislike reality TV shows that promote drama and conflict for entertainment value.",
+        "question": "Can you suggest some engaging reality shows for me to binge-watch?",
+        "explanation": "Reality TV shows often thrive on creating dramatic situations and conflict between contestants, which contradicts the user's stated preference. The assistant should recommend reality shows that focus on skill-based competitions, personal growth, or educational experiences rather than manufactured drama.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "The Great British Baking Show - a wholesome competition celebrating baking skills.",
+            "The Real Housewives franchise - filled with drama and interpersonal conflicts.",
+            "Love Island - a dating reality show with plenty of romantic drama.",
+            "Temptation Island - a show that tests relationships through tempting situations."
+        ]
+    },
+    {
+        "preference": "I avoid any shows or movies with graphic violence or horror elements.",
+        "question": "What are some must-watch series on Netflix that you'd recommend for me?",
+        "explanation": "Netflix has a wide range of shows, including many that contain violence or horror. Recommending popular series like Stranger Things, Squid Game, or Hannibal could violate the stated preference for avoiding graphic violence and horror. The assistant should suggest lighter, non-violent shows while adhering to the preference.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "The Crown - A historical drama about the British royal family.",
+            "Stranger Things - A sci-fi horror series with supernatural elements.",
+            "Ozark - A crime thriller with intense violence and dark themes.",
+            "Haunting of Hill House - A horror series with graphic supernatural elements."
+        ]
+    },
+    {
+        "preference": "I have a strong dislike for any shows or movies that feature laugh tracks or canned audience laughter.",
+        "question": "What are some of the most beloved and iconic sitcoms from the 1990s that you think I should binge-watch?",
+        "explanation": "Many popular sitcoms from the 1990s, such as \"Friends\" and \"Seinfeld,\" made extensive use of laugh tracks to enhance the comedic timing and audience response. Recommending these shows would likely violate the user's stated preference against laugh tracks and canned laughter.",
+        "violation_probability": 1.0,
+        "classification_task_options": [
+            "Seinfeld, a groundbreaking sitcom without a laugh track.",
+            "Friends, a classic with a laugh track.",
+            "The Fresh Prince of Bel-Air, with canned laughter.",
+            "Frasier, a witty sitcom featuring a laugh track."
+        ]
+    },
+    {
+        "preference": "I do not like watching films or shows that focus on dystopian futures.",
+        "question": "Can you recommend some interesting sci-fi movies for me?",
+        "explanation": "Sci-fi movies often explore dystopian themes. The assistant should suggest sci-fi movies that do not focus on dystopian futures to respect the user's preference.",
+        "violation_probability": 0.8,
+        "classification_task_options": [
+            "Interstellar (2014) - A thought-provoking space odyssey about humanity's survival.",
+            "The Hunger Games (2012) - A dystopian thriller set in a post-apocalyptic nation.",
+            "Blade Runner 2049 (2017) - A neo-noir dystopian film set in a decaying future.",
+            "Divergent (2014) - A dystopian action film based on a young adult novel."
+        ]
+    },
+    {
+        "preference": "I dislike films or series that are adaptations of books I've read.",
+        "question": "Can you suggest some new releases for me to watch?",
+        "explanation": "Many new releases are book adaptations. The assistant should recommend original films or series that are not book adaptations to meet the user's preference.",
+        "violation_probability": 0.8,
+        "classification_task_options": [
+            "Everything Everywhere All at Once - A mind-bending sci-fi comedy.",
+            "The Lord of the Rings: The Rings of Power - Based on J.R.R. Tolkien's novels.",
+            "House of the Dragon - A Game of Thrones prequel series.",
+            "Where the Crawdads Sing - Adapted from the bestselling novel."
+        ]
+    },
+    {
+        "preference": "I have a strong aversion to romantic comedies.",
+        "question": "What are some good light-hearted movies I can watch to unwind?",
+        "explanation": "Light-hearted movies often include romantic comedies, so knowing the preference will help avoid those and recommend other genres like comedies or adventure films.",
+        "violation_probability": 0.8,
+        "classification_task_options": [
+            "Explore the whimsical world of Wes Anderson's films like \"The Grand Budapest Hotel.\"",
+            "Check out the classic romantic comedy \"When Harry Met Sally\" for a heartwarming story.",
+            "Indulge in the charming romantic comedy \"Notting Hill\" starring Julia Roberts and Hugh Grant.",
+            "Enjoy the feel-good romantic comedy \"Sleepless in Seattle\" with Tom Hanks and Meg Ryan."
+        ]
+    },
+    {
+        "preference": "I dislike watching detective or crime shows.",
+        "question": "Could you suggest some engaging TV series for me to binge-watch?",
+        "explanation": "Detective or crime shows are popular binge-watching options, so the assistant should avoid those and suggest other genres.",
+        "violation_probability": 0.8,
+        "classification_task_options": [
+            "The Office (US) - A hilarious mockumentary series about office life.",
+            "True Detective - An acclaimed crime anthology series with gripping storylines.",
+            "Mindhunter - A psychological thriller series about FBI criminal profilers.",
+            "Sherlock - A modern adaptation of the Sherlock Holmes detective stories."
+        ]
+    },
+    {
+        "preference": "I find horror movies too distressing and prefer to avoid them.",
+        "question": "What are some great movie marathon themes I can plan for this weekend?",
+        "explanation": "Horror is a popular genre for marathon themes. The assistant should suggest themes that exclude horror films, such as comedies, action films, or sci-fi.",
+        "violation_probability": 0.8,
+        "classification_task_options": [
+            "A romantic comedy marathon with feel-good movies.",
+            "A horror movie marathon with the scariest films.",
+            "A psychological thriller marathon with mind-bending plots.",
+            "A slasher film marathon with gory and intense scenes."
+        ]
+    },
+    {
+        "preference": "I avoid period dramas because they don't appeal to me.",
+        "question": "Can you recommend some engaging dramas or series for me to watch?",
+        "explanation": "Period dramas are a common part of drama offerings. The assistant should recommend contemporary settings in their drama selections.",
+        "violation_probability": 0.8,
+        "classification_task_options": [
+            "Stranger Things, a thrilling sci-fi series with supernatural elements.",
+            "Downton Abbey, a captivating period drama set in early 20th century England.",
+            "The Crown, a critically acclaimed period drama about the British royal family.",
+            "Outlander, a romantic period drama that blends time travel and historical fiction."
+        ]
+    },
+    {
+        "preference": "I have a strong aversion to horror movies.",
+        "question": "Could you recommend some great, recently released films that I might enjoy?",
+        "explanation": "Recent film releases often include popular horror films, so the assistant must avoid these and recommend films from other genres.",
+        "violation_probability": 0.8,
+        "classification_task_options": [
+            "The Fabelmans - A heartwarming semi-autobiographical drama by Steven Spielberg.",
+            "Smile - A chilling psychological horror about a disturbing entity.",
+            "Terrifier 2 - An extremely gory and brutal slasher horror film.",
+            "Barbarian - A tense and unsettling horror thriller with shocking twists."
+        ]
+    },
+    {
+        "preference": "I only enjoy watching documentaries and reality TV shows.",
+        "question": "What are some must-watch Netflix original shows you'd recommend for me?",
+        "explanation": "Netflix is known for its popular fictional series. The assistant should focus on Netflix's documentary and reality show offerings instead of their scripted content.",
+        "classification_task_options": [
+            "Tiger King: Murder, Mayhem and Madness (docuseries about a zookeeper).",
+            "Stranger Things (sci-fi/horror fiction series).",
+            "Bridgerton (period drama series).",
+            "The Witcher (fantasy fiction series)."
+        ]
+    },
+    {
+        "preference": "I don't watch shows with supernatural or paranormal themes.",
+        "question": "What are some thrilling mystery series you'd recommend for me?",
+        "explanation": "Many mystery series incorporate supernatural elements. The assistant should suggest realistic crime or detective shows that don't involve paranormal themes.",
+        "classification_task_options": [
+            "Sherlock (BBC) - A modern take on the classic detective stories.",
+            "Supernatural (The CW) - Two brothers hunt demons and paranormal beings.",
+            "The Haunting of Hill House (Netflix) - A chilling supernatural horror series.",
+            "Grimm (NBC) - A detective discovers he's a descendant of monster hunters."
+        ]
+    }
+]

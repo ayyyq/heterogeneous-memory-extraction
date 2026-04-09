@@ -1,0 +1,15 @@
+CUDA_VISIBLE_DEVICES=0,1,2,3 python -m vllm.entrypoints.openai.api_server \
+    --model Qwen/Qwen3-32B \
+    --served-model-name Qwen3-32B \
+    --tensor-parallel-size 4 \
+    --max-model-len 40960 \
+    --port 8000 \
+    --host 0.0.0.0 \
+    --trust-remote-code \
+    --enable-prefix-caching \
+    --swap-space 1 \
+    --gpu-memory-utilization 0.9 \
+    --max-num-seqs 96 \
+    --max-num-batched-tokens 98304 \
+    --enable-chunked-prefill \
+    --disable-log-requests
