@@ -1,6 +1,6 @@
 # Self-Evolving LLM Memory Extraction Across Heterogeneous Tasks
 
-[![Paper](https://img.shields.io/badge/arXiv-TODO-b31b1b.svg)](https://arxiv.org/abs/TODO)
+[![Paper](https://img.shields.io/badge/arXiv-TODO-b31b1b.svg)](https://arxiv.org/abs/2604.11610)
 
 Code and data for the paper *Self-Evolving LLM Memory Extraction Across Heterogeneous Tasks*. We formalize **heterogeneous memory extraction**, release **BEHEMOTH** (a benchmark of 18 datasets across personalization, problem-solving, and agentic tasks), and propose **CluE**, a cluster-based self-evolving framework that produces extraction prompts generalizing across heterogeneous tasks.
 
@@ -139,11 +139,13 @@ By default this uses `gpt-4o` as the judge — set `OPENAI_API_KEY` / `OPENAI_AP
 If you find this work useful, please cite:
 
 ```bibtex
-@article{TODO,
-  title  = {Self-Evolving LLM Memory Extraction Across Heterogeneous Tasks},
-  author = {Yang, Yuqing and Liu, Tengxiao and Zhu, Wang Bill and Shi, Taiwei and Song, Linxin and Jia, Robin},
-  year   = {2025},
-  eprint = {TODO},
-  archivePrefix = {arXiv},
+@misc{yang2026selfevolvingllmmemoryextraction,
+      title={Self-Evolving LLM Memory Extraction Across Heterogeneous Tasks}, 
+      author={Yuqing Yang and Tengxiao Liu and Wang Bill Zhu and Taiwei Shi and Linxin Song and Robin Jia},
+      year={2026},
+      eprint={2604.11610},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2604.11610}, 
 }
 ```
