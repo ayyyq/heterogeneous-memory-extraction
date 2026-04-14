@@ -1,6 +1,6 @@
 # Self-Evolving LLM Memory Extraction Across Heterogeneous Tasks
 
-[![Paper](https://img.shields.io/badge/arXiv-TODO-b31b1b.svg)](https://arxiv.org/abs/2604.11610)
+[![Paper](https://img.shields.io/badge/arXiv-2604.11610-b31b1b.svg)](https://arxiv.org/abs/2604.11610)
 
 Code and data for the paper *Self-Evolving LLM Memory Extraction Across Heterogeneous Tasks*. We formalize **heterogeneous memory extraction**, release **BEHEMOTH** (a benchmark of 18 datasets across personalization, problem-solving, and agentic tasks), and propose **CluE**, a cluster-based self-evolving framework that produces extraction prompts generalizing across heterogeneous tasks.
 
